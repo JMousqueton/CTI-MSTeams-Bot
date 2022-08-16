@@ -89,7 +89,7 @@ def FnGetRssFromUrl(RssItem, HookChannelDesciptor):
             else:
                 FileConfig.set('main', RssItem[1], DateActivity)
 
-        OutputMessage += "Date: " + DateActivity
+        OutputMessage = "Date: " + DateActivity
         OutputMessage += "<br>"
         OutputMessage += "Title: " + RssObject.title
         OutputMessage += "<br>"
