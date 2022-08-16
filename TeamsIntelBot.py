@@ -5,7 +5,7 @@ import requests
 import urllib.request, json
 import os #for github action 
 
-ConfigurationFilePath = "./config.txt" ##path to configuration file
+ConfigurationFilePath = "./Config.txt" ##path to configuration file
 
 FileConfig = ConfigParser()
 FileConfig.read(ConfigurationFilePath)
