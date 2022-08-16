@@ -25,5 +25,6 @@ jobs:
         run: |
           git config --global user.email "bot-parser@users.noreply.github.com"
           git config --global user.name "Bot-Parser"
-          git commit --all --message "Updated by Bot-Parser" || echo "no changes to commit"
+          DATE=$(date -Iseconds)
+          git commit --all --message "Updated by Bot-Parser on $DATE" || echo "no changes to commit"
           git push
