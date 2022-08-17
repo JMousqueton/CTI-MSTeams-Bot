@@ -55,11 +55,12 @@ def FnGetRansomwareUpdates():
             else:
                 FileConfig.set('main', Entries["group_name"], Entries["discovered"])
             
-            OutputMessage = "🏴‍☠️ "
+            OutputMessage = "Group : "
             OutputMessage += Entries["group_name"]
             OutputMessage += "<br>🗓 "
             OutputMessage += Entries["discovered"]
-
+            Title = "🏴‍☠️ Ransomware attack : "           
+            Title += Entries["post_title"] 
             send_teams(Url,OutputMessage,Entries["post_title"])
             time.sleep(3)
 
@@ -95,8 +96,9 @@ def FnGetRssFromUrl(RssItem, HookChannelDesciptor):
         OutputMessage += "<br>"
         OutputMessage += "Read more: " + RssObject.link
         OutputMessage += "<br>"
-   
-        send_teams(Url,OutputMessage,RssItem[1])
+        Title = '📢 '
+        Title += RssItem[1]
+        send_teams(Url,OutputMessage,Title)
         time.sleep(3)
 
     with open(ConfigurationFilePath, 'w') as FileHandle:
