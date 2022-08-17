@@ -59,9 +59,9 @@ def FnGetRansomwareUpdates():
             OutputMessage += Entries["group_name"]
             OutputMessage += "</b><br>🗓 "
             OutputMessage += Entries["discovered"]
-            Title = "🏴‍☠️ Ransomware attack : "           
+            Title = "🏴‍☠️ 🔒 "           
             Title += Entries["post_title"] 
-            send_teams(Url,OutputMessage,Entries["post_title"])
+            send_teams(Url,OutputMessage,Title)
             time.sleep(3)
 
             FileConfig.set('main', Entries["group_name"], Entries["discovered"])
