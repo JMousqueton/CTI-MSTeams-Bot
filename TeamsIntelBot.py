@@ -139,7 +139,8 @@ def EntryMain():
                    ["https://msrc-blog.microsoft.com/feed/", "Microsoft Security"],
                    ["https://www.recordedfuture.com/feed", "Recorded Future"],
                    ["https://www.sentinelone.com/feed/", "SentinelOne"],
-                   ["https://redcanary.com/feed/", "RedCanary"]]
+                   ["https://redcanary.com/feed/", "RedCanary"],
+                   ["https://leak-lookup.com/rss","Leak-Lookup"]]
                    
 
     GovRssFeedList = [["https://www.cisa.gov/uscert/ncas/alerts.xml", "US-CERT CISA"],
