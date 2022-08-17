@@ -14,7 +14,7 @@ TITB is a fork from [Threat Intelligence Discord Bot from vx-underground](https:
 Threat Intelligence Teams Bot gets updates from various clearnet domains and ransomware threat actor domains.  This bot will check for updates Hourly. 
 
 ## Installation
-Install all the modules in ```requirement.txt```
+Install all the modules in ```requirements.txt```
 ```
 pip3 install -r requirements.txt
 ```
