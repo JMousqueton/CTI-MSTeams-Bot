@@ -49,15 +49,18 @@ The "?" indicates it has never received an update.
 
 I've added the following sources : 
 
-* FR-CERT Avis (aka [ANSSI](https://www.ssi.gouv.fr/)) : notifications from gov French CERT 
-* FR-CERT Alertes (aka [ANSSI](https://www.ssi.gouv.fr/)) : Alerts from gov French CERT 
+* 🇫🇷 FR-CERT Avis (aka [ANSSI](https://www.ssi.gouv.fr/)) : notifications from gov French CERT 
+* 🇫🇷 FR-CERT Alertes (aka [ANSSI](https://www.ssi.gouv.fr/)) : Alerts from gov French CERT 
 * [Leak-lookup](https://leak-lookup.com/): Leak notification 
 * [Cyber-News](https://www.cyber-news.fr)
+* ATT CyberSecurity Blog 
+* 🇪🇺 ENSIA Publications 
 
 ## ToDo 
 
-* Extract the RSS Feed from the main program to an external configuration files. 
-* Add more sources
+* ~~Modify code to accept RSS Feed without "pubdate" but dc:date~~
+* Extract the RSS Feeds from the main program to an external configuration files. 
+* ~~Add more sources~~ 
 
 ## Credit
 This was made by smelly__vx over a slow and boring weekend. We hope it provides some value to your channel and/or organization.
