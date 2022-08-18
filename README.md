@@ -11,8 +11,12 @@ TITB is a fork from [Threat Intelligence Discord Bot from vx-underground](https:
 * Written in Python 
 * Requires Teams Webhook
 
-Threat Intelligence Teams Bot gets updates from various clearnet domains and ransomware threat actor domains.  This bot will check for updates hourly. 
-TITB doesn't need any server, it works as a GitHub-Action : see the [](.github/workflows/fetchCTI.yml)
+Threat Intelligence Teams Bot gets updates from various clearnet domains and ransomware threat actor domains. 
+
+This bot will check for updates hourly. 
+
+TITB doesn't need any server, it works as a GitHub-Action : see the [fetchCTI.yml](.github/workflows/fetchCTI.yml) file.
+
 I've decided to remove the TelegramBot because it was not relevant for my needs. 
 
 ## Installation
