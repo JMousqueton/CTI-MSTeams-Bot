@@ -54,5 +54,10 @@ I've added the following sources :
 * [Leak-lookup](https://leak-lookup.com/): Leak notification 
 * [Cyber-News](https://www.cyber-news.fr)
 
+## ToDo 
+
+* Extract the RSS Feed from the main program to an external configuration files. 
+* Add more sources
+
 ## Credit
 This was made by smelly__vx over a slow and boring weekend. We hope it provides some value to your channel and/or organization.
