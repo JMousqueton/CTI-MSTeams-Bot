@@ -24,11 +24,14 @@ Install all the modules in ```requirements.txt```
 ```
 pip3 install -r requirements.txt
 ```
-
 ## Configuration
 
 * Create a MS-Teams WebHook  
 * in an environment you will called `CI`, paste the created webhook url in a `MSTEAMS_WEBHOOK` variable. 
+
+## Usage 
+
+![](Screenshot.png)
 
 ## Adding or removing RSS Feeds to monitor
 All monitored RSS feeds are in the RssFeedList object. To add a new RSS feed simply append a new entry and assign it a config.txt file entry name. e.g.
