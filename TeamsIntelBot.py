@@ -140,7 +140,8 @@ def EntryMain():
                    ["https://www.recordedfuture.com/feed", "Recorded Future"],
                    ["https://www.sentinelone.com/feed/", "SentinelOne"],
                    ["https://redcanary.com/feed/", "RedCanary"],
-                   ["https://leak-lookup.com/rss","Leak-Lookup"],]
+                   ["https://cyber-news.fr/feeds/c/main.xml?sort=New", "Cyber-News"],
+                   ["https://leak-lookup.com/rss","Leak-Lookup"]]
                    
 
     GovRssFeedList = [["https://www.cisa.gov/uscert/ncas/alerts.xml", "US-CERT CISA"],
