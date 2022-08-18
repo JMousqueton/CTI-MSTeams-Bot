@@ -78,8 +78,9 @@ def FnGetRssFromUrl(RssItem, HookChannelDesciptor):
 
     for RssObject in NewsFeed.entries:
 
-        DateActivity = time.strftime('%Y-%m-%dT%H:%M:%S', RssObject.published_parsed)
-        if DateActivity == "":
+        try:
+             DateActivity = time.strftime('%Y-%m-%dT%H:%M:%S', RssObject.published_parsed)
+        except: 
             DateActivity = time.strftime('%Y-%m-%dT%H:%M:%S', RssObject.updated_parsed)
         TmpObject = FileConfig.get('main', RssItem[1])
         if "?" in TmpObject:
