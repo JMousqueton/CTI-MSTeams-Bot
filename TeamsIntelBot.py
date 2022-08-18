@@ -108,8 +108,7 @@ def FnGetRssFromUrl(RssItem):
         OutputMessage += "<br>"
         Title = '📢 '
         Title += RssItem[1]
-        #send_teams(Url,OutputMessage,Title)
-        print(Title)
+        send_teams(Url,OutputMessage,Title)
         time.sleep(3)
 
     with open(ConfigurationFilePath, 'w') as FileHandle:

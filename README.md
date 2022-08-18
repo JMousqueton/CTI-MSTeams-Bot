@@ -36,7 +36,7 @@ pip3 install -r requirements.txt
 ## Adding or removing RSS Feeds to monitor
 All monitored RSS feeds are in [Feed.csv](Feed.csv) file. To add a new RSS feed simply append a new entry and assign it a [Config.txt](Config.txt) file entry name. e.g.
 
-In the ```Feed.csv`` file :
+In the ```Feed.csv``` file :
 ```
 https://grahamcluley.com/feed/,Graham Cluley
 https://1337WebsiteIWannaFollow.com/feed/,1337Website
