@@ -4,7 +4,7 @@ TITB is a fork from [Threat Intelligence Discord Bot from vx-underground](https:
 
 > The vx-underground Threat Intelligence Discord Bot gets updates from various clearnet domains, ransomware threat actor domains This bot will check for updates in intervals of 1800 seconds.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  [![Twitter: JMousqueton](https://img.shields.io/twitter/follow/JMousqueton.svg?style=social)](https://twitter.com/JMousqueton) [![Last Run](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/fetchCTI.yml/badge.svg)](.github/workflows/fetchCTI.yml)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  [![Twitter: JMousqueton](https://img.shields.io/twitter/follow/JMousqueton.svg?style=social)](https://twitter.com/JMousqueton) [![Last Run](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/fetchCTI.yml/badge.svg)](.github/workflows/fetchCTI.yml)  [![CodeQL](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/CodeQL.yml/badge.svg)](.github/workflows/CodeQL.yml)
 
 ## Description
 
@@ -34,15 +34,15 @@ pip3 install -r requirements.txt
 ![](Screenshot.png)
 
 ## Adding or removing RSS Feeds to monitor
-All monitored RSS feeds are in the RssFeedList object. To add a new RSS feed simply append a new entry and assign it a config.txt file entry name. e.g.
+All monitored RSS feeds are in [Feed.csv](Feed.csv) file. To add a new RSS feed simply append a new entry and assign it a [Config.txt](Config.txt) file entry name. e.g.
 
-In the Python script:
+In the ```Feed.csv`` file :
 ```
-    RssFeedList = [["https://grahamcluley.com/feed/", "Graham Cluley"],
-                   ["https://1337WebsiteIWannaFollow.com/feed/", "1337Website"]]
+https://grahamcluley.com/feed/,Graham Cluley
+https://1337WebsiteIWannaFollow.com/feed/,1337Website
 ```
 
-In the config file:
+In the ```Config.txt``` file:
 ```
 1337Website = ?
 ```
@@ -62,8 +62,10 @@ I've added the following sources :
 ## ToDo 
 
 * ~~Modify code to accept RSS Feed without "pubdate" but dc:date~~
-* Extract the RSS Feeds from the main program to an external configuration files. 
+* ~~Extract the RSS Feeds from the main program to an external configuration files~~ 
 * ~~Add more sources~~ 
 
 ## Credit
 This was made by smelly__vx over a slow and boring weekend. We hope it provides some value to your channel and/or organization.
+
+Thanks to my fellow students from [🏴‍☠️ Ecole 2600](https://www.ecole2600.com) for the support and advice during nights 😛
