@@ -140,14 +140,15 @@ def EntryMain():
                    ["https://www.recordedfuture.com/feed", "Recorded Future"],
                    ["https://www.sentinelone.com/feed/", "SentinelOne"],
                    ["https://redcanary.com/feed/", "RedCanary"],
-                   ["https://leak-lookup.com/rss","Leak-Lookup"]]
+                   ["https://leak-lookup.com/rss","Leak-Lookup"],]
                    
 
     GovRssFeedList = [["https://www.cisa.gov/uscert/ncas/alerts.xml", "US-CERT CISA"],
                       ["https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml", "NCSC"],
                       ["https://www.cisecurity.org/feed/advisories", "Center of Internet Security"],
                       ["https://cert.ssi.gouv.fr/alerte/feed/", "FR-CERT Alertes"],
-                      ["https://cert.ssi.gouv.fr/avis/feed/", "FR-CERT Avis"]
+                      ["https://cert.ssi.gouv.fr/avis/feed/", "FR-CERT Avis"],
+                      ["https://www.enisa.europa.eu/publications/RSS", "EU-ENISA Publications"]
                       ]
             
     for RssItem in RssFeedList:
