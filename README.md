@@ -17,9 +17,12 @@ This bot will check for updates hourly.
 
 TITB doesn't need any server, it works as a GitHub-Action : see the [fetchCTI.yml](.github/workflows/fetchCTI.yml) file.
 
+I've externalized the Feed Links from the source code in a file called [Feed.csv](Feed.csv)
+
 I've decided to remove the TelegramBot because it was not relevant for my needs. 
 
 ## Installation
+
 Install all the modules in ```requirements.txt```
 ```
 pip3 install -r requirements.txt
@@ -54,7 +57,7 @@ I've added the following sources :
 
 * 🇫🇷 FR-CERT Avis (aka [ANSSI](https://www.ssi.gouv.fr/)) : notifications from gov French CERT 
 * 🇫🇷 FR-CERT Alertes (aka [ANSSI](https://www.ssi.gouv.fr/)) : Alerts from gov French CERT 
-* [Leak-lookup](https://leak-lookup.com/): Leak notification 
+* [Leak-lookup](https://leak-lookup.com/) : Leak notification 
 * [Cyber-News](https://www.cyber-news.fr)
 * ATT CyberSecurity Blog 
 * 🇪🇺 ENSIA Publications 
@@ -66,6 +69,7 @@ I've added the following sources :
 * ~~Add more sources~~ 
 
 ## Credit
+
 This was made by smelly__vx over a slow and boring weekend. We hope it provides some value to your channel and/or organization.
 
 Thanks to my fellow students from [🏴‍☠️ Ecole 2600](https://www.ecole2600.com) for the support and advice during nights 😛
