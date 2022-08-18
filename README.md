@@ -65,7 +65,7 @@ I've added the following sources :
 ## ToDo 
 
 * ~~Modify code to accept RSS Feed without "pubdate" but dc:date~~
-* ~~Extract the RSS Feeds from the main program to an external configuration files~~ 
+* ~~Extract the RSS Feeds from the main program to an external configuration file~~ 
 * ~~Add more sources~~ 
 
 ## Credit
