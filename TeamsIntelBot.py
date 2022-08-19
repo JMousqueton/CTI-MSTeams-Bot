@@ -139,9 +139,7 @@ def FnGetRssFromUrl(RssItem):
         match RssItem[1]:
             case "Leak-Lookup":
                 Title = '💧 '
-            case "FR-CERT Alertes":
-                Title = '🇫🇷 '
-            case "FR-CERT Avis":
+            case "FR-CERT Alertes" | "FR-CERT Avis":
                 Title = '🇫🇷 '
             case "EU-ENISA Publications":
                 Title = '🇪🇺 '        
