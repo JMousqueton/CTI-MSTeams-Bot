@@ -29,8 +29,23 @@ pip3 install -r requirements.txt
 ```
 ## Configuration
 
+### Github Action 
+
 * Create a MS-Teams WebHook  
 * in an environment you will called `CI`, paste the created webhook url in a `MSTEAMS_WEBHOOK` variable. 
+
+### On a server (Windows, MacOS, Linux) 
+
+* Create a variable called ```MSTEAMS_WEBHOOK``` with the webhook URL
+
+Example 
+
+```
+MSTEAMS_WEBHOOK=https://mousqueton.webhook.office.com/webhookb2/08589F1C-EEA2-4C92-A08B-66E59692FDE3/IncomingWebhook/3DEFFDD9-F3A8-4351-BDA7-142FAFB7473A
+python3 TeamIntelBot.py 
+```
+
+*Note: the IDs have been generated with uuidgen for example purpose* 😛
 
 ## Usage 
 
