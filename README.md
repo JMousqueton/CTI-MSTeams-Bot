@@ -9,6 +9,7 @@ TITB is a fork from [Threat Intelligence Discord Bot from vx-underground](https:
 ## Description
 
 * Written in Python 
+    ⚠️ required version Python 3.10+ 
 * Requires Teams Webhook
 
 Threat Intelligence Teams Bot gets updates from various clearnet domains and ransomware threat actor domains. 
@@ -82,6 +83,7 @@ I've added the following sources :
 * ~~Modify code to accept RSS Feed without "pubdate" but dc:date~~
 * ~~Extract the RSS Feeds from the main program to an external configuration file~~ 
 * ~~Add more sources~~ 
+* ~~Add support of Python 3.10 for support of match functions~~ 
 * ~~Change emoji depending on source~~ (version 1.6) 
 
 ## Credit
