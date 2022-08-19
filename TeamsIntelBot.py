@@ -1,3 +1,16 @@
+#!/usr/bin/env python3  
+# -*- coding: utf-8 -*- 
+#----------------------------------------------------------------------------
+# Created By  : Julien Mousqueton @JMousqueton
+# Original By : VX-Underground 
+# Created Date: 18/08/20220
+# version     : 1.5
+# ---------------------------------------------------------------------------
+
+
+# ---------------------------------------------------------------------------
+# Imports 
+# ---------------------------------------------------------------------------
 import feedparser
 import time
 import csv
@@ -11,9 +24,16 @@ ConfigurationFilePath = "./Config.txt" ##path to configuration file
 FileConfig = ConfigParser()
 FileConfig.read(ConfigurationFilePath)
 
-# For Github action 
+
+# ---------------------------------------------------------------------------
+# Get Microsoft Teams Webhook from Github Action CI:Env.  
+# ---------------------------------------------------------------------------
 Url=os.getenv('MSTEAMS_WEBHOOK')
 
+
+# ---------------------------------------------------------------------------
+# Function to send MS-Teams card 
+# ---------------------------------------------------------------------------
 def send_teams(webhook_url:str, content:str, title:str, color:str="000000") -> int:
     """
       - Send a teams notification to the desired webhook_url
@@ -37,6 +57,10 @@ def send_teams(webhook_url:str, content:str, title:str, color:str="000000") -> i
     )
     return response.status_code # Should be 200
 
+
+# ---------------------------------------------------------------------------
+# Fetch Ransomware attacks from https://ransomwatch.mousqueton.io  
+# ---------------------------------------------------------------------------
 def FnGetRansomwareUpdates():
     
     OutputString = ""
@@ -75,6 +99,10 @@ def FnGetRansomwareUpdates():
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
 
+
+# ---------------------------------------------------------------------------
+# Function fetch RSS feeds  
+# ---------------------------------------------------------------------------
 def FnGetRssFromUrl(RssItem):
     NewsFeed = feedparser.parse(RssItem[0])
     DateActivity = ""
@@ -116,12 +144,20 @@ def FnGetRssFromUrl(RssItem):
 
     IsInitialRun = False
 
+
+# ---------------------------------------------------------------------------
+# Log  
+# ---------------------------------------------------------------------------
 def FnCreateLogString(RssItem):
     LogString = "[*]" + time.ctime()
     LogString += " " + "checked " + RssItem
     print(LogString)
     time.sleep(2) 
-    
+
+
+# ---------------------------------------------------------------------------
+# Main function  
+# ---------------------------------------------------------------------------    
 def EntryMain():
 
     LogString = ""
@@ -136,5 +172,10 @@ def EntryMain():
 
     FnGetRansomwareUpdates()
     FnCreateLogString("Ransomware List")
-                      
+
+
+# ---------------------------------------------------------------------------
+# Main 
+# ---------------------------------------------------------------------------
+
 EntryMain()
