@@ -4,7 +4,7 @@
 # Created By  : Julien Mousqueton @JMousqueton
 # Original By : VX-Underground 
 # Created Date: 18/08/2022
-# version     : 1.5
+# version     : 1.6
 # ---------------------------------------------------------------------------
 
 
@@ -134,7 +134,20 @@ def FnGetRssFromUrl(RssItem):
         OutputMessage += "</b><br>"
         OutputMessage += "Read more: " + RssObject.link
         OutputMessage += "<br>"
-        Title = '📢 '
+
+        # Nice emoji :) 
+        match RssItem[1]:
+            case "Leak-Lookup":
+                Title = '💧 '
+            case "FR-CERT Alertes":
+                Title = '🇫🇷 '
+            case "FR-CERT Avis":
+                Title = '🇫🇷 '
+            case "EU-ENISA Publications":
+                Title = '🇪🇺 '        
+            case _:   
+                Title = '📢 '
+        
         Title += RssItem[1]
         send_teams(Url,OutputMessage,Title)
         time.sleep(3)
