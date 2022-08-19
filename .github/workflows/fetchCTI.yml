@@ -13,6 +13,10 @@ jobs:
     steps:
       - name: checkout the repo
         uses: actions/checkout@v3
+      - name: Use Python 3.10 
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
       - name: install dependencies
         run: |
           pip3 install -r requirements.txt
