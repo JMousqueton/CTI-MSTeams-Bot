@@ -142,12 +142,14 @@ def FnGetRssFromUrl(RssItem):
             case "FR-CERT Alertes" | "FR-CERT Avis":
                 Title = '🇫🇷 '
             case "EU-ENISA Publications":
-                Title = '🇪🇺 '     
+                Title = '🇪🇺 '
             case "Cyber-News":
-                Title = '🕵🏻‍♂️ '           
-            case _:   
+                Title = '🕵🏻‍♂️ '
+            case "Bleeping Computer":
+                Title = '💻 '
+            case _:
                 Title = '📢 '
-        
+
         Title += RssItem[1]
         send_teams(Url,OutputMessage,Title)
         time.sleep(3)
