@@ -9,7 +9,8 @@ TITB is a fork from [Threat Intelligence Discord Bot from vx-underground](https:
 ## Description
 
 * Written in Python 
-    ⚠️ required version Python 3.10+ 
+   
+   ⚠️ required version Python 3.10+ 
 * Requires Teams Webhook
 
 Threat Intelligence Teams Bot gets updates from various clearnet domains and ransomware threat actor domains. 
