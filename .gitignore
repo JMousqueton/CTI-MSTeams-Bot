@@ -2,3 +2,4 @@ dev.sh
 .DS_Store
 build.sh
 *.zip
+checkFeed.py
