@@ -142,7 +142,9 @@ def FnGetRssFromUrl(RssItem):
             case "FR-CERT Alertes" | "FR-CERT Avis":
                 Title = '🇫🇷 '
             case "EU-ENISA Publications":
-                Title = '🇪🇺 '        
+                Title = '🇪🇺 '     
+            case "Cyber-News":
+                Title = '🕵🏻‍♂️ '           
             case _:   
                 Title = '📢 '
         
