@@ -98,8 +98,9 @@ def GetRansomwareUpdates():
         Title = "🏴‍☠️ 🔒 "     
         Title += Entries["post_title"].replace("*.", "") 
         
-        Send_Teams(Url,OutputMessage,Title)
-        #DEBUG# print(Title)
+        # Send_Teams(Url,OutputMessage,Title)
+        #DEBUG#
+        print(Title)
         time.sleep(3)
 
         FileConfig.set('main', Entries["group_name"], Entries["discovered"])
@@ -113,8 +114,8 @@ def GetRansomwareUpdates():
 # ---------------------------------------------------------------------------
 def GetRssFromUrl(RssItem):
     NewsFeed = feedparser.parse(RssItem[0])
-    DateActivity = ""
-    IsInitialRun = False
+    #DateActivity = ""
+    #IsInitialRun = False
 
     for RssObject in NewsFeed.entries:
 
@@ -129,12 +130,10 @@ def GetRssFromUrl(RssItem):
         except:
             FileConfig.set('main', RssItem[1], " = ?")
             TmpObject = FileConfig.get('main', RssItem[1])
-
+            
         if "?" in TmpObject:
-            IsInitialRun = True
             FileConfig.set('main', RssItem[1], DateActivity)
-
-        if IsInitialRun is False:
+        else:
             if(TmpObject >= DateActivity):
                 continue
             else:
@@ -177,8 +176,9 @@ def GetRssFromUrl(RssItem):
                 Title = '📢 '
 
         Title += RssItem[1]
-        Send_Teams(Url,OutputMessage,Title)
-        #DEBUG# print(Title)
+        #Send_Teams(Url,OutputMessage,Title)
+        #DEBUG# 
+        print(Title)
         time.sleep(3)
 
     with open(ConfigurationFilePath, 'w') as FileHandle:
