@@ -25,6 +25,12 @@ I've decided to remove the TelegramBot because it was not relevant for my needs.
 
 ## Installation
 
+Clone the repository or download the [latest release](https://github.com/JMousqueton/CTI-MSTeams-Bot/releases/latest) 
+
+````
+git clone https://github.com/JMousqueton/CTI-MSTeams-Bot
+```
+
 Install all the modules in ```requirements.txt```
 ```
 pip3 install -r requirements.txt
