@@ -4,7 +4,7 @@
 # Created By  : Julien Mousqueton @JMousqueton
 # Original By : VX-Underground 
 # Created Date: 18/08/2022
-# version     : 1.7.0
+# version     : 1.7.1
 # ---------------------------------------------------------------------------
 
 
@@ -13,28 +13,29 @@
 # ---------------------------------------------------------------------------
 import feedparser
 import time
-import csv
+import csv # Feed.csv
+import sys # Python version 
+import json # Ransomware feed via ransomwatch 
 from configparser import ConfigParser
 import requests
-import urllib.request, json
-import os #for github action 
+import os # Webhook OS Variable and Github action 
 
+# ---------------------------------------------------------------------------
+# Read the Config.txt file   
+# ---------------------------------------------------------------------------
 ConfigurationFilePath = "./Config.txt" ##path to configuration file
-
 FileConfig = ConfigParser()
 FileConfig.read(ConfigurationFilePath)
-
 
 # ---------------------------------------------------------------------------
 # Get Microsoft Teams Webhook from Github Action CI:Env.  
 # ---------------------------------------------------------------------------
 Url=os.getenv('MSTEAMS_WEBHOOK')
 
-
 # ---------------------------------------------------------------------------
 # Function to send MS-Teams card 
 # ---------------------------------------------------------------------------
-def send_teams(webhook_url:str, content:str, title:str, color:str="000000") -> int:
+def Send_Teams(webhook_url:str, content:str, title:str, color:str="000000") -> int:
     """
       - Send a teams notification to the desired webhook_url
       - Returns the status code of the HTTP request
@@ -61,48 +62,47 @@ def send_teams(webhook_url:str, content:str, title:str, color:str="000000") -> i
 # ---------------------------------------------------------------------------
 # Fetch Ransomware attacks from https://ransomwatch.mousqueton.io  
 # ---------------------------------------------------------------------------
-def FnGetRansomwareUpdates():
+def GetRansomwareUpdates():
     
-    OutputString = ""
+    Data = requests.get("https://raw.githubusercontent.com/jmousqueton/ransomwatch/main/posts.json")
+        
+    for Entries in Data.json():
 
-    with urllib.request.urlopen("https://raw.githubusercontent.com/jmousqueton/ransomwatch/main/posts.json") as RansomwareUrl:
-        Data = json.loads(RansomwareUrl.read().decode())
-        for Entries in Data:
-
-            DateActivity = Entries["discovered"]
+        DateActivity = Entries["discovered"]
             
-            # Correction for issue #1 : https://github.com/JMousqueton/CTI-MSTeams-Bot/issues/1
-            try:
-                TmpObject = FileConfig.get('main', Entries["group_name"])
-            except:
-                FileConfig.set('main', Entries["group_name"], " = ?")
-                TmpObject = FileConfig.get('main', Entries["group_name"])
+        # Correction for issue #1 : https://github.com/JMousqueton/CTI-MSTeams-Bot/issues/1
+        try:
+            TmpObject = FileConfig.get('main', Entries["group_name"])
+        except:
+            FileConfig.set('main', Entries["group_name"], " = ?")
+            TmpObject = FileConfig.get('main', Entries["group_name"])
 
-            if "?" in TmpObject:
-                FileConfig.set('main', Entries["group_name"], DateActivity)
+        if "?" in TmpObject:
+            FileConfig.set('main', Entries["group_name"], DateActivity)
 
-            if(TmpObject >= DateActivity):
-                continue
-            else:
-                FileConfig.set('main', Entries["group_name"], Entries["discovered"])
-
-            OutputMessage = "Group : <b>"
-            OutputMessage += Entries["group_name"]
-            OutputMessage += "</b><br>🗓 "
-            OutputMessage += Entries["discovered"]
-            OutputMessage += "</b><br>🌍 <a href=\"https://www.google.com/search?q="
-            # Correction for issue #2 : https://github.com/JMousqueton/CTI-MSTeams-Bot/issues/2
-            OutputMessage += Entries["post_title"].replace("*.", "")
-            OutputMessage += "\">"
-            OutputMessage += Entries["post_title"]
-            OutputMessage += "</a>"
-            Title = "🏴‍☠️ 🔒 "     
-            # Correction for issue #2 : https://github.com/JMousqueton/CTI-MSTeams-Bot/issues/2
-            Title += Entries["post_title"].replace("*.", "") 
-            send_teams(Url,OutputMessage,Title)
-            time.sleep(3)
-
+        if(TmpObject >= DateActivity):
+            continue
+        else:
             FileConfig.set('main', Entries["group_name"], Entries["discovered"])
+
+        OutputMessage = "Group : <b>"
+        OutputMessage += Entries["group_name"]
+        OutputMessage += "</b><br>🗓 "
+        OutputMessage += Entries["discovered"]
+        OutputMessage += "</b><br>🌍 <a href=\"https://www.google.com/search?q="
+        OutputMessage += Entries["post_title"].replace("*.", "")
+        OutputMessage += "\">"
+        OutputMessage += Entries["post_title"]
+        OutputMessage += "</a>"
+        
+        Title = "🏴‍☠️ 🔒 "     
+        Title += Entries["post_title"].replace("*.", "") 
+        
+        Send_Teams(Url,OutputMessage,Title)
+        #DEBUG# print(Title)
+        time.sleep(3)
+
+        FileConfig.set('main', Entries["group_name"], Entries["discovered"])
 
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
@@ -111,12 +111,8 @@ def FnGetRansomwareUpdates():
 # ---------------------------------------------------------------------------
 # Function fetch RSS feeds  
 # ---------------------------------------------------------------------------
-def FnGetRssFromUrl(RssItem):
+def GetRssFromUrl(RssItem):
     NewsFeed = feedparser.parse(RssItem[0])
-    DateActivity = ""
-    IsInitialRun = False
-
-    LastSaved = FileConfig.get('main', RssItem[1])
 
     for RssObject in NewsFeed.entries:
 
@@ -132,13 +128,9 @@ def FnGetRssFromUrl(RssItem):
             FileConfig.set('main', RssItem[1], " = ?")
             TmpObject = FileConfig.get('main', RssItem[1])
 
-
-        TmpObject = FileConfig.get('main', RssItem[1])
         if "?" in TmpObject:
-            IsInitialRun = True
             FileConfig.set('main', RssItem[1], DateActivity)
-
-        if IsInitialRun is False:
+        else:
             if(TmpObject >= DateActivity):
                 continue
             else:
@@ -181,19 +173,18 @@ def FnGetRssFromUrl(RssItem):
                 Title = '📢 '
 
         Title += RssItem[1]
-        send_teams(Url,OutputMessage,Title)
+        #Send_Teams(Url,OutputMessage,Title)
+        #DEBUG# print(Title)
         time.sleep(3)
 
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
 
-    IsInitialRun = False
-
 
 # ---------------------------------------------------------------------------
 # Log  
 # ---------------------------------------------------------------------------
-def FnCreateLogString(RssItem):
+def CreateLogString(RssItem):
     LogString = "[*]" + time.ctime()
     LogString += " " + "checked " + RssItem
     print(LogString)
@@ -201,26 +192,21 @@ def FnCreateLogString(RssItem):
 
 
 # ---------------------------------------------------------------------------
-# Main function  
+# Main   
 # ---------------------------------------------------------------------------    
-def EntryMain():
+if __name__ == '__main__':
 
-    LogString = ""
+    if sys.version_info < (3, 10):
+        sys.exit("Please use Python 3.10+")
     
     with open('Feed.csv', newline='') as f:
         reader = csv.reader(f)
         RssFeedList = list(reader)
             
     for RssItem in RssFeedList:
-        FnGetRssFromUrl(RssItem)
-        FnCreateLogString(RssItem[1])
+        GetRssFromUrl(RssItem)
+        CreateLogString(RssItem[1])
 
-    FnGetRansomwareUpdates()
-    FnCreateLogString("Ransomware List")
+    GetRansomwareUpdates()
+    CreateLogString("Ransomware List")
 
-
-# ---------------------------------------------------------------------------
-# Main 
-# ---------------------------------------------------------------------------
-
-EntryMain()

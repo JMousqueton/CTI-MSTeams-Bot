@@ -4,7 +4,7 @@ TITB is a fork from [Threat Intelligence Discord Bot from vx-underground](https:
 
 > The vx-underground Threat Intelligence Discord Bot gets updates from various clearnet domains, ransomware threat actor domains This bot will check for updates in intervals of 1800 seconds.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-1.7.0-blue.svg)  [![Twitter: JMousqueton](https://img.shields.io/twitter/follow/JMousqueton.svg?style=social)](https://twitter.com/JMousqueton) [![Last Run](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/fetchCTI.yml/badge.svg)](.github/workflows/fetchCTI.yml)  [![CodeQL](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/codeql-analysis.yml/badge.svg)](.github/workflows/codeql-analysis.yml) 
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-1.7.1-blue.svg)  [![Twitter: JMousqueton](https://img.shields.io/twitter/follow/JMousqueton.svg?style=social)](https://twitter.com/JMousqueton) [![Last Run](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/fetchCTI.yml/badge.svg)](.github/workflows/fetchCTI.yml)  [![CodeQL](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/codeql-analysis.yml/badge.svg)](.github/workflows/codeql-analysis.yml) 
 
 ## Description
 
@@ -17,9 +17,18 @@ Threat Intelligence Teams Bot gets updates from various clearnet domains and ran
 
 This bot will check for updates hourly. 
 
-TITB doesn't need any server, it works as a GitHub-Action : see the [fetchCTI.yml](.github/workflows/fetchCTI.yml) file.
+The change I've made : 
 
-I've externalized the Feed Links from the source code in a file called [Feed.csv](Feed.csv)
+* GitHub-Action : see the [fetchCTI.yml](.github/workflows/fetchCTI.yml) file.
+* Feeds List is externalized from the source code to the file [Feed.csv](Feed.csv)
+* Use JSON lib to get ransomware attacks list from [Ransomwatch](https://ransomwatch.mousqueton.io)
+* Add an emoji in front of the MS Teams Card related to some sources 
+* Use only one MS Teams Channel 
+* Refactoring with best practices 
+* No need to add any entry in [Config.txt](Config.txt) (automaticaly add)
+* Check that python 3.10+ is present (needed for some functions)
+* Add a [requirements.txt](requirements.txt)
+* Add a [feedCheck.py](checkFeed.py) script to check the health of the feed from [Feed.csv](Feed.csv) file 
 
 I've decided to remove the TelegramBot because it was not relevant for my needs. 
 
