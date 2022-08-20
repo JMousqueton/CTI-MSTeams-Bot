@@ -159,7 +159,7 @@ def FnGetRssFromUrl(RssItem):
                 Title = '🇺🇸 '
             case "NCSC":
                 Title = '🇬🇧 '
-             case "SANS":
+            case "SANS":
                 Title = '🌍 '
             case _:
                 Title = '📢 '
