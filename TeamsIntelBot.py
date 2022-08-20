@@ -147,6 +147,18 @@ def FnGetRssFromUrl(RssItem):
                 Title = '🕵🏻‍♂️ '
             case "Bleeping Computer":
                 Title = '💻 '
+            case "Microsoft Sentinel":
+                Title = '🔭 '
+            case "Hacker News":
+                Title = '📰 '
+            case "ATT":
+                Title = '📞 '
+            case "VirusBulletin":
+                Title = '🦠 '
+            case "US-CERT CISA":
+                Title = '🇺🇸 '
+            case "NCSC":
+                Title = '🇬🇧 '
             case _:
                 Title = '📢 '
 
