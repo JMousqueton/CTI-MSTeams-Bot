@@ -102,6 +102,8 @@ I've added the following sources :
 * [Cyber-News](https://www.cyber-news.fr)
 * ATT CyberSecurity Blog 
 * 🇪🇺 ENSIA Publications 
+* NCC Group 
+* Microsoft Sentinel
 
 ## ToDo 
 
