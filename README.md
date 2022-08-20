@@ -27,7 +27,7 @@ I've decided to remove the TelegramBot because it was not relevant for my needs.
 
 Clone the repository or download the [latest release](https://github.com/JMousqueton/CTI-MSTeams-Bot/releases/latest) 
 
-````
+```
 git clone https://github.com/JMousqueton/CTI-MSTeams-Bot
 ```
 
