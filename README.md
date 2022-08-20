@@ -39,6 +39,7 @@ pip3 install -r requirements.txt
 ### On a server (Windows, MacOS, Linux) 
 
 * Create a variable called ```MSTEAMS_WEBHOOK``` with the webhook URL
+* schedule the script for exemple every hours via the crontab
 
 Example 
 
