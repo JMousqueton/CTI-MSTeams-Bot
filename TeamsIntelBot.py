@@ -4,7 +4,7 @@
 # Created By  : Julien Mousqueton @JMousqueton
 # Original By : VX-Underground 
 # Created Date: 18/08/2022
-# version     : 1.6.1
+# version     : 1.7.0
 # ---------------------------------------------------------------------------
 
 
@@ -70,7 +70,13 @@ def FnGetRansomwareUpdates():
         for Entries in Data:
 
             DateActivity = Entries["discovered"]
-            TmpObject = FileConfig.get('main', Entries["group_name"])
+            
+            # Correction for issue #1 : https://github.com/JMousqueton/CTI-MSTeams-Bot/issues/1
+            try:
+                TmpObject = FileConfig.get('main', Entries["group_name"])
+            except:
+                FileConfig.set('main', Entries["group_name"], " = ?")
+                TmpObject = FileConfig.get('main', Entries["group_name"])
 
             if "?" in TmpObject:
                 FileConfig.set('main', Entries["group_name"], DateActivity)
@@ -79,18 +85,20 @@ def FnGetRansomwareUpdates():
                 continue
             else:
                 FileConfig.set('main', Entries["group_name"], Entries["discovered"])
-            
+
             OutputMessage = "Group : <b>"
             OutputMessage += Entries["group_name"]
             OutputMessage += "</b><br>🗓 "
             OutputMessage += Entries["discovered"]
             OutputMessage += "</b><br>🌍 <a href=\"https://www.google.com/search?q="
-            OutputMessage += Entries["post_title"]
+            # Correction for issue #2 : https://github.com/JMousqueton/CTI-MSTeams-Bot/issues/2
+            OutputMessage += Entries["post_title"].replace("*.", "")
             OutputMessage += "\">"
             OutputMessage += Entries["post_title"]
             OutputMessage += "</a>"
-            Title = "🏴‍☠️ 🔒 "           
-            Title += Entries["post_title"] 
+            Title = "🏴‍☠️ 🔒 "     
+            # Correction for issue #2 : https://github.com/JMousqueton/CTI-MSTeams-Bot/issues/2
+            Title += Entries["post_title"].replace("*.", "") 
             send_teams(Url,OutputMessage,Title)
             time.sleep(3)
 
@@ -117,6 +125,14 @@ def FnGetRssFromUrl(RssItem):
         except: 
             DateActivity = time.strftime('%Y-%m-%dT%H:%M:%S', RssObject.updated_parsed)
         
+        # Correction for issue #1 : https://github.com/JMousqueton/CTI-MSTeams-Bot/issues/1
+        try:
+            TmpObject = FileConfig.get('main', RssItem[1])
+        except:
+            FileConfig.set('main', RssItem[1], " = ?")
+            TmpObject = FileConfig.get('main', RssItem[1])
+
+
         TmpObject = FileConfig.get('main', RssItem[1])
         if "?" in TmpObject:
             IsInitialRun = True

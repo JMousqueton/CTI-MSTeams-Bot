@@ -4,7 +4,7 @@ TITB is a fork from [Threat Intelligence Discord Bot from vx-underground](https:
 
 > The vx-underground Threat Intelligence Discord Bot gets updates from various clearnet domains, ransomware threat actor domains This bot will check for updates in intervals of 1800 seconds.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-1.6.1-blue.svg)  [![Twitter: JMousqueton](https://img.shields.io/twitter/follow/JMousqueton.svg?style=social)](https://twitter.com/JMousqueton) [![Last Run](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/fetchCTI.yml/badge.svg)](.github/workflows/fetchCTI.yml)  [![CodeQL](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/codeql-analysis.yml/badge.svg)](.github/workflows/codeql-analysis.yml) 
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-1.7.0-blue.svg)  [![Twitter: JMousqueton](https://img.shields.io/twitter/follow/JMousqueton.svg?style=social)](https://twitter.com/JMousqueton) [![Last Run](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/fetchCTI.yml/badge.svg)](.github/workflows/fetchCTI.yml)  [![CodeQL](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/codeql-analysis.yml/badge.svg)](.github/workflows/codeql-analysis.yml) 
 
 ## Description
 
@@ -78,19 +78,13 @@ python3 checkFeed.py
 ```
 
 ## Adding or removing RSS Feeds to monitor
-All monitored RSS feeds are in [Feed.csv](Feed.csv) file. To add a new RSS feed simply append a new entry and assign it a [Config.txt](Config.txt) file entry name. e.g.
+All monitored RSS feeds are in [Feed.csv](Feed.csv) file. To add a new RSS feed simply append a new entry. e.g.
 
 In the ```Feed.csv``` file :
 ```
 https://grahamcluley.com/feed/,Graham Cluley
 https://1337WebsiteIWannaFollow.com/feed/,1337Website
 ```
-
-In the ```Config.txt``` file:
-```
-1337Website = ?
-```
-The "?" indicates it has never received an update.
 
 ## Sources 
 
@@ -113,6 +107,7 @@ I've added the following sources :
 * ~~Add more sources~~ 
 * ~~Add support of Python 3.10 for support of match functions~~ 
 * ~~Change emoji depending on source~~ (version 1.6) 
+* ~~No need to make an entry in Config.txt~~ (version 1.7) 
 
 ## Credit
 
