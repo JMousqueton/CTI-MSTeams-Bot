@@ -104,6 +104,7 @@ I've added the following sources :
 * 🇪🇺 ENSIA Publications 
 * NCC Group 
 * Microsoft Sentinel
+* SANS
 
 ## ToDo 
 
