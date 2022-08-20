@@ -113,6 +113,8 @@ def GetRansomwareUpdates():
 # ---------------------------------------------------------------------------
 def GetRssFromUrl(RssItem):
     NewsFeed = feedparser.parse(RssItem[0])
+    DateActivity = ""
+    IsInitialRun = False
 
     for RssObject in NewsFeed.entries:
 
@@ -129,8 +131,10 @@ def GetRssFromUrl(RssItem):
             TmpObject = FileConfig.get('main', RssItem[1])
 
         if "?" in TmpObject:
+            IsInitialRun = True
             FileConfig.set('main', RssItem[1], DateActivity)
-        else:
+
+        if IsInitialRun is False:
             if(TmpObject >= DateActivity):
                 continue
             else:
@@ -173,7 +177,7 @@ def GetRssFromUrl(RssItem):
                 Title = '📢 '
 
         Title += RssItem[1]
-        #Send_Teams(Url,OutputMessage,Title)
+        Send_Teams(Url,OutputMessage,Title)
         #DEBUG# print(Title)
         time.sleep(3)
 
