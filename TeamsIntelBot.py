@@ -85,12 +85,12 @@ def GetRansomwareUpdates():
         
         Title = "🏴‍☠️ 🔒 "     
         Title += Entries["post_title"].replace("*.", "") 
-        
-        if options.Debug == 'True':
+
+        if options.Debug:
             print(Title + " / "  + Entries["discovered"])
         else:
             Send_Teams(Url,OutputMessage,Title)
-        time.sleep(3)
+            time.sleep(3)
 
         FileConfig.set('main', Entries["group_name"], Entries["discovered"])
 
@@ -170,12 +170,12 @@ def GetRssFromUrl(RssItem):
 
         if RssItem[1] == "VERSION":
                 Title ='🔥 A NEW VERSION IS AVAILABLE : ' + RssObject.title
-                
-        if options.Debug == 'True':
+       
+        if options.Debug:
             print(Title)
         else:
             Send_Teams(Url,OutputMessage,Title)
-        time.sleep(3)
+            time.sleep(3)
 
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
@@ -206,7 +206,7 @@ if __name__ == '__main__':
     parser.add_option("-D", "--debug",
                       action="store_true", 
                       dest="Debug",
-                      default="False",
+                      default=False,
                       help="Debug mode : only output on screen nothing send to MS Teams",)
     (options, args) = parser.parse_args()
 
@@ -216,8 +216,9 @@ if __name__ == '__main__':
     # Make some simple checks before starting 
     if sys.version_info < (3, 10):
         sys.exit("Please use Python 3.10+")
-    if (str(Url) == "None" and options.Debug == 'False'):
-            sys.exit("Please use a MSTEAMS_WEBHOOK variable")
+    #if (str(Url) == "None" and options.Debug == 'False'):
+    if (str(Url) == "None" and not options.Debug):
+             sys.exit("Please use a MSTEAMS_WEBHOOK variable")
     if not exists("./Config.txt"):
         sys.exit("Please add a Config.txt file")
     if not exists("./Feed.csv"):
