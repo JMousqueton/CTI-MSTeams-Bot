@@ -86,7 +86,7 @@ def GetRansomwareUpdates():
         Title = "🏴‍☠️ 🔒 "     
         Title += Entries["post_title"].replace("*.", "") 
         
-        if options.Debug:
+        if options.Debug == 'True':
             print(Title + " / "  + Entries["discovered"])
         else:
             Send_Teams(Url,OutputMessage,Title)
@@ -171,7 +171,7 @@ def GetRssFromUrl(RssItem):
         if RssItem[1] == "VERSION":
                 Title ='🔥 A NEW VERSION IS AVAILABLE : ' + RssObject.title
                 
-        if options.Debug:
+        if options.Debug == 'True':
             print(Title)
         else:
             Send_Teams(Url,OutputMessage,Title)
