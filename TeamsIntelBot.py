@@ -11,7 +11,7 @@
 # Imports 
 # ---------------------------------------------------------------------------
 import feedparser
-import time
+import time, requests
 import csv # Feed.csv
 import sys # Python version 
 import json # Ransomware feed via ransomwatch 
@@ -20,7 +20,7 @@ import os # Webhook OS Variable and Github action
 from os.path import exists
 from optparse import OptionParser
 import urllib.request
-from urllib.parse import urlparse
+# from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
