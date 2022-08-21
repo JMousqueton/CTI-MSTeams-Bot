@@ -129,7 +129,7 @@ I've added the following sources :
 * NCC Group 
 * Microsoft Sentinel
 * SANS
-* [Red Flag Domains](https://red.flag.domains/) (for France)
+* [Red Flag Domains](https://red.flag.domains/) ⚠️ You shoudl use -d flag to enable this source dedicated to France 
 
 ## ToDo 
 
