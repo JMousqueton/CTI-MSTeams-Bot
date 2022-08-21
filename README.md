@@ -58,7 +58,6 @@ pip3 install -r requirements.txt
 ### On a server (Windows, MacOS, Linux) 
 
 * Create a variable called ```MSTEAMS_WEBHOOK``` with the webhook URL
-* Schedule the script for example every hours via the crontab
 
 Example 
 
@@ -66,6 +65,7 @@ Example
 MSTEAMS_WEBHOOK=https://mousqueton.webhook.office.com/webhookb2/08589F1C-EEA2-4C92-A08B-66E59692FDE3/IncomingWebhook/3DEFFDD9-F3A8-4351-BDA7-142FAFB7473A
 python3 TeamIntelBot.py 
 ```
+* Schedule the script for example every hours via the crontab
 
 *Note: the IDs have been generated with uuidgen for example purpose* 😛
 
