@@ -207,7 +207,6 @@ def GetRedFlagDomains():
     TmpObject = TmpObject.date()
 
     if(TmpObject < today):
-        FileConfig.set('main', "redflagdomains", str(today))
         url="https://red.flag.domains/posts/"+ str(today) + "/"
         try:
             response = urllib.request.urlopen(url)
@@ -218,6 +217,7 @@ def GetRedFlagDomains():
             if soup.findAll("meta", property="og:description"):
                 OutputMessage = soup.find("meta", property="og:description")["content"][4:].replace('[','').replace(']','')
                 Title = "🚩 Red Flag Domains créés ce jour (" +  str(today) + ")"
+                FileConfig.set('main', "redflagdomains", str(today))
                 if options.Debug:
                     print(Title)
                 else:
