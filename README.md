@@ -133,6 +133,7 @@ I've added the following sources :
 
 ## ToDo 
 
+* Create a flag to activate or not the Red Flag Domains source because it's only for french 
 
 ## Credit
 
