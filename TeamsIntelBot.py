@@ -3,10 +3,9 @@
 #----------------------------------------------------------------------------
 # Created By  : Julien Mousqueton @JMousqueton
 # Original By : VX-Underground 
-# Created Date: 18/08/2022
-# version     : 1.7.1
+# Created Date: 22/08/2022
+# Version     : 2.0.0
 # ---------------------------------------------------------------------------
-
 
 # ---------------------------------------------------------------------------
 # Imports 
@@ -19,18 +18,8 @@ import json # Ransomware feed via ransomwatch
 from configparser import ConfigParser
 import requests
 import os # Webhook OS Variable and Github action 
-
-# ---------------------------------------------------------------------------
-# Read the Config.txt file   
-# ---------------------------------------------------------------------------
-ConfigurationFilePath = "./Config.txt" ##path to configuration file
-FileConfig = ConfigParser()
-FileConfig.read(ConfigurationFilePath)
-
-# ---------------------------------------------------------------------------
-# Get Microsoft Teams Webhook from Github Action CI:Env.  
-# ---------------------------------------------------------------------------
-Url=os.getenv('MSTEAMS_WEBHOOK')
+from os.path import exists
+from optparse import OptionParser
 
 # ---------------------------------------------------------------------------
 # Function to send MS-Teams card 
@@ -57,7 +46,6 @@ def Send_Teams(webhook_url:str, content:str, title:str, color:str="000000") -> i
         },
     )
     return response.status_code # Should be 200
-
 
 # ---------------------------------------------------------------------------
 # Fetch Ransomware attacks from https://ransomwatch.mousqueton.io  
@@ -98,8 +86,10 @@ def GetRansomwareUpdates():
         Title = "🏴‍☠️ 🔒 "     
         Title += Entries["post_title"].replace("*.", "") 
         
-        Send_Teams(Url,OutputMessage,Title)
-        #DEBUG# print(Title)
+        if options.Debug:
+            print(Title + " / "  + Entries["discovered"])
+        else:
+            Send_Teams(Url,OutputMessage,Title)
         time.sleep(3)
 
         FileConfig.set('main', Entries["group_name"], Entries["discovered"])
@@ -177,8 +167,14 @@ def GetRssFromUrl(RssItem):
                 Title = '📢 '
 
         Title += RssItem[1]
-        Send_Teams(Url,OutputMessage,Title)
-        #DEBUG# print(Title)
+
+        if RssItem[1] == "VERSION":
+                Title ='🔥 A NEW VERSION IS AVAILABLE : ' + RssObject.title
+                
+        if options.Debug:
+            print(Title)
+        else:
+            Send_Teams(Url,OutputMessage,Title)
         time.sleep(3)
 
     with open(ConfigurationFilePath, 'w') as FileHandle:
@@ -191,7 +187,8 @@ def GetRssFromUrl(RssItem):
 def CreateLogString(RssItem):
     LogString = "[*]" + time.ctime()
     LogString += " " + "checked " + RssItem
-    print(LogString)
+    if not options.Quiet: 
+        print(LogString)
     time.sleep(2) 
 
 
@@ -199,10 +196,38 @@ def CreateLogString(RssItem):
 # Main   
 # ---------------------------------------------------------------------------    
 if __name__ == '__main__':
+    parser = OptionParser(usage="usage: %prog [options]",
+                          version="%prog 2.0.0")
+    parser.add_option("-q", "--quiet",
+                      action="store_true",
+                      dest="Quiet",
+                      default=False,
+                      help="Quiet mode")
+    parser.add_option("-D", "--debug",
+                      action="store_true", 
+                      dest="Debug",
+                      default="False",
+                      help="Debug mode : only output on screen nothing send to MS Teams",)
+    (options, args) = parser.parse_args()
 
+    # Get Microsoft Teams Webhook from Github Action CI:Env.  
+    Url=os.getenv('MSTEAMS_WEBHOOK')
+
+    # Make some simple checks before starting 
     if sys.version_info < (3, 10):
         sys.exit("Please use Python 3.10+")
+    if (str(Url) == "None" and options.Debug == 'False'):
+            sys.exit("Please use a MSTEAMS_WEBHOOK variable")
+    if not exists("./Config.txt"):
+        sys.exit("Please add a Config.txt file")
+    if not exists("./Feed.csv"):
+        sys.exit("Please add the Feed.cvs file")
     
+    # Read the Config.txt file   
+    ConfigurationFilePath = "./Config.txt" ##path to configuration file
+    FileConfig = ConfigParser()
+    FileConfig.read(ConfigurationFilePath)
+
     with open('Feed.csv', newline='') as f:
         reader = csv.reader(f)
         RssFeedList = list(reader)

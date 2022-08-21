@@ -4,7 +4,7 @@ TITB is a fork from [Threat Intelligence Discord Bot from vx-underground](https:
 
 > The vx-underground Threat Intelligence Discord Bot gets updates from various clearnet domains, ransomware threat actor domains This bot will check for updates in intervals of 1800 seconds.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-1.7.1-blue.svg)  [![Twitter: JMousqueton](https://img.shields.io/twitter/follow/JMousqueton.svg?style=social)](https://twitter.com/JMousqueton) [![Last Run](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/fetchCTI.yml/badge.svg)](.github/workflows/fetchCTI.yml)  [![CodeQL](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/codeql-analysis.yml/badge.svg)](.github/workflows/codeql-analysis.yml) 
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)  [![Twitter: JMousqueton](https://img.shields.io/twitter/follow/JMousqueton.svg?style=social)](https://twitter.com/JMousqueton) [![Last Run](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/fetchCTI.yml/badge.svg)](.github/workflows/fetchCTI.yml)  [![CodeQL](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/codeql-analysis.yml/badge.svg)](.github/workflows/codeql-analysis.yml) 
 
 ## Description
 
@@ -29,8 +29,12 @@ The change I've made :
 * Check that python 3.10+ is present (needed for some functions)
 * Add a [requirements.txt](requirements.txt)
 * Add a [feedCheck.py](checkFeed.py) script to check the health of the feed from [Feed.csv](Feed.csv) file 
+* Add Options for command line [usage](#usage)
+* Check if a new version is available 
 
 I've decided to remove the TelegramBot because it was not relevant for my needs. 
+
+![](Screenshot.png)
 
 ## Installation
 
@@ -67,7 +71,16 @@ python3 TeamIntelBot.py
 
 ## Usage 
 
-![](Screenshot.png)
+```
+python3 TeamsIntelBot.py -h
+Usage: TeamsIntelBot.py [options]
+
+Options:
+  --version    show program's version number and exit
+  -h, --help   show this help message and exit
+  -q, --quiet  Quiet mode
+  -D, --debug  Debug mode : only output on screen nothing send to MS Teams
+```
 
 I've also add a script called ```checkFeed.py``` to check if feeds are valids and what is the last published date. This script read the ```Feed.csv```file. 
 
@@ -118,12 +131,6 @@ I've added the following sources :
 
 ## ToDo 
 
-* ~~Modify code to accept RSS Feed without "pubdate" but dc:date~~
-* ~~Extract the RSS Feeds from the main program to an external configuration file~~ 
-* ~~Add more sources~~ 
-* ~~Add support of Python 3.10 for support of match functions~~ 
-* ~~Change emoji depending on source~~ (version 1.6) 
-* ~~No need to make an entry in Config.txt~~ (version 1.7) 
 
 ## Credit
 
