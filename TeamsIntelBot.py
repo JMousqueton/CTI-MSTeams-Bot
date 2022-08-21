@@ -4,7 +4,7 @@
 # Created By  : Julien Mousqueton @JMousqueton
 # Original By : VX-Underground 
 # Created Date: 22/08/2022
-# Version     : 2.1
+# Version     : 2.1.1
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
@@ -246,7 +246,7 @@ def CreateLogString(RssItem):
 # ---------------------------------------------------------------------------    
 if __name__ == '__main__':
     parser = OptionParser(usage="usage: %prog [options]",
-                          version="%prog 2.1.0")
+                          version="%prog 2.1.1")
     parser.add_option("-q", "--quiet",
                       action="store_true",
                       dest="Quiet",
@@ -257,6 +257,11 @@ if __name__ == '__main__':
                       dest="Debug",
                       default=False,
                       help="Debug mode : only output on screen nothing send to MS Teams",)
+    parser.add_option("-d", "--domain",
+                      action="store_true", 
+                      dest="Domains",
+                      default=False,
+                      help="Enable Red Flag Domains source",)
     (options, args) = parser.parse_args()
 
     # Get Microsoft Teams Webhook from Github Action CI:Env.  
@@ -288,6 +293,7 @@ if __name__ == '__main__':
 
     GetRansomwareUpdates()
     CreateLogString("Ransomware List")
-
-    GetRedFlagDomains()
-    CreateLogString("Red Flag Domain")
+    
+    if options.Domains: 
+        GetRedFlagDomains()
+        CreateLogString("Red Flag Domain")

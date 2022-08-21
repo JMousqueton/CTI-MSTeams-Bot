@@ -24,7 +24,7 @@ jobs:
         env:
           MSTEAMS_WEBHOOK: ${{ secrets.MSTEAMS_WEBHOOK }} 
         run: |
-          python3 TeamsIntelBot.py
+          python3 TeamsIntelBot.py -d
       - name: save changes
         run: |
           git config --global user.email "bot-parser@users.noreply.github.com"
