@@ -4,7 +4,7 @@
 # Created By  : Julien Mousqueton @JMousqueton
 # Original By : VX-Underground 
 # Created Date: 22/08/2022
-# Version     : 2.0.1
+# Version     : 2.0.2
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
@@ -197,7 +197,7 @@ def CreateLogString(RssItem):
 # ---------------------------------------------------------------------------    
 if __name__ == '__main__':
     parser = OptionParser(usage="usage: %prog [options]",
-                          version="%prog 2.0.1")
+                          version="%prog 2.0.2")
     parser.add_option("-q", "--quiet",
                       action="store_true",
                       dest="Quiet",
