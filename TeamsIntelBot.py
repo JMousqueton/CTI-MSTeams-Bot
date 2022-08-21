@@ -4,22 +4,25 @@
 # Created By  : Julien Mousqueton @JMousqueton
 # Original By : VX-Underground 
 # Created Date: 22/08/2022
-# Version     : 2.0.2
+# Version     : 2.1
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
 # Imports 
 # ---------------------------------------------------------------------------
 import feedparser
-import time
+import time, requests
 import csv # Feed.csv
 import sys # Python version 
 import json # Ransomware feed via ransomwatch 
 from configparser import ConfigParser
-import requests
 import os # Webhook OS Variable and Github action 
 from os.path import exists
 from optparse import OptionParser
+import urllib.request
+#from urllib.parse import urlparse
+from bs4 import BeautifulSoup
+from datetime import datetime, timedelta
 
 # ---------------------------------------------------------------------------
 # Function to send MS-Teams card 
@@ -182,6 +185,52 @@ def GetRssFromUrl(RssItem):
 
 
 # ---------------------------------------------------------------------------
+# Function fetch Red Flag domains 
+# ---------------------------------------------------------------------------
+def GetRedFlagDomains():
+    now = datetime.now()
+    format = "%Y-%m-%d"
+    today = now.strftime(format)
+    yesterday = now - timedelta(days=1)
+    yesterday = yesterday.strftime(format)
+
+    try:
+        TmpObject = FileConfig.get('main',"redflagdomains")
+    except:
+        FileConfig.set('main', "redflagdomains", str(yesterday))
+        TmpObject = str(yesterday)
+
+    TmpObject = datetime.strptime(TmpObject, '%Y-%m-%d')
+    today = datetime.strptime(today, '%Y-%m-%d')
+
+    today = today.date()
+    TmpObject = TmpObject.date()
+
+    if(TmpObject < today):
+        FileConfig.set('main', "redflagdomains", str(today))
+        url="https://red.flag.domains/posts/"+ str(today) + "/"
+        try:
+            response = urllib.request.urlopen(url)
+            soup = BeautifulSoup(response, 
+                                'html.parser', 
+                                from_encoding=response.info().get_param('charset'))
+            response_status = response.status
+            if soup.findAll("meta", property="og:description"):
+                OutputMessage = soup.find("meta", property="og:description")["content"][4:].replace('[','').replace(']','')
+                Title = "🚩 Red Flag Domains créés ce jour (" +  str(today) + ")"
+                if options.Debug:
+                    print(Title)
+                else:
+                    Send_Teams(Url,OutputMessage.replace('\n','<br>'),Title)
+                    time.sleep(3)
+        except HTTPError as error:
+            response_status = error.code
+            pass 
+    with open(ConfigurationFilePath, 'w') as FileHandle:
+        FileConfig.write(FileHandle)
+
+
+# ---------------------------------------------------------------------------
 # Log  
 # ---------------------------------------------------------------------------
 def CreateLogString(RssItem):
@@ -197,7 +246,7 @@ def CreateLogString(RssItem):
 # ---------------------------------------------------------------------------    
 if __name__ == '__main__':
     parser = OptionParser(usage="usage: %prog [options]",
-                          version="%prog 2.0.2")
+                          version="%prog 2.1.0")
     parser.add_option("-q", "--quiet",
                       action="store_true",
                       dest="Quiet",
@@ -240,3 +289,5 @@ if __name__ == '__main__':
     GetRansomwareUpdates()
     CreateLogString("Ransomware List")
 
+    GetRedFlagDomains()
+    CreateLogString("Red Flag Domain")
