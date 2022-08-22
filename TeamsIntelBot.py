@@ -224,7 +224,6 @@ def GetRedFlagDomains():
                     Send_Teams(Url,OutputMessage.replace('\n','<br>'),Title)
                     time.sleep(3)
         except:
-            response_status = error.code
             pass 
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
