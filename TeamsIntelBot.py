@@ -175,7 +175,7 @@ def GetRssFromUrl(RssItem):
                 Title ='🔥 A NEW VERSION IS AVAILABLE : ' + RssObject.title
        
         if options.Debug:
-            print(Title)
+            print(Title + "(" + DateActivity + ")")
         else:
             Send_Teams(Url,OutputMessage,Title)
             time.sleep(3)
@@ -215,7 +215,7 @@ def GetRedFlagDomains():
                                 from_encoding=response.info().get_param('charset'))
             response_status = response.status
             if soup.findAll("meta", property="og:description"):
-                OutputMessage = soup.find("meta", property="og:description")["content"][4:].replace('.re ','').replace('[','').replace(']','')
+                OutputMessage = soup.find("meta", property="og:description")["content"][4:].replace('.wf ','').replace('.re ','').replace('[','').replace(']','')
                 Title = "🚩 Red Flag Domains créés ce jour (" +  str(today) + ")"
                 FileConfig.set('Misc', "redflagdomains", str(today))
                 if options.Debug:
