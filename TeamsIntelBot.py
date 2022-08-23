@@ -4,7 +4,7 @@
 # Created By  : Julien Mousqueton @JMousqueton
 # Original By : VX-Underground 
 # Created Date: 22/08/2022
-# Version     : 2.1.1
+# Version     : 2.1.2
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
@@ -63,18 +63,18 @@ def GetRansomwareUpdates():
             
         # Correction for issue #1 : https://github.com/JMousqueton/CTI-MSTeams-Bot/issues/1
         try:
-            TmpObject = FileConfig.get('main', Entries["group_name"])
+            TmpObject = FileConfig.get('Ransomware', Entries["group_name"])
         except:
-            FileConfig.set('main', Entries["group_name"], " = ?")
-            TmpObject = FileConfig.get('main', Entries["group_name"])
+            FileConfig.set('Ransomware', Entries["group_name"], " = ?")
+            TmpObject = FileConfig.get('Ransomware', Entries["group_name"])
 
         if "?" in TmpObject:
-            FileConfig.set('main', Entries["group_name"], DateActivity)
+            FileConfig.set('Ransomware', Entries["group_name"], DateActivity)
 
         if(TmpObject >= DateActivity):
             continue
         else:
-            FileConfig.set('main', Entries["group_name"], Entries["discovered"])
+            FileConfig.set('Ransomware', Entries["group_name"], Entries["discovered"])
 
         OutputMessage = "Group : <b>"
         OutputMessage += Entries["group_name"]
@@ -95,7 +95,7 @@ def GetRansomwareUpdates():
             Send_Teams(Url,OutputMessage,Title)
             time.sleep(3)
 
-        FileConfig.set('main', Entries["group_name"], Entries["discovered"])
+        FileConfig.set('Ransomware', Entries["group_name"], Entries["discovered"])
 
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
@@ -109,7 +109,7 @@ def GetRssFromUrl(RssItem):
     DateActivity = ""
     IsInitialRun = False
 
-    for RssObject in NewsFeed.entries:
+    for RssObject in reversed(NewsFeed.entries):
 
         try:
             DateActivity = time.strftime('%Y-%m-%dT%H:%M:%S', RssObject.published_parsed)
@@ -118,20 +118,20 @@ def GetRssFromUrl(RssItem):
         
         # Correction for issue #1 : https://github.com/JMousqueton/CTI-MSTeams-Bot/issues/1
         try:
-            TmpObject = FileConfig.get('main', RssItem[1])
+            TmpObject = FileConfig.get('Rss', RssItem[1])
         except:
-            FileConfig.set('main', RssItem[1], " = ?")
-            TmpObject = FileConfig.get('main', RssItem[1])
+            FileConfig.set('Rss', RssItem[1], " = ?")
+            TmpObject = FileConfig.get('Rss', RssItem[1])
 
         if "?" in TmpObject:
             IsInitialRun = True
-            FileConfig.set('main', RssItem[1], DateActivity)
+            FileConfig.set('Rss', RssItem[1], DateActivity)
 
         if IsInitialRun is False:
             if(TmpObject >= DateActivity):
                 continue
             else:
-                FileConfig.set('main', RssItem[1], DateActivity)
+                FileConfig.set('Rss', RssItem[1], DateActivity)
 
         OutputMessage = "Date: " + DateActivity
         OutputMessage += "<br>"
@@ -195,9 +195,9 @@ def GetRedFlagDomains():
     yesterday = yesterday.strftime(format)
 
     try:
-        TmpObject = FileConfig.get('main',"redflagdomains")
+        TmpObject = FileConfig.get('Misc',"redflagdomains")
     except:
-        FileConfig.set('main', "redflagdomains", str(yesterday))
+        FileConfig.set('Misc', "redflagdomains", str(yesterday))
         TmpObject = str(yesterday)
 
     TmpObject = datetime.strptime(TmpObject, '%Y-%m-%d')
@@ -217,7 +217,7 @@ def GetRedFlagDomains():
             if soup.findAll("meta", property="og:description"):
                 OutputMessage = soup.find("meta", property="og:description")["content"][4:].replace('.re ','').replace('[','').replace(']','')
                 Title = "🚩 Red Flag Domains créés ce jour (" +  str(today) + ")"
-                FileConfig.set('main', "redflagdomains", str(today))
+                FileConfig.set('Misc', "redflagdomains", str(today))
                 if options.Debug:
                     print(Title)
                     # print(OutputMessage)
@@ -296,4 +296,4 @@ if __name__ == '__main__':
     
     if options.Domains: 
         GetRedFlagDomains()
-        CreateLogString("Red Flag Domain")
+        CreateLogString("Red Flag Domains")
