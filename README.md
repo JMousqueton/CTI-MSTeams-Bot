@@ -15,7 +15,7 @@ TITB is a fork from [Threat Intelligence Discord Bot from vx-underground](https:
 
 Threat Intelligence Teams Bot gets updates from various clearnet domains and ransomware threat actor domains. 
 
-This bot will check for updates hourly. 
+This bot will check for updates every 30 minutes. 
 
 The change I've made : 
 
