@@ -20,7 +20,6 @@ import os # Webhook OS Variable and Github action
 from os.path import exists
 from optparse import OptionParser
 import urllib.request
-#from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
