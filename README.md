@@ -83,6 +83,14 @@ Options:
   -D, --debug  Debug mode : only output on screen nothing send to MS Teams
 ```
 
+### Proxy
+
+If you use a proxy don't forget to use the proxies variables : 
+```
+set https_proxy=http://x.x.x.x:port
+set http_proxy=http://x.x.x.x:port
+```
+
 I've also add a script called ```checkFeed.py``` to check if feeds are valids and what is the last published date. This script read the ```Feed.csv```file. 
 
 ```
