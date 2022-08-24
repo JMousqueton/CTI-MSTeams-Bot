@@ -148,3 +148,5 @@ I've added the following sources :
 This was made by smelly__vx over a slow and boring weekend. We hope it provides some value to your channel and/or organization.
 
 Thanks to my fellow students from [🏴‍☠️ Ecole 2600](https://www.ecole2600.com) for the support and advice during nights 😛
+
+Thanks to Olivier for the proxy documentation 🍻
