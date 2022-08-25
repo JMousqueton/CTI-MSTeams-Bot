@@ -2,7 +2,7 @@
 graham cluley = 2022-08-23T16:32:30
 threatpost = 2022-08-24T14:17:04
 krebs on security = 2022-08-18T15:27:53
-dark reading = 2022-08-25T14:00:00
+dark reading = 2022-08-25T14:19:46
 we live security = 2022-08-23T09:30:21
 davinci forensics = 2022-08-20T08:50:36
 cisco = 2022-08-24T17:00:48
@@ -14,7 +14,7 @@ proof point = 2022-08-23T10:24:50
 us-cert cisa = 2022-08-16T15:38:42
 fr-cert alertes = 2022-06-03T08:04:26
 fr-cert avis = 2022-08-25T07:03:27
-hacker news = 2022-08-25T10:25:00
+hacker news = 2022-08-25T13:24:00
 schneier on security = 2022-08-25T11:45:17
 ncsc = 2022-08-18T23:00:00
 center of internet security = 2022-08-24T00:47:54
