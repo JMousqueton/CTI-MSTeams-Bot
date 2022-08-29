@@ -14,7 +14,7 @@ proof point = 2022-08-23T10:24:50
 us-cert cisa = 2022-08-16T15:38:42
 fr-cert alertes = 2022-06-03T08:04:26
 fr-cert avis = 2022-08-26T11:52:22
-hacker news = 2022-08-29T04:23:00
+hacker news = 2022-08-29T07:07:00
 schneier on security = 2022-08-26T21:08:19
 ncsc = 2022-08-18T23:00:00
 center of internet security = 2022-08-27T06:10:32
@@ -107,5 +107,5 @@ icefire = 2022-08-20 09:50:02.102837
 donutleaks = 2022-08-27 07:07:53.030672
 
 [Misc]
-redflagdomains = 2022-08-28
+redflagdomains = 2022-08-29
 
