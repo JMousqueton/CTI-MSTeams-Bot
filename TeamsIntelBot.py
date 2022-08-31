@@ -4,7 +4,7 @@
 # Created By  : Julien Mousqueton @JMousqueton
 # Original By : VX-Underground 
 # Created Date: 22/08/2022
-# Version     : 2.1.2
+# Version     : 2.2.0
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
@@ -67,13 +67,13 @@ def GetRansomwareUpdates():
             FileConfig.set('Ransomware', Entries["group_name"], " = ?")
             TmpObject = FileConfig.get('Ransomware', Entries["group_name"])
 
-        if "?" in TmpObject:
+        if TmpObject.endswith("?"):
             FileConfig.set('Ransomware', Entries["group_name"], DateActivity)
-
-        if(TmpObject >= DateActivity):
-            continue
         else:
-            FileConfig.set('Ransomware', Entries["group_name"], Entries["discovered"])
+            if(TmpObject >= DateActivity):
+                continue
+        #else:
+        #    FileConfig.set('Ransomware', Entries["group_name"], Entries["discovered"])
 
         OutputMessage = "Group : <b>"
         OutputMessage += Entries["group_name"]
@@ -89,7 +89,7 @@ def GetRansomwareUpdates():
         Title += Entries["post_title"].replace("*.", "") 
 
         if options.Debug:
-            print(Title + " / "  + Entries["discovered"])
+            print(Entries["group_name"] + " = " + Title + " ("  + Entries["discovered"]+")")
         else:
             Send_Teams(Url,OutputMessage,Title)
             time.sleep(3)
@@ -98,7 +98,6 @@ def GetRansomwareUpdates():
 
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
-
 
 # ---------------------------------------------------------------------------
 # Function fetch RSS feeds  
@@ -122,15 +121,11 @@ def GetRssFromUrl(RssItem):
             FileConfig.set('Rss', RssItem[1], " = ?")
             TmpObject = FileConfig.get('Rss', RssItem[1])
 
-        if "?" in TmpObject:
-            IsInitialRun = True
+        if TmpObject.endswith("?"):
             FileConfig.set('Rss', RssItem[1], DateActivity)
-
-        if IsInitialRun is False:
+        else:
             if(TmpObject >= DateActivity):
                 continue
-            else:
-                FileConfig.set('Rss', RssItem[1], DateActivity)
 
         OutputMessage = "Date: " + DateActivity
         OutputMessage += "<br>"
@@ -174,14 +169,15 @@ def GetRssFromUrl(RssItem):
                 Title ='🔥 A NEW VERSION IS AVAILABLE : ' + RssObject.title
        
         if options.Debug:
-            print(Title + "(" + DateActivity + ")")
+            print(Title + " : " + RssObject.title + " (" + DateActivity + ")")
         else:
             Send_Teams(Url,OutputMessage,Title)
             time.sleep(3)
+        
+        FileConfig.set('Rss', RssItem[1], DateActivity)
 
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
-
 
 # ---------------------------------------------------------------------------
 # Function fetch Red Flag domains 
@@ -228,7 +224,6 @@ def GetRedFlagDomains():
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
 
-
 # ---------------------------------------------------------------------------
 # Log  
 # ---------------------------------------------------------------------------
@@ -239,13 +234,12 @@ def CreateLogString(RssItem):
         print(LogString)
     time.sleep(2) 
 
-
 # ---------------------------------------------------------------------------
 # Main   
 # ---------------------------------------------------------------------------    
 if __name__ == '__main__':
     parser = OptionParser(usage="usage: %prog [options]",
-                          version="%prog 2.1.1")
+                          version="%prog 2.2.0")
     parser.add_option("-q", "--quiet",
                       action="store_true",
                       dest="Quiet",
@@ -266,19 +260,21 @@ if __name__ == '__main__':
     # Get Microsoft Teams Webhook from Github Action CI:Env.  
     Url=os.getenv('MSTEAMS_WEBHOOK')
 
+    # expects the configuration file in the same directory as this script by default, replace if desired otherwise
+    ConfigurationFilePath = os.path.join(os.path.split(os.path.abspath(__file__))[0], 'Config.txt')
+
     # Make some simple checks before starting 
     if sys.version_info < (3, 10):
         sys.exit("Please use Python 3.10+")
-    #if (str(Url) == "None" and options.Debug == 'False'):
     if (str(Url) == "None" and not options.Debug):
              sys.exit("Please use a MSTEAMS_WEBHOOK variable")
-    if not exists("./Config.txt"):
+    if not exists(ConfigurationFilePath):
         sys.exit("Please add a Config.txt file")
     if not exists("./Feed.csv"):
         sys.exit("Please add the Feed.cvs file")
     
     # Read the Config.txt file   
-    ConfigurationFilePath = "./Config.txt" ##path to configuration file
+    # ConfigurationFilePath = "./Config.txt" ##path to configuration file
     FileConfig = ConfigParser()
     FileConfig.read(ConfigurationFilePath)
 
