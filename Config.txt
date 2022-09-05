@@ -107,5 +107,5 @@ icefire = 2022-08-20 09:50:02.102837
 donutleaks = 2022-09-02 09:05:39.312316
 
 [Misc]
-redflagdomains = 2022-09-04
+redflagdomains = 2022-09-05
 
