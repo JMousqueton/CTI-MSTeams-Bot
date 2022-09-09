@@ -9,7 +9,7 @@ cisco = 2022-09-07T12:00:37
 information security magazine = 2022-09-09T10:37:00
 google = 2022-09-08T16:00:00
 trend micro = 2022-09-08T00:00:00
-bleeping computer = 2022-09-09T14:49:39
+bleeping computer = 2022-09-09T16:35:31
 proof point = 2022-09-08T05:00:00
 us-cert cisa = 2022-09-06T13:00:00
 fr-cert alertes = 2022-06-03T08:04:26
@@ -34,7 +34,7 @@ eu-enisa publications = 2022-07-27T10:00:00
 att = 2022-09-08T10:00:00
 microsoft sentinel = 2022-09-06T15:00:00
 ncc = 2022-09-06T18:32:07
-sans = 2022-09-09T02:00:02
+sans = 2022-09-09T15:13:56
 version = 2022-08-21T20:02:42
 redcanary = 2022-08-23T16:17:46
 
