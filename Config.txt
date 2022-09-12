@@ -8,12 +8,12 @@ davinci forensics = 2022-08-20T08:50:36
 cisco = 2022-09-07T12:00:37
 information security magazine = 2022-09-12T10:00:00
 google = 2022-09-08T16:00:00
-trend micro = 2022-09-08T00:00:00
+trend micro = 2022-09-12T00:00:00
 bleeping computer = 2022-09-12T08:21:17
 proof point = 2022-09-08T05:00:00
 us-cert cisa = 2022-09-06T13:00:00
 fr-cert alertes = 2022-06-03T08:04:26
-fr-cert avis = 2022-09-09T13:36:14
+fr-cert avis = 2022-09-12T11:25:45
 hacker news = 2022-09-12T11:18:00
 schneier on security = 2022-09-09T21:03:31
 ncsc = 2022-09-01T23:00:00
@@ -36,7 +36,7 @@ microsoft sentinel = 2022-09-12T11:21:40
 ncc = 2022-09-06T18:32:07
 sans = 2022-09-12T02:00:02
 version = 2022-08-21T20:02:42
-redcanary = 2022-08-23T16:17:46
+redcanary = 2022-09-12T13:00:57
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
