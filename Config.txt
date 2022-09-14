@@ -13,12 +13,12 @@ bleeping computer = 2022-09-14T12:07:28
 proof point = 2022-09-13T16:35:10
 us-cert cisa = 2022-09-06T13:00:00
 fr-cert alertes = 2022-06-03T08:04:26
-fr-cert avis = 2022-09-13T09:27:17
-hacker news = 2022-09-14T10:20:00
+fr-cert avis = 2022-09-14T12:28:18
+hacker news = 2022-09-14T14:04:00
 schneier on security = 2022-09-14T11:51:22
 ncsc = 2022-09-01T23:00:00
 center of internet security = 2022-09-13T21:44:39
-binary defense = 2022-08-23T22:53:22
+binary defense = 2022-09-14T13:07:23
 securelist = 2022-09-08T07:59:54
 checkpoint research = 2022-09-12T13:49:13
 virusbulletin = 2021-12-08T12:42:00
@@ -26,7 +26,7 @@ modexp = 2022-08-22T01:00:00
 james forshaw = 2022-07-17T04:49:00
 adam chester = 2022-07-09T23:00:00
 microsoft security = 2022-09-07T20:56:09
-recorded future = 2022-09-09T00:00:00
+recorded future = 2022-09-14T00:00:00
 sentinelone = 2022-09-14T14:07:40
 leak-lookup = 2022-09-14T14:00:03
 cyber-news = 2022-09-14T06:36:10
@@ -108,5 +108,5 @@ donutleaks = 2022-09-02 09:05:39.312316
 sparta = 2022-09-14 11:00:19.146782
 
 [Misc]
-redflagdomains = 2022-09-13
+redflagdomains = 2022-09-14
 
