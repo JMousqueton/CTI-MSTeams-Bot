@@ -2,7 +2,7 @@
 graham cluley = 2022-09-15T00:33:15
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-09-14T21:46:58
-dark reading = 2022-09-15T14:00:00
+dark reading = 2022-09-15T14:40:15
 we live security = 2022-09-14T09:30:58
 davinci forensics = 2022-08-20T08:50:36
 cisco = 2022-09-12T16:28:01
@@ -26,8 +26,8 @@ modexp = 2022-08-22T01:00:00
 james forshaw = 2022-07-17T04:49:00
 adam chester = 2022-07-09T23:00:00
 microsoft security = 2022-09-07T20:56:09
-recorded future = 2022-09-14T00:00:00
-sentinelone = 2022-09-14T14:07:40
+recorded future = 2022-09-15T00:00:00
+sentinelone = 2022-09-15T14:48:23
 leak-lookup = 2022-09-14T16:00:06
 cyber-news = 2022-09-14T06:36:10
 eu-enisa publications = 2022-07-27T10:00:00
@@ -36,7 +36,7 @@ microsoft sentinel = 2022-09-14T15:28:28
 ncc = 2022-09-06T18:32:07
 sans = 2022-09-15T06:33:30
 version = 2022-08-21T20:02:42
-redcanary = 2022-09-13T18:33:02
+redcanary = 2022-09-15T15:01:28
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
