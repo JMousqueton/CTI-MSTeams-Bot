@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Add
 
-- None 
+- French flag for ransomware domain hit in .fr  
 
 ## [2.1.2 UNRELEASED]- 2022-08-23
 
