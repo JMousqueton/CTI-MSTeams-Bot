@@ -164,6 +164,8 @@ def GetRssFromUrl(RssItem):
                 Title = '🇬🇧 '
             case "SANS":
                 Title = '🌍 '
+            case "malpedia":
+                Title = '📖 '
             case _:
                 Title = '📢 '
 
