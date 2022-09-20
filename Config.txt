@@ -2,7 +2,7 @@
 graham cluley = 2022-09-16T14:34:33
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-09-16T17:55:25
-dark reading = 2022-09-20T17:16:29
+dark reading = 2022-09-20T18:20:52
 we live security = 2022-09-19T09:30:47
 davinci forensics = 2022-08-20T08:50:36
 cisco = 2022-09-20T12:00:36
@@ -86,7 +86,7 @@ blackshadow = 2021-12-18 16:06:44.948812
 mosesstaff = 2021-12-18 16:06:45.338411
 atomsilo = 2021-12-21 20:28:18.355635
 nightsky = 2022-01-04 19:14:52.100985
-vicesociety = 2022-09-04 23:01:42.119565
+vicesociety = 2022-09-20 18:43:56.896519
 pandora = 2022-03-30 19:26:24.820390
 stormous = 2022-05-09 20:30:39.007872
 leaktheanalyst = 2022-03-29 16:52:32.802514
