@@ -2,7 +2,7 @@
 graham cluley = 2022-09-26T14:33:55
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-09-23T18:19:51
-dark reading = 2022-09-28T19:47:00
+dark reading = 2022-09-28T19:57:25
 we live security = 2022-09-26T09:30:01
 davinci forensics = 2022-08-20T08:50:36
 cisco = 2022-09-28T12:00:04
@@ -109,5 +109,5 @@ donutleaks = 2022-09-28 19:33:31.836685
 sparta = 2022-09-22 17:47:19.862890
 
 [Misc]
-redflagdomains = 2022-09-27
+redflagdomains = 2022-09-28
 
