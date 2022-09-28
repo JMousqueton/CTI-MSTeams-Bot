@@ -2,7 +2,7 @@
 graham cluley = 2022-09-26T14:33:55
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-09-23T18:19:51
-dark reading = 2022-09-28T21:33:20
+dark reading = 2022-09-28T22:21:00
 we live security = 2022-09-26T09:30:01
 davinci forensics = 2022-08-20T08:50:36
 cisco = 2022-09-28T12:00:04
