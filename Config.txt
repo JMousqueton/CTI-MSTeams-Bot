@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2022-09-28T23:05:35
+graham cluley = 2022-09-29T17:10:44
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-09-23T18:19:51
 dark reading = 2022-09-29T21:44:03
@@ -9,7 +9,7 @@ cisco = 2022-09-28T12:00:04
 information security magazine = 2022-09-29T17:00:00
 google = 2022-09-13T16:59:00
 trend micro = 2022-09-29T00:00:00
-bleeping computer = 2022-09-29T15:07:28
+bleeping computer = 2022-09-29T17:33:31
 proof point = 2022-09-16T08:49:52
 us-cert cisa = 2022-09-22T12:55:58
 fr-cert alertes = 2022-09-16T09:20:10
@@ -52,7 +52,7 @@ xinglocker = 2021-10-26 13:56:17.766530
 ragnarlocker = 2022-09-19 22:43:16.974974
 clop = 2022-08-31 07:30:42.886873
 revil = 2022-09-01 14:59:32.590615
-everest = 2022-09-25 21:04:42.925615
+everest = 2022-09-29 17:46:13.068391
 ragnarok = 2021-12-30 10:10:45.033137
 conti = 2022-06-07 18:40:06.936435
 pysa = 2022-09-20 01:44:05.209440
