@@ -2,7 +2,7 @@
 graham cluley = 2022-10-04T19:20:33
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-09-30T16:51:57
-dark reading = 2022-10-04T20:27:28
+dark reading = 2022-10-04T21:48:35
 we live security = 2022-10-03T09:30:31
 davinci forensics = 2022-08-20T08:50:36
 cisco = 2022-10-03T16:31:59
@@ -28,7 +28,7 @@ adam chester = 2022-07-09T23:00:00
 microsoft security = 2022-09-30T06:55:00
 recorded future = 2022-09-29T00:00:00
 sentinelone = 2022-10-03T13:20:28
-leak-lookup = 2022-09-30T18:00:03
+leak-lookup = 2022-10-04T22:00:03
 cyber-news = 2022-10-02T21:44:19
 eu-enisa publications = 2022-07-27T10:00:00
 att = 2022-10-04T10:00:00
