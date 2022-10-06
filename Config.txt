@@ -2,7 +2,7 @@
 graham cluley = 2022-10-06T09:23:33
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-10-05T21:20:53
-dark reading = 2022-10-06T18:30:00
+dark reading = 2022-10-06T19:56:01
 we live security = 2022-10-06T09:30:49
 davinci forensics = 2022-08-20T08:50:36
 cisco = 2022-10-06T12:00:55
@@ -36,7 +36,7 @@ microsoft sentinel = 2022-09-29T18:03:10
 ncc = 2022-09-30T08:40:24
 sans = 2022-10-06T17:07:19
 version = 2022-08-21T20:02:42
-redcanary = 2022-10-05T18:35:16
+redcanary = 2022-10-06T19:58:53
 malpedia = 2022-09-20T15:01:28
 
 [Ransomware]
@@ -99,7 +99,7 @@ cheers = 2022-09-14 11:00:11.961979
 lockbit3 = 2022-10-06 04:43:56.149159
 yanluowang = 2022-08-10 16:55:19.472715
 0mega = 2022-09-16 22:56:51.587988
-bianlian = 2022-10-06 13:42:54.336813
+bianlian = 2022-10-06 19:45:26.566992
 redalert = 2022-09-22 11:21:46.892926
 redcanary = 2022-08-18T21:53:55
 daixin = 2022-09-13 01:25:17.121803
@@ -109,5 +109,5 @@ donutleaks = 2022-10-01 09:44:01.256235
 sparta = 2022-09-22 17:47:19.862890
 
 [Misc]
-redflagdomains = 2022-10-05
+redflagdomains = 2022-10-06
 
