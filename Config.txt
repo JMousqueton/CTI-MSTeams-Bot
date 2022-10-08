@@ -109,5 +109,5 @@ donutleaks = 2022-10-01 09:44:01.256235
 sparta = 2022-09-22 17:47:19.862890
 
 [Misc]
-redflagdomains = 2022-10-07
+redflagdomains = 2022-10-08
 
