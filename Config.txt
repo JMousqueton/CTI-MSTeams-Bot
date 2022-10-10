@@ -6,7 +6,7 @@ dark reading = 2022-10-08T13:00:44
 we live security = 2022-10-07T14:15:41
 davinci forensics = 2022-08-20T08:50:36
 cisco = 2022-10-07T12:00:17
-information security magazine = 2022-10-07T17:00:00
+information security magazine = 2022-10-10T09:40:00
 google = 2022-09-13T16:59:00
 trend micro = 2022-10-05T00:00:00
 bleeping computer = 2022-10-10T00:53:38
@@ -38,7 +38,7 @@ sans = 2022-10-10T06:05:20
 version = 2022-08-21T20:02:42
 redcanary = 2022-10-06T19:58:53
 malpedia = 2022-09-20T15:01:28
-databreaches = 2022-10-01T15:01:28
+databreaches = 2022-10-08T13:19:41
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
