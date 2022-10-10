@@ -38,6 +38,7 @@ sans = 2022-10-10T06:05:20
 version = 2022-08-21T20:02:42
 redcanary = 2022-10-06T19:58:53
 malpedia = 2022-09-20T15:01:28
+databreaches = 2022-10-01T15:01:28
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
