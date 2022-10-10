@@ -13,7 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Add
 
-- French flag for ransomware domain hit in .fr  
+- French flag for ransomware domain hit in .fr 
+- Unit42 Feed
+- DataBreaches Feed (disabled by default) 
 
 ## [2.1.2 UNRELEASED]- 2022-08-23
 
