@@ -6,7 +6,7 @@ dark reading = 2022-10-11T15:21:39
 we live security = 2022-10-10T09:30:02
 davinci forensics = 2022-08-20T08:50:36
 cisco = 2022-10-11T12:00:35
-information security magazine = 2022-10-11T15:00:00
+information security magazine = 2022-10-11T16:00:00
 google = 2022-09-13T16:59:00
 trend micro = 2022-10-05T00:00:00
 bleeping computer = 2022-10-11T15:05:57
@@ -61,7 +61,7 @@ pysa = 2022-09-20 01:44:05.209440
 nefilim = 2021-09-09 23:46:57.082905
 mountlocker = 2022-02-08 14:26:33.620994
 babuklocker = 2021-09-09 23:46:57.346780
-ransomexx = 2022-10-02 23:38:34.049832
+ransomexx = 2022-10-11 16:07:54.017070
 cuba = 2022-09-27 11:11:20.076022
 pay2key = 2021-09-09 23:46:57.658522
 azroteam = 2021-09-09 23:46:57.808630
@@ -112,5 +112,5 @@ sparta = 2022-09-22 17:47:19.862890
 qilin = 2022-10-08 05:43:11.666451
 
 [Misc]
-redflagdomains = 2022-10-10
+redflagdomains = 2022-10-11
 
