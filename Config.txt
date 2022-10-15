@@ -1,7 +1,7 @@
 [Rss]
 graham cluley = 2022-10-13T12:17:55
 threatpost = 2022-08-31T12:57:48
-krebs on security = 2022-10-11T21:06:23
+krebs on security = 2022-10-15T14:08:59
 dark reading = 2022-10-14T20:42:00
 we live security = 2022-10-14T10:00:26
 davinci forensics = 2022-08-20T08:50:36
