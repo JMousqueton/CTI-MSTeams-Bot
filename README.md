@@ -101,7 +101,7 @@ set https_proxy=http://x.x.x.x:port
 set http_proxy=http://x.x.x.x:port
 ```
 
-I've also add a script called ```checkFeed.py``` to check if feeds are valids and what is the last published date. This script read the ```Feed.csv```file. 
+I've also add a script called ```checkFeed.py``` to check if feeds are valids and what is the last published date. This script read the ```Feed.csv``` file. 
 
 ```
 python3 checkFeed.py 
