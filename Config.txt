@@ -114,5 +114,5 @@ qilin = 2022-10-08 05:43:11.666451
 
 [Misc]
 redflagdomains = 2022-10-15
-reminder = 2022-10-01
+reminder = 2022-10-16
 
