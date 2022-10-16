@@ -280,7 +280,7 @@ def SendReminder():
                 OutputMessage += "<br>"
             except:
                 try:
-                    OutputMessage += Emoji(RssItem[1]) + RssItem[1] "(" + Feed.entries[0].updated + ")"
+                    OutputMessage += Emoji(RssItem[1]) + RssItem[1] + "(" + Feed.entries[0].updated + ")"
                     OutputMessage += "<br>"
                 except:
                     continue
