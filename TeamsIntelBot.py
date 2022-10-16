@@ -251,8 +251,6 @@ def SendReminder():
     today = now.strftime(format)
     lastmonth = now - timedelta(days=31)
     lastmonth = lastmonth.strftime(format)
-    # lastmonth = datetime.strptime(lastmonth, '%Y-%m-%d')
-    print("Lastmonth : " + str(lastmonth))
     try:
         TmpObject = FileConfig.get('Misc',"reminder")
     except:
@@ -285,8 +283,12 @@ def SendReminder():
                 except:
                     continue
         if options.Domains: 
+            OutputMessage += "Misc : "
+            OutputMessage += "<br>"
             OutputMessage += "🚩 Red Flag Domains"
             OutputMessage += "<br>"
+        OutputMessage += "Ransomware :"
+        OutputMessage += "<br>"
         OutputMessage += "🏴‍☠️ 🔒 Ransomware Leaks"
         OutputMessage += "<br>"
         today = today.strftime(format)
