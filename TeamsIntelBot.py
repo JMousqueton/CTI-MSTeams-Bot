@@ -103,6 +103,7 @@ def GetRansomwareUpdates():
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
 
+
 # ---------------------------------------------------------------------------
 # Add nice Emoji in front of title   
 # ---------------------------------------------------------------------------
@@ -111,6 +112,8 @@ def Emoji(feed):
     match feed:
         case "Leak-Lookup":
             Title = '💧 '
+        case "VERSION":
+            Title = '🔥 '
         case "DataBreaches":
             Title = '🕳 '
         case "FR-CERT Alertes" | "FR-CERT Avis":
@@ -125,12 +128,20 @@ def Emoji(feed):
             Title = '🔭 '
         case "Hacker News":
             Title = '📰 '
+        case "Cisco":
+            Title = '📡 '
+        case "Securelist":
+            Title = '📜 '
         case "ATT":
             Title = '📞 '
         case "Google TAG":
             Title = '🔬 '
+        case "DaVinci Forensics":
+            Title = '📐 '
         case "VirusBulletin":
             Title = '🦠 '
+        case "Information Security Magazine":
+            Title = '🗞 '
         case "US-CERT CISA":
             Title = '🇺🇸 '
         case "NCSC":
@@ -141,9 +152,18 @@ def Emoji(feed):
             Title = '📖 '
         case "Unit42":
             Title = '🚨 '
+        case "Microsoft Security":
+            Title = 'Ⓜ️ '
+        case "Checkpoint Research":
+            Title = '🏁 '
+        case "Proof Point":
+            Title = '🧾 '
+        case "RedCanary":
+            Title = '🦆 '
         case _:
             Title = '📢 '
     return Title
+
 
 # ---------------------------------------------------------------------------
 # Function fetch RSS feeds  
