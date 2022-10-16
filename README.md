@@ -64,7 +64,7 @@ Example
 
 ```
 MSTEAMS_WEBHOOK=https://mousqueton.webhook.office.com/webhookb2/08589F1C-EEA2-4C92-A08B-66E59692FDE3/IncomingWebhook/3DEFFDD9-F3A8-4351-BDA7-142FAFB7473A
-python3 TeamIntelBot.py 
+python3 TeamIntelBot.py -r -d 
 ```
 * Schedule the script for example every hours via the crontab
 
@@ -84,6 +84,12 @@ Options:
   -d, --domain    Enable Red Flag Domains source
   -r, --reminder  Enable monthly reminder of Feeds
 ```
+
+For french user, I recommand using flags -d and -r 
+```python3 TeamIntelBot.py -r -d```
+
+For other, only flag -r 
+```python3 TeamIntelBot.py -r```
 
 ### Proxy
 
