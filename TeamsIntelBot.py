@@ -4,7 +4,7 @@
 # Created By  : Julien Mousqueton @JMousqueton
 # Original By : VX-Underground 
 # Created Date: 22/08/2022
-# Version     : 2.2.0
+# Version     : Pre 2.4.0
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
