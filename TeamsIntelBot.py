@@ -158,6 +158,8 @@ def GetRssFromUrl(RssItem):
                 Title = '📰 '
             case "ATT":
                 Title = '📞 '
+            case "Google TAG":
+                Title = '🔬 '
             case "VirusBulletin":
                 Title = '🦠 '
             case "US-CERT CISA":
