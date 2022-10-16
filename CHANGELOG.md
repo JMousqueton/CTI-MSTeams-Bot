@@ -5,13 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.0]- 2022-08-29
+
+### Changed
+
+- Some minor changes 
+
+### Add
+
+- None 
+
 ## [2.2.0 UNRELEASED]- 2022-08-29
 
-## Changed
+### Changed
 
 - Code optimizations
 
-## Add
+### Add
 
 - French flag for ransomware domain hit in .fr 
 - Unit42 Feed
@@ -19,42 +29,42 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.1.2 UNRELEASED]- 2022-08-23
 
-## Changed
+### Changed
 
 - Modify Config.txt format 
 - Modify the order of reading RSS Feed
 
-## Add
+### Add
 
 - None 
 
 ## [2.1.0 UNRELEASED]- 2022-08-22
 
-## Changed
+### Changed
 
 - Add a flag to enable Red Flag Domains source 
 
-## Add
+### Add
 
 - None 
 
 ## [2.0.2] - 2022-08-21
 
-## Changed
+### Changed
 
 - Correct a bug in the debug condition 
 
-## Add
+### Add
 
 - None 
 
 ## [2.0.0] - 2022-08-21
 
-## Changed
+### Changed
 
 - None 
 
-## Add
+### Add
 
 - Options for CLI
   - Debug mode for screen output only 
