@@ -77,10 +77,12 @@ python3 TeamsIntelBot.py -h
 Usage: TeamsIntelBot.py [options]
 
 Options:
-  --version    show program's version number and exit
-  -h, --help   show this help message and exit
-  -q, --quiet  Quiet mode
-  -D, --debug  Debug mode : only output on screen nothing send to MS Teams
+  --version       show program's version number and exit
+  -h, --help      show this help message and exit
+  -q, --quiet     Quiet mode
+  -D, --debug     Debug mode : only output on screen nothing send to MS Teams
+  -d, --domain    Enable Red Flag Domains source
+  -r, --reminder  Enable monthly reminder of Feeds
 ```
 
 ### Proxy
@@ -138,15 +140,19 @@ I've added the following sources :
 * Microsoft Sentinel
 * SANS
 * [Red Flag Domains](https://red.flag.domains/) ⚠️ You shoudl use -d flag to enable this source dedicated to France 
+* [Google TAG](https://blog.google/threat-analysis-group/)  
 
 ## ToDo 
 
-* ~~Create a flag to activate or not the Red Flag Domains source because it's only for french~~ (version 2.1.1, not yet released) 
+* ~~Create a flag to activate or not the Red Flag Domains source because it's only for french~~ (released in version 2.3)
+* ~~Disable line with # in [Feed.csv](Feed.csv)~~ (in version 2.4 not released yet)
 
 ## Credit
 
 This was made by smelly__vx over a slow and boring weekend. We hope it provides some value to your channel and/or organization.
 
 Thanks to my fellow students from [🏴‍☠️ Ecole 2600](https://www.ecole2600.com) for the support and advice during nights 😛
+
+Thanks to the current users of this Bot who help me to improve it 
 
 Thanks to Olivier for the proxy documentation 🍻

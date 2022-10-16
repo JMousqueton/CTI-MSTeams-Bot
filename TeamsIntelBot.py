@@ -104,6 +104,48 @@ def GetRansomwareUpdates():
         FileConfig.write(FileHandle)
 
 # ---------------------------------------------------------------------------
+# Add nice Emoji in front of title   
+# ---------------------------------------------------------------------------
+def Emoji(feed):
+    # Nice emoji :) 
+    match feed:
+        case "Leak-Lookup":
+            Title = '💧 '
+        case "DataBreaches":
+            Title = '🕳 '
+        case "FR-CERT Alertes" | "FR-CERT Avis":
+            Title = '🇫🇷 '
+        case "EU-ENISA Publications":
+            Title = '🇪🇺 '
+        case "Cyber-News":
+            Title = '🕵🏻‍♂️ '
+        case "Bleeping Computer":
+            Title = '💻 '
+        case "Microsoft Sentinel":
+            Title = '🔭 '
+        case "Hacker News":
+            Title = '📰 '
+        case "ATT":
+            Title = '📞 '
+        case "Google TAG":
+            Title = '🔬 '
+        case "VirusBulletin":
+            Title = '🦠 '
+        case "US-CERT CISA":
+            Title = '🇺🇸 '
+        case "NCSC":
+            Title = '🇬🇧 '
+        case "SANS":
+            Title = '🌍 '
+        case "malpedia":
+            Title = '📖 '
+        case "Unit42":
+            Title = '🚨 '
+        case _:
+            Title = '📢 '
+    return Title
+
+# ---------------------------------------------------------------------------
 # Function fetch RSS feeds  
 # ---------------------------------------------------------------------------
 def GetRssFromUrl(RssItem):
@@ -138,43 +180,7 @@ def GetRssFromUrl(RssItem):
         OutputMessage += "Read more: " + RssObject.link
         OutputMessage += "<br>"
 
-        # Nice emoji :) 
-        match RssItem[1]:
-            case "Leak-Lookup":
-                Title = '💧 '
-            case "DataBreaches":
-                Title = '🕳 '
-            case "FR-CERT Alertes" | "FR-CERT Avis":
-                Title = '🇫🇷 '
-            case "EU-ENISA Publications":
-                Title = '🇪🇺 '
-            case "Cyber-News":
-                Title = '🕵🏻‍♂️ '
-            case "Bleeping Computer":
-                Title = '💻 '
-            case "Microsoft Sentinel":
-                Title = '🔭 '
-            case "Hacker News":
-                Title = '📰 '
-            case "ATT":
-                Title = '📞 '
-            case "Google TAG":
-                Title = '🔬 '
-            case "VirusBulletin":
-                Title = '🦠 '
-            case "US-CERT CISA":
-                Title = '🇺🇸 '
-            case "NCSC":
-                Title = '🇬🇧 '
-            case "SANS":
-                Title = '🌍 '
-            case "malpedia":
-                Title = '📖 '
-            case "Unit42":
-                Title = '🚨 '
-            case _:
-                Title = '📢 '
-
+        Title = Emoji(RssItem[1])
         Title += RssItem[1]
 
         if RssItem[1] == "VERSION":
@@ -237,6 +243,64 @@ def GetRedFlagDomains():
         FileConfig.write(FileHandle)
 
 # ---------------------------------------------------------------------------
+# Function Send Feeds Reminder 
+# ---------------------------------------------------------------------------
+def SendReminder():
+    now = datetime.now()
+    format = "%Y-%m-%d"
+    today = now.strftime(format)
+    lastmonth = now - timedelta(days=31)
+    lastmonth = lastmonth.strftime(format)
+    # lastmonth = datetime.strptime(lastmonth, '%Y-%m-%d')
+    print("Lastmonth : " + str(lastmonth))
+    try:
+        TmpObject = FileConfig.get('Misc',"reminder")
+    except:
+        FileConfig.set('Misc', "reminder", str(lastmonth))
+        TmpObject = str(lastmonth)
+   
+    TmpObject = datetime.strptime(TmpObject, '%Y-%m-%d')
+    today = datetime.strptime(today, '%Y-%m-%d')
+    if(TmpObject < today):
+        Title = "🤔 Feeds Reminder"
+        if options.Debug:
+            print(Title)
+        OutputMessage="Feeds : "
+        OutputMessage += "<br>"
+        with open('Feed.csv', newline='') as f:
+            reader = csv.reader(f)
+            RssFeedList = list(reader)
+
+        for RssItem in RssFeedList:
+            if '#' in str(RssItem[0]):
+                continue
+            Feed = feedparser.parse(RssItem[0])
+            try:
+                OutputMessage += Emoji(RssItem[1]) + RssItem[1]
+                OutputMessage += "<br>"
+            except:
+                try:
+                    OutputMessage += Emoji(RssItem[1]) + RssItem[1]
+                    OutputMessage += "<br>"
+                except:
+                    continue
+        if options.Domains: 
+            OutputMessage += "🚩 Red Flag Domains"
+            OutputMessage += "<br>"
+        OutputMessage += "🏴‍☠️ 🔒 Ransomware Leaks"
+        OutputMessage += "<br>"
+        today = today.strftime(format)
+        FileConfig.set('Misc', "reminder", str(today))
+        if options.Debug:
+            print(OutputMessage)
+        else: 
+            Send_Teams(Url,OutputMessage,Title)    
+
+    with open(ConfigurationFilePath, 'w') as FileHandle:
+        FileConfig.write(FileHandle)
+
+
+# ---------------------------------------------------------------------------
 # Log  
 # ---------------------------------------------------------------------------
 def CreateLogString(RssItem):
@@ -267,6 +331,11 @@ if __name__ == '__main__':
                       dest="Domains",
                       default=False,
                       help="Enable Red Flag Domains source",)
+    parser.add_option("-r", "--reminder",
+                      action="store_true",
+                      dest="Reminder",
+                      default=False,
+                      help="Enable monthly reminder of Feeds")
     (options, args) = parser.parse_args()
 
     # Get Microsoft Teams Webhook from Github Action CI:Env.  
@@ -295,6 +364,8 @@ if __name__ == '__main__':
         RssFeedList = list(reader)
             
     for RssItem in RssFeedList:
+        if '#' in str(RssItem[0]):
+            continue
         GetRssFromUrl(RssItem)
         CreateLogString(RssItem[1])
 
@@ -304,3 +375,7 @@ if __name__ == '__main__':
     if options.Domains: 
         GetRedFlagDomains()
         CreateLogString("Red Flag Domains")
+
+    if options.Reminder:
+        SendReminder()
+        CreateLogString("Reminder")

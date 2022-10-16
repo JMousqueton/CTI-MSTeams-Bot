@@ -18,6 +18,8 @@ with open('Feed.csv', newline='') as f:
     RssFeedList = list(reader)
 
 for RssItem in RssFeedList:
+    if '#' in str(RssItem[0]):
+                continue
     Feed = feedparser.parse(RssItem[0])
     try:
         print("✅ " + color.BOLD + RssItem[1] + color.END + " ("+ Feed.entries[0].published + ")")
