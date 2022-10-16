@@ -262,7 +262,7 @@ def SendReminder():
     TmpObject = datetime.strptime(TmpObject, '%Y-%m-%d')
     today = datetime.strptime(today, '%Y-%m-%d')
     if(TmpObject < today):
-        Title = "🤔 Feeds Reminder"
+        Title = "🤔 Monthly Feeds Reminder"
         if options.Debug:
             print(Title)
         OutputMessage="Feeds : "
