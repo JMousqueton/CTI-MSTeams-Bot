@@ -85,10 +85,12 @@ Options:
   -r, --reminder  Enable monthly reminder of Feeds
 ```
 
-For french user, I recommand using flags -d and -r 
+- For french user, I recommand using flags -d and -r 
+
 ```python3 TeamIntelBot.py -r -d```
 
-For other, only flag -r 
+- For other, only flag -r 
+
 ```python3 TeamIntelBot.py -r```
 
 ### Proxy
