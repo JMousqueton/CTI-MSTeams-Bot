@@ -276,11 +276,11 @@ def SendReminder():
                 continue
             Feed = feedparser.parse(RssItem[0])
             try:
-                OutputMessage += Emoji(RssItem[1]) + RssItem[1]
+                OutputMessage += Emoji(RssItem[1]) + RssItem[1] + "(" + Feed.entries[0].published + ")"
                 OutputMessage += "<br>"
             except:
                 try:
-                    OutputMessage += Emoji(RssItem[1]) + RssItem[1]
+                    OutputMessage += Emoji(RssItem[1]) + RssItem[1] "(" + Feed.entries[0].updated + ")"
                     OutputMessage += "<br>"
                 except:
                     continue
