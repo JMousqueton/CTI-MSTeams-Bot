@@ -290,7 +290,10 @@ def SendReminder():
         OutputMessage += "Ransomware :"
         OutputMessage += "<br>"
         OutputMessage += "🏴‍☠️ 🔒 Ransomware Leaks"
-        OutputMessage += "<br>"
+        OutputMessage += "<br><br>"
+        OutputMessage += "Coded with ❤️ by JMousqueton"
+        OutputMessage += "<BR>"
+        OutputMessage += "Code : https://github.com/JMousqueton/CTI-MSTeams-Bot"
         today = today.strftime(format)
         FileConfig.set('Misc', "reminder", str(today))
         if options.Debug:
