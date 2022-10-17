@@ -11,10 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Replace Google feed by Google TAG feed
 - Make Emoji a function  
+- Unit42 emoji 
 
 ### Add
 
 - Add Google TAG emoji
+- Add MSRC Security Update feed 
+- Add MSRC Security Update emoji 
 - Don't check Feed lines with # in [CheckFeed.py](checkFeed.py) and [TeamsIntelBot.py](TeamsIntelBot.py)
 - Monthly Feed Reminder (with corrected bug)
 

@@ -160,7 +160,7 @@ def Emoji(feed):
             Title = '🧾 '
         case "RedCanary":
             Title = '🦆 '
-        case "MS Security Update":
+        case "MSFC Security Update":
             Title = '🚨 '
         case _:
             Title = '📢 '
