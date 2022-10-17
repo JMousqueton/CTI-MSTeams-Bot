@@ -151,7 +151,7 @@ def Emoji(feed):
         case "malpedia":
             Title = '📖 '
         case "Unit42":
-            Title = '🚨 '
+            Title = '🚓 '
         case "Microsoft Security":
             Title = 'Ⓜ️ '
         case "Checkpoint Research":
@@ -160,6 +160,8 @@ def Emoji(feed):
             Title = '🧾 '
         case "RedCanary":
             Title = '🦆 '
+        case "MS Security Update":
+            Title = '🚨 '
         case _:
             Title = '📢 '
     return Title
