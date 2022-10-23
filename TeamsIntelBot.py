@@ -197,13 +197,14 @@ def GetRssFromUrl(RssItem):
 
         OutputMessage = "Date: " + DateActivity
         OutputMessage += "<br>"
-        OutputMessage += "Title:<b> " + RssObject.title
+        # OutputMessage += "Title:<b> " + RssObject.title
+        OutputMessage += "Source:<b> " + RssItem[1]
         OutputMessage += "</b><br>"
         OutputMessage += "Read more: " + RssObject.link
         OutputMessage += "<br>"
 
         Title = Emoji(RssItem[1])
-        Title += RssItem[1]
+        Title += RssObject.title
 
         if RssItem[1] == "VERSION":
                 Title ='🔥 A NEW VERSION IS AVAILABLE : ' + RssObject.title
