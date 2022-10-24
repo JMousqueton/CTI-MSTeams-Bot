@@ -2,7 +2,7 @@
 graham cluley = 2022-10-20T11:35:08
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-10-20T17:07:34
-dark reading = 2022-10-21T18:40:00
+dark reading = 2022-10-24T13:15:00
 we live security = 2022-10-21T13:15:23
 davinci forensics = 2022-10-22T09:18:14
 cisco = 2022-10-24T12:00:49
@@ -39,7 +39,7 @@ version = 2022-10-16T13:33:42
 redcanary = 2022-10-20T16:07:26
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2022-10-21T13:00:38
+unit42 = 2022-10-24T13:00:21
 google tag = 2022-09-07T11:00:00
 msrc security update = 2022-10-18T07:00:00
 
