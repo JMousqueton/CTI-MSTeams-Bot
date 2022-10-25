@@ -204,7 +204,7 @@ def GetRssFromUrl(RssItem):
         OutputMessage += "<br>"
 
         Title = Emoji(RssItem[1])
-        Title += RssObject.title
+        Title += " " + RssObject.title
 
         if RssItem[1] == "VERSION":
                 Title ='🔥 A NEW VERSION IS AVAILABLE : ' + RssObject.title
