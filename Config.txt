@@ -1,8 +1,8 @@
 [Rss]
-graham cluley = 2022-10-27T12:28:51
+graham cluley = 2022-10-27T15:22:20
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-10-20T17:07:34
-dark reading = 2022-10-27T15:08:18
+dark reading = 2022-10-27T15:13:19
 we live security = 2022-10-26T09:30:59
 davinci forensics = 2022-10-22T09:18:14
 cisco = 2022-10-27T12:00:50
@@ -36,7 +36,7 @@ microsoft sentinel = 2022-10-25T11:10:11
 ncc = 2022-09-30T08:40:24
 sans = 2022-10-27T14:06:50
 version = 2022-10-16T13:33:42
-redcanary = 2022-10-26T17:32:50
+redcanary = 2022-10-27T15:07:00
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2022-10-26T13:00:05
