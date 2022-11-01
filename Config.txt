@@ -115,6 +115,6 @@ qilin = 2022-10-08 05:43:11.666451
 shaoleaks = 2022-11-01 17:07:34.876018
 
 [Misc]
-redflagdomains = 2022-10-31
+redflagdomains = 2022-11-01
 reminder = 2022-10-16
 
