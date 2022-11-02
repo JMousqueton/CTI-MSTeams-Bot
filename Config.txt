@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2022-10-31T19:05:03
+graham cluley = 2022-11-02T10:42:49
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-10-31T20:53:27
 dark reading = 2022-11-02T19:00:00
