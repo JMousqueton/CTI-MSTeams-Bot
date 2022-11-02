@@ -116,5 +116,5 @@ shaoleaks = 2022-11-01 17:07:34.876018
 
 [Misc]
 redflagdomains = 2022-11-01
-reminder = 2022-10-16
+reminder = 2022-10-01
 
