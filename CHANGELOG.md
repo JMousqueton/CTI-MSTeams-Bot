@@ -11,13 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Replace Google feed by Google TAG feed
 - Make Emoji a function  
-- Unit42 emoji 
+- Unit42 emoji
 
 ### Add
 
 - Add Google TAG emoji
-- Add MSRC Security Update feed 
-- Add MSRC Security Update emoji 
+- Add MSRC Security Update feed
+- Add MSRC Security Update emoji
 - Don't check Feed lines with # in [CheckFeed.py](checkFeed.py) and [TeamsIntelBot.py](TeamsIntelBot.py)
 - Monthly Feed Reminder (with corrected bug)
 
@@ -25,11 +25,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Some minor changes 
+- Some minor changes
 
 ### Add
 
-- None 
+- None
 
 ## [2.2.0 UNRELEASED]- 2022-08-29
 
@@ -39,51 +39,51 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Add
 
-- French flag for ransomware domain hit in .fr 
+- French flag for ransomware domain hit in .fr
 - Unit42 Feed
-- DataBreaches Feed (disabled by default) 
+- DataBreaches Feed (disabled by default)
 
 ## [2.1.2 UNRELEASED]- 2022-08-23
 
 ### Changed
 
-- Modify Config.txt format 
+- Modify Config.txt format
 - Modify the order of reading RSS Feed
 
 ### Add
 
-- None 
+- None
 
 ## [2.1.0 UNRELEASED]- 2022-08-22
 
 ### Changed
 
-- Add a flag to enable Red Flag Domains source 
+- Add a flag to enable Red Flag Domains source
 
 ### Add
 
-- None 
+- None
 
 ## [2.0.2] - 2022-08-21
 
 ### Changed
 
-- Correct a bug in the debug condition 
+- Correct a bug in the debug condition
 
 ### Add
 
-- None 
+- None
 
 ## [2.0.0] - 2022-08-21
 
 ### Changed
 
-- None 
+- None
 
 ### Add
 
 - Options for CLI
-  - Debug mode for screen output only 
+  - Debug mode for screen output only
   - Quiet mode
 - Check python version in the script
-- And much more :)  
+- And much more :)
