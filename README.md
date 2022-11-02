@@ -1,78 +1,81 @@
 # 🏴‍☠️🤖 Threat Intelligence Teams Bot
 
-TITB is a fork from [Threat Intelligence Discord Bot from vx-underground](https://github.com/vxunderground/ThreatIntelligenceDiscordBot/) but for Microsoft Teams and modified to work as an hourly Github-Action 
+TITB is a fork from [Threat Intelligence Discord Bot from vx-underground](https://github.com/vxunderground/ThreatIntelligenceDiscordBot/) but for Microsoft Teams and modified to work as an hourly Github-Action
 
 > The vx-underground Threat Intelligence Discord Bot gets updates from various clearnet domains, ransomware threat actor domains This bot will check for updates in intervals of 1800 seconds.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-2.4.0-blue.svg)  [![Twitter: JMousqueton](https://img.shields.io/twitter/follow/JMousqueton.svg?style=social)](https://twitter.com/JMousqueton) [![Last Run](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/fetchCTI.yml/badge.svg)](.github/workflows/fetchCTI.yml)  [![CodeQL](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/codeql-analysis.yml/badge.svg)](.github/workflows/codeql-analysis.yml) 
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-2.4.0-blue.svg)  [![Twitter: JMousqueton](https://img.shields.io/twitter/follow/JMousqueton.svg?style=social)](https://twitter.com/JMousqueton) [![Last Run](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/fetchCTI.yml/badge.svg)](.github/workflows/fetchCTI.yml)  [![CodeQL](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/codeql-analysis.yml/badge.svg)](.github/workflows/codeql-analysis.yml)
 
 ## Description
 
-* Written in Python 
-   
-   ⚠️ required version Python 3.10+ 
+* Written in Python
+
+   ⚠️ required version Python 3.10+
 * Requires Teams Webhook
 
-Threat Intelligence Teams Bot gets updates from various clearnet domains and ransomware threat actor domains. 
+Threat Intelligence Teams Bot gets updates from various clearnet domains and ransomware threat actor domains.
 
-This bot will check for updates every 30 minutes. 
+This bot will check for updates every 30 minutes.
 
-The change I've made : 
+The change I've made :
 
 * GitHub-Action : see the [fetchCTI.yml](.github/workflows/fetchCTI.yml) file.
 * Feeds List is externalized from the source code to the file [Feed.csv](Feed.csv)
 * Use JSON lib to get ransomware attacks list from [Ransomwatch](https://ransomwatch.mousqueton.io)
-* Add an emoji in front of the MS Teams Card related to some sources 
-* Use only one MS Teams Channel 
-* Refactoring with best practices 
+* Add an emoji in front of the MS Teams Card related to some sources
+* Use only one MS Teams Channel
+* Refactoring with best practices
 * No need to add any entry in [Config.txt](Config.txt) (automaticaly add)
 * Check that python 3.10+ is present (needed for some functions)
 * Add a [requirements.txt](requirements.txt)
-* Add a [feedCheck.py](checkFeed.py) script to check the health of the feed from [Feed.csv](Feed.csv) file 
+* Add a [feedCheck.py](checkFeed.py) script to check the health of the feed from [Feed.csv](Feed.csv) file
 * Add Options for command line [usage](#usage)
-* Check if a new version is available 
-* Add [new sources](#sources) 
+* Check if a new version is available
+* Add [new sources](#sources)
 
-I've decided to remove the TelegramBot because it was not relevant for my needs. 
+I've decided to remove the TelegramBot because it was not relevant for my needs.
 
 ![](Screenshot.png)
 
 ## Installation
 
-Clone the repository or download the [latest release](https://github.com/JMousqueton/CTI-MSTeams-Bot/releases/latest) 
+Clone the repository or download the [latest release](https://github.com/JMousqueton/CTI-MSTeams-Bot/releases/latest)
 
-```
+```bash
 git clone https://github.com/JMousqueton/CTI-MSTeams-Bot
 ```
 
 Install all the modules in ```requirements.txt```
-```
+
+```bash
 pip3 install -r requirements.txt
 ```
+
 ## Configuration
 
-### Github Action 
+### Github Action
 
 * Create a MS-Teams WebHook  
-* in an environment you will called `CI`, paste the created webhook url in a `MSTEAMS_WEBHOOK` variable. 
+* in an environment you will called `CI`, paste the created webhook url in a `MSTEAMS_WEBHOOK` variable.
 
-### On a server (Windows, MacOS, Linux) 
+### On a server (Windows, MacOS, Linux)
 
 * Create a variable called ```MSTEAMS_WEBHOOK``` with the webhook URL
 
-Example 
+Example:
 
-```
+```bash
 MSTEAMS_WEBHOOK=https://mousqueton.webhook.office.com/webhookb2/08589F1C-EEA2-4C92-A08B-66E59692FDE3/IncomingWebhook/3DEFFDD9-F3A8-4351-BDA7-142FAFB7473A
 python3 TeamIntelBot.py -r -d 
 ```
+
 * Schedule the script for example every hours via the crontab
 
 *Note: the IDs have been generated with uuidgen for example purpose* 😛
 
-## Usage 
+## Usage
 
-```
+```bash
 python3 TeamsIntelBot.py -h
 Usage: TeamsIntelBot.py [options]
 
@@ -85,25 +88,26 @@ Options:
   -r, --reminder  Enable monthly reminder of Feeds
 ```
 
-- For french user, I recommand using flags -d and -r 
+- For french user, I recommand using flags -d and -r
 
 ```python3 TeamIntelBot.py -r -d```
 
-- For other, only flag -r 
+- For other, only flag -r
 
 ```python3 TeamIntelBot.py -r```
 
 ### Proxy
 
-If you use a proxy don't forget to use the proxies variables : 
-```
+If you use a proxy don't forget to use the proxies variables:
+
+```bash
 set https_proxy=http://x.x.x.x:port
 set http_proxy=http://x.x.x.x:port
 ```
 
-I've also add a script called ```checkFeed.py``` to check if feeds are valids and what is the last published date. This script read the ```Feed.csv``` file. 
+I've also add a script called ```checkFeed.py``` to check if feeds are valid and what is the last published date. This script read the ```Feed.csv``` file.
 
-```
+```bash
 python3 checkFeed.py 
 
 ✅ Modexp (Sun, 31 Jul 2022 00:01:53 +0000)
@@ -128,29 +132,30 @@ python3 checkFeed.py
 ## Adding or removing RSS Feeds to monitor
 All monitored RSS feeds are in [Feed.csv](Feed.csv) file. To add a new RSS feed simply append a new entry. e.g.
 
-In the ```Feed.csv``` file :
-```
+In the ```Feed.csv``` file:
+
+```text
 https://grahamcluley.com/feed/,Graham Cluley
 https://1337WebsiteIWannaFollow.com/feed/,1337Website
 ```
 
-## Sources 
+## Sources
 
-I've added the following sources : 
+I've added the following sources :
 
-* 🇫🇷 FR-CERT Avis (aka [ANSSI](https://www.ssi.gouv.fr/)) : notifications from gov French CERT 
-* 🇫🇷 FR-CERT Alertes (aka [ANSSI](https://www.ssi.gouv.fr/)) : Alerts from gov French CERT 
-* [Leak-lookup](https://leak-lookup.com/) : Leak notification 
+* 🇫🇷 FR-CERT Avis (aka [ANSSI](https://www.ssi.gouv.fr/)) : notifications from gov French CERT
+* 🇫🇷 FR-CERT Alertes (aka [ANSSI](https://www.ssi.gouv.fr/)) : Alerts from gov French CERT
+* [Leak-lookup](https://leak-lookup.com/) : Leak notification
 * [Cyber-News](https://www.cyber-news.fr)
-* ATT CyberSecurity Blog 
-* 🇪🇺 ENSIA Publications 
-* NCC Group 
+* ATT CyberSecurity Blog
+* 🇪🇺 ENSIA Publications
+* NCC Group
 * Microsoft Sentinel
 * SANS
-* [Red Flag Domains](https://red.flag.domains/) ⚠️ You shoudl use -d flag to enable this source dedicated to France 
+* [Red Flag Domains](https://red.flag.domains/) ⚠️ You shoudl use -d flag to enable this source dedicated to France
 * [Google TAG](https://blog.google/threat-analysis-group/)  
 
-## ToDo 
+## ToDo
 
 * ~~Create a flag to activate or not the Red Flag Domains source because it's only for french~~ (released in version 2.3)
 * ~~Disable line with # in [Feed.csv](Feed.csv)~~ (in version 2.4 not released yet)
@@ -161,6 +166,6 @@ This was made by smelly__vx over a slow and boring weekend. We hope it provides 
 
 Thanks to my fellow students from [🏴‍☠️ Ecole 2600](https://www.ecole2600.com) for the support and advice during nights 😛
 
-Thanks to the current users of this Bot who help me to improve it 
+Thanks to the current users of this Bot who help me to improve it
 
 Thanks to Olivier for the proxy documentation 🍻
