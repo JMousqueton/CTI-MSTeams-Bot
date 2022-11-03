@@ -2,14 +2,14 @@
 graham cluley = 2022-11-03T16:22:21
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-11-03T14:43:22
-dark reading = 2022-11-03T19:05:00
+dark reading = 2022-11-03T21:15:00
 we live security = 2022-11-03T10:30:34
 davinci forensics = 2022-10-22T09:18:14
 cisco = 2022-11-03T12:00:01
 information security magazine = 2022-11-03T17:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2022-11-03T00:00:00
-bleeping computer = 2022-11-03T19:36:50
+bleeping computer = 2022-11-03T21:33:26
 proof point = 2022-10-31T11:57:56
 us-cert cisa = 2022-10-21T14:29:15
 fr-cert alertes = 2022-10-14T10:55:08
