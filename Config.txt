@@ -2,7 +2,7 @@
 graham cluley = 2022-11-08T14:37:02
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-11-04T21:09:52
-dark reading = 2022-11-08T21:32:13
+dark reading = 2022-11-08T22:00:00
 we live security = 2022-11-07T10:30:30
 davinci forensics = 2022-10-22T09:18:14
 cisco = 2022-11-08T13:00:47
@@ -114,7 +114,7 @@ sparta = 2022-09-22 17:47:19.862890
 qilin = 2022-10-08 05:43:11.666451
 shaoleaks = 2022-11-01 17:07:34.876018
 mallox = 2022-11-04 17:45:54.330252
-royal = 2022-11-07 21:13:39.454449
+royal = 2022-11-08 23:16:44.097795
 
 [Misc]
 redflagdomains = 2022-11-07
