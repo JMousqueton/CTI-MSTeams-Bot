@@ -2,7 +2,7 @@
 graham cluley = 2022-11-11T11:49:29
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-11-10T18:11:10
-dark reading = 2022-11-14T19:45:00
+dark reading = 2022-11-14T21:45:00
 we live security = 2022-11-14T10:30:11
 davinci forensics = 2022-11-09T07:03:12
 cisco = 2022-11-14T13:00:55
@@ -41,7 +41,7 @@ malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2022-11-14T14:00:58
 google tag = 2022-11-10T20:15:00
-msrc security update = 2022-11-10T17:16:41
+msrc security update = 2022-11-14T08:00:00
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
