@@ -39,7 +39,7 @@ version = 2022-10-16T13:33:42
 redcanary = 2022-11-09T13:58:50
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2022-11-14T14:00:58
+unit42 = 2022-11-16T14:00:59
 google tag = 2022-11-10T20:15:00
 msrc security update = 2022-11-15T08:00:00
 
