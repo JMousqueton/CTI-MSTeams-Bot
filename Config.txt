@@ -119,6 +119,6 @@ projectrelic = 2022-11-11 16:34:34.835578
 medusa = 2022-11-15 07:39:16.766218
 
 [Misc]
-redflagdomains = 2022-11-18
+redflagdomains = 2022-11-19
 reminder = 2022-11-02
 
