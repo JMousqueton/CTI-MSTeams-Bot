@@ -162,6 +162,8 @@ def Emoji(feed):
             Title = '🦆 '
         case "MSRC Security Update":
             Title = '🚨 '
+        case "CIRCL Luxembourg":
+            Title = '🇱🇺 '
         case _:
             Title = '📢 '
     return Title
