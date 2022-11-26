@@ -87,10 +87,10 @@ def GetRansomwareUpdates():
         
         Title = "🏴‍☠️ 🔒 "     
 
-        Title += Entries["post_title"].replace("*.", "")
-
         if Entries["post_title"].find(".fr") != -1:
             Title += " 🇫🇷 "
+
+        Title += Entries["post_title"].replace("*.", "")
 
         if options.Debug:
             print(Entries["group_name"] + " = " + Title + " ("  + Entries["discovered"]+")")
