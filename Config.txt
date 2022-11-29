@@ -2,11 +2,11 @@
 graham cluley = 2022-11-24T16:37:10
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-11-28T22:08:21
-dark reading = 2022-11-29T16:52:43
+dark reading = 2022-11-29T18:00:00
 we live security = 2022-11-28T15:23:40
 davinci forensics = 2022-11-09T07:03:12
 cisco = 2022-11-29T13:00:53
-information security magazine = 2022-11-29T17:00:00
+information security magazine = 2022-11-29T18:12:00
 google = 2022-10-12T12:00:00
 trend micro = 2022-11-23T00:00:00
 bleeping computer = 2022-11-29T16:46:35
@@ -120,6 +120,6 @@ medusa = 2022-11-15 07:39:16.766218
 play = 2022-11-29 00:12:48.688390
 
 [Misc]
-redflagdomains = 2022-11-28
+redflagdomains = 2022-11-29
 reminder = 2022-11-02
 
