@@ -9,7 +9,7 @@ cisco = 2022-11-29T21:11:25
 information security magazine = 2022-11-30T18:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2022-11-29T00:00:00
-bleeping computer = 2022-11-30T17:52:12
+bleeping computer = 2022-11-30T20:12:48
 proof point = 2022-11-23T14:57:59
 us-cert cisa = 2022-11-17T17:00:00
 fr-cert alertes = 2022-10-14T10:55:08
@@ -120,6 +120,6 @@ medusa = 2022-11-15 07:39:16.766218
 play = 2022-11-29 00:12:48.688390
 
 [Misc]
-redflagdomains = 2022-11-29
+redflagdomains = 2022-11-30
 reminder = 2022-11-02
 
