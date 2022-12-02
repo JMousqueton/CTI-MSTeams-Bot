@@ -9,7 +9,7 @@ cisco = 2022-11-29T21:11:25
 information security magazine = 2022-12-02T18:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2022-12-01T00:00:00
-bleeping computer = 2022-12-02T21:15:12
+bleeping computer = 2022-12-02T21:44:44
 proof point = 2022-11-30T13:20:48
 us-cert cisa = 2022-12-01T18:04:01
 fr-cert alertes = 2022-10-14T10:55:08
@@ -41,7 +41,7 @@ malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2022-12-02T14:00:00
 google tag = 2022-12-01T21:00:00
-msrc security update = 2022-11-28T15:34:45
+msrc security update = 2022-12-02T08:00:00
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
