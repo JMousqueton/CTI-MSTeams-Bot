@@ -122,5 +122,5 @@ dataleak = 2022-12-02 09:45:25.796276
 
 [Misc]
 redflagdomains = 2022-12-01
-reminder = 2022-11-02
+reminder = 2022-12-04
 
