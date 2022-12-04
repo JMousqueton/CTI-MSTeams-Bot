@@ -121,6 +121,6 @@ play = 2022-11-29 00:12:48.688390
 dataleak = 2022-12-02 09:45:25.796276
 
 [Misc]
-redflagdomains = 2022-12-01
+redflagdomains = 2022-12-04
 reminder = 2022-12-04
 
