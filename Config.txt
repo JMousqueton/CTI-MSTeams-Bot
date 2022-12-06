@@ -2,7 +2,7 @@
 graham cluley = 2022-12-05T20:31:17
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2022-12-05T19:44:50
-dark reading = 2022-12-06T20:05:00
+dark reading = 2022-12-06T20:50:00
 we live security = 2022-12-05T10:30:26
 davinci forensics = 2022-11-09T07:03:12
 cisco = 2022-12-06T13:00:28
@@ -121,6 +121,6 @@ play = 2022-12-06 07:55:44.928118
 dataleak = 2022-12-02 09:45:25.796276
 
 [Misc]
-redflagdomains = 2022-12-04
+redflagdomains = 2022-12-06
 reminder = 2022-12-04
 
