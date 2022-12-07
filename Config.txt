@@ -5,7 +5,7 @@ krebs on security = 2022-12-05T19:44:50
 dark reading = 2022-12-07T00:03:00
 we live security = 2022-12-05T10:30:26
 davinci forensics = 2022-11-09T07:03:12
-cisco = 2022-12-06T13:00:28
+cisco = 2022-12-07T02:30:54
 information security magazine = 2022-12-06T18:06:00
 google = 2022-10-12T12:00:00
 trend micro = 2022-12-01T00:00:00
@@ -117,7 +117,7 @@ mallox = 2022-11-04 17:45:54.330252
 royal = 2022-12-04 05:04:24.392112
 projectrelic = 2022-11-11 16:34:34.835578
 medusa = 2022-11-15 07:39:16.766218
-play = 2022-12-06 07:55:44.928118
+play = 2022-12-07 02:57:01.003579
 dataleak = 2022-12-02 09:45:25.796276
 
 [Misc]
