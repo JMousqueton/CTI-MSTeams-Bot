@@ -124,6 +124,6 @@ nokoyawa = 2022-12-09 23:16:12.242301
 hive = 2022-12-10 13:48:33.387761
 
 [Misc]
-redflagdomains = 2022-12-09
+redflagdomains = 2022-12-10
 reminder = 2022-12-04
 
