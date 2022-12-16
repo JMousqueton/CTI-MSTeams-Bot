@@ -125,6 +125,6 @@ hive = 2022-12-14 22:57:16.227895
 karakurt = 2022-12-16 02:05:45.750238
 
 [Misc]
-redflagdomains = 2022-12-15
+redflagdomains = 2022-12-16
 reminder = 2022-12-04
 
