@@ -76,7 +76,11 @@ def GetRansomwareUpdates():
         #    FileConfig.set('Ransomware', Entries["group_name"], Entries["discovered"])
 
         OutputMessage = "Group : <b>"
+        OutputMessage += "<a href=https://www.ransomware.live/#/profiles?id="
         OutputMessage += Entries["group_name"]
+        OutputMessage += "\">"
+        OutputMessage += Entries["group_name"]
+        OutputMessage += "</a>"
         OutputMessage += "</b><br>🗓 "
         OutputMessage += Entries["discovered"]
         OutputMessage += "</b><br>🌍 <a href=\"https://www.google.com/search?q="
@@ -90,7 +94,9 @@ def GetRansomwareUpdates():
         if Entries["post_title"].find(".fr") != -1:
             Title += " 🇫🇷 "
 
-        Title += Entries["post_title"].replace("*.", "")
+        Title += Entries["post_title"].replace("*.", "") 
+        Title += " by "
+        Title += Entries["group_name"]
 
         if options.Debug:
             print(Entries["group_name"] + " = " + Title + " ("  + Entries["discovered"]+")")
