@@ -126,6 +126,6 @@ karakurt = 2022-12-21 13:14:28.705671
 unsafe = 2022-12-21 12:45:06.962329
 
 [Misc]
-redflagdomains = 2022-12-22
+redflagdomains = 2022-12-23
 reminder = 2022-12-04
 
