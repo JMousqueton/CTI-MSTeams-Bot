@@ -76,7 +76,7 @@ def GetRansomwareUpdates():
         #    FileConfig.set('Ransomware', Entries["group_name"], Entries["discovered"])
 
         OutputMessage = "Group : <b>"
-        OutputMessage += "<a href=https://www.ransomware.live/#/profiles?id="
+        OutputMessage += "<a href=\"https://www.ransomware.live/#/profiles?id="
         OutputMessage += Entries["group_name"]
         OutputMessage += "\">"
         OutputMessage += Entries["group_name"]
