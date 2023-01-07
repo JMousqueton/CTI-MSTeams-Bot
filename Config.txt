@@ -127,6 +127,6 @@ unsafe = 2022-12-21 12:45:06.962329
 freecivilian = 2022-12-31 16:06:42.927121
 
 [Misc]
-redflagdomains = 2023-01-06
+redflagdomains = 2023-01-07
 reminder = 2023-01-05
 
