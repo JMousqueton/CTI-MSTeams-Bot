@@ -22,6 +22,7 @@ from optparse import OptionParser
 import urllib.request
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
+import re
 
 # ---------------------------------------------------------------------------
 # Function to send MS-Teams card 
@@ -251,25 +252,28 @@ def GetRedFlagDomains():
     TmpObject = TmpObject.date()
 
     if(TmpObject < today):
-        url="https://red.flag.domains/posts/"+ str(today) + "/"
-        try:
+            url="https://red.flag.domains/posts/"+ str(today) + "/"
+        #try:
             response = urllib.request.urlopen(url)
             soup = BeautifulSoup(response, 
                                 'html.parser', 
                                 from_encoding=response.info().get_param('charset'))
-            response_status = response.status
-            if soup.findAll("meta", property="og:description"):
-                OutputMessage = soup.find("meta", property="og:description")["content"][4:].replace('.wf ','').replace('.yt ','').replace('.re ','').replace('[','').replace(']','')
-                Title = "🚩 Red Flag Domains créés ce jour (" +  str(today) + ")"
-                FileConfig.set('Misc', "redflagdomains", str(today))
-                if options.Debug:
-                    print(Title)
-                    # print(OutputMessage)
-                else:
-                    Send_Teams(Url,OutputMessage.replace('\n','<br>'),Title)
-                    time.sleep(3)
-        except:
-            pass 
+            # response_status = response.status
+            #if soup.findAll("meta", property="og:description"):
+            #    OutputMessage = soup.find("meta", property="og:description")["content"][4:].replace('.wf ','').replace('.yt ','').replace('.re ','').replace('[','').replace(']','')
+            div = soup.find("div", {"class": "content", "itemprop": "articleBody"})
+            for p in div.find_all("p"):
+                OutputMessage = re.sub("[\[\]]", "", (p.get_text()))
+            Title = "🚩 Red Flag Domains créés ce jour (" +  str(today) + ")"
+            FileConfig.set('Misc', "redflagdomains", str(today))
+            if options.Debug:
+                print(Title)
+                print(OutputMessage)
+            else:
+                Send_Teams(Url,OutputMessage.replace('\n','<br>'),Title)
+                time.sleep(3)
+        #except:
+        #    pass 
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
 
