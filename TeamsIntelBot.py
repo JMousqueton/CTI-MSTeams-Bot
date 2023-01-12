@@ -252,8 +252,8 @@ def GetRedFlagDomains():
     TmpObject = TmpObject.date()
 
     if(TmpObject < today):
-            url="https://red.flag.domains/posts/"+ str(today) + "/"
-        #try:
+        url="https://red.flag.domains/posts/"+ str(today) + "/"
+        try:
             response = urllib.request.urlopen(url)
             soup = BeautifulSoup(response, 
                                 'html.parser', 
@@ -272,8 +272,8 @@ def GetRedFlagDomains():
             else:
                 Send_Teams(Url,OutputMessage.replace('\n','<br>'),Title)
                 time.sleep(3)
-        #except:
-        #    pass 
+        except:
+            pass 
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
 
