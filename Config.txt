@@ -13,7 +13,7 @@ bleeping computer = 2023-01-17T15:06:12
 proof point = 2023-01-03T05:30:00
 us-cert cisa = 2022-12-01T18:04:01
 fr-cert alertes = 2022-12-16T08:29:26
-fr-cert avis = 2023-01-16T09:54:04
+fr-cert avis = 2023-01-17T08:28:15
 hacker news = 2023-01-17T14:12:00
 schneier on security = 2023-01-17T12:02:26
 ncsc = 2122-12-17T00:00:00
@@ -127,6 +127,6 @@ unsafe = 2022-12-21 12:45:06.962329
 freecivilian = 2022-12-31 16:06:42.927121
 
 [Misc]
-redflagdomains = 2023-01-16
+redflagdomains = 2023-01-17
 reminder = 2023-01-05
 
