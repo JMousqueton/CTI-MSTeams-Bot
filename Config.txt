@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2023-01-23T13:34:08
+graham cluley = 2023-01-23T20:06:16
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-01-20T04:09:22
 dark reading = 2023-02-01T14:00:00
@@ -9,7 +9,7 @@ cisco = 2023-01-18T13:00:27
 information security magazine = 2023-01-23T18:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-01-18T00:00:00
-bleeping computer = 2023-01-23T18:39:32
+bleeping computer = 2023-01-23T19:36:20
 proof point = 2023-01-19T10:07:30
 us-cert cisa = 2022-12-01T18:04:01
 fr-cert alertes = 2022-12-16T08:29:26
@@ -48,7 +48,7 @@ suncrypt = 2022-06-18 02:21:01.442528
 lockbit2 = 2022-08-06 20:48:04.576723
 arvinclub = 2022-04-21 17:36:07.558909
 quantum = 2022-12-09 04:22:35.604272
-alphv = 2023-01-19 02:49:53.506682
+alphv = 2023-01-23 20:57:03.715566
 lorenz = 2023-01-10 15:22:19.610442
 avoslocker = 2023-01-07 12:30:32.677868
 avaddon = 2021-09-09 23:46:54.365433
@@ -127,6 +127,6 @@ unsafe = 2022-12-21 12:45:06.962329
 freecivilian = 2022-12-31 16:06:42.927121
 
 [Misc]
-redflagdomains = 2023-01-22
+redflagdomains = 2023-01-23
 reminder = 2023-01-05
 
