@@ -1,7 +1,7 @@
 [Rss]
 graham cluley = 2023-02-16T20:06:51
 threatpost = 2022-08-31T12:57:48
-krebs on security = 2023-02-14T21:01:41
+krebs on security = 2023-02-17T21:09:07
 dark reading = 2023-02-17T19:00:40
 we live security = 2023-02-16T16:15:08
 davinci forensics = 2023-02-13T07:59:55
@@ -41,7 +41,7 @@ malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2023-02-15T14:00:28
 google tag = 2023-02-16T09:00:00
-msrc security update = 2023-02-16T08:00:00
+msrc security update = 2023-02-17T08:00:00
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
@@ -131,6 +131,6 @@ v = 2022-11-15 07:39:16.214881
 memedusalockerdusa = 2022-11-15 07:39:16.366613
 
 [Misc]
-redflagdomains = 2023-02-16
+redflagdomains = 2023-02-17
 reminder = 2023-02-06
 
