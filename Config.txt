@@ -1,12 +1,12 @@
 [Rss]
-graham cluley = 2023-02-23T00:28:26
+graham cluley = 2023-02-23T16:44:01
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-02-17T21:09:07
 dark reading = 2023-02-23T15:00:00
 we live security = 2023-02-22T10:30:16
 davinci forensics = 2023-02-13T07:59:55
 cisco = 2023-02-10T09:00:00
-information security magazine = 2023-02-23T15:30:00
+information security magazine = 2023-02-23T16:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-02-21T00:00:00
 bleeping computer = 2023-02-23T15:00:53
@@ -36,7 +36,7 @@ microsoft sentinel = 2023-02-13T22:51:11
 ncc = 2023-02-17T15:30:38
 sans = 2023-02-23T02:00:02
 version = 2022-10-16T13:33:42
-redcanary = 2023-02-14T16:51:09
+redcanary = 2023-02-23T16:17:53
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2023-02-15T14:00:28
