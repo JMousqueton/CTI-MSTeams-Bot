@@ -131,6 +131,6 @@ v = 2022-11-15 07:39:16.214881
 memedusalockerdusa = 2022-11-15 07:39:16.366613
 
 [Misc]
-redflagdomains = 2023-03-06
+redflagdomains = 2023-03-07
 reminder = 2023-02-06
 
