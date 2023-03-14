@@ -9,13 +9,13 @@ cisco = 2023-02-10T09:00:00
 information security magazine = 2023-03-14T17:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-03-13T00:00:00
-bleeping computer = 2023-03-14T18:31:39
+bleeping computer = 2023-03-14T18:53:49
 proof point = 2023-03-10T15:57:05
 us-cert cisa = 2023-02-24T19:04:05
 fr-cert alertes = 2023-03-14T16:01:19
 fr-cert avis = 2023-03-14T16:40:26
 hacker news = 2023-03-14T12:02:00
-schneier on security = 2023-03-14T16:01:43
+schneier on security = 2023-03-14T19:08:15
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-03-09T05:25:40
 binary defense = 2023-01-12T11:51:07
@@ -40,7 +40,7 @@ redcanary = 2023-03-13T16:10:05
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2023-03-10T14:00:32
-google tag = 2023-03-01T20:00:00
+google tag = 2023-03-14T19:00:00
 msrc security update = 2023-03-14T07:00:00
 
 [Ransomware]
