@@ -132,6 +132,6 @@ memedusalockerdusa = 2022-11-15 07:39:16.366613
 darkpower = 2023-03-11 14:03:02.165601
 
 [Misc]
-redflagdomains = 2023-03-18
+redflagdomains = 2023-03-19
 reminder = 2023-03-10
 
