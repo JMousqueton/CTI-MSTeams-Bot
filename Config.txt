@@ -14,7 +14,7 @@ proof point = 2023-03-16T14:22:32
 us-cert cisa = 2023-03-15T19:20:17
 fr-cert alertes = 2023-03-15T14:59:48
 fr-cert avis = 2023-03-17T14:24:59
-hacker news = 2023-03-20T10:44:00
+hacker news = 2023-03-20T12:26:00
 schneier on security = 2023-03-17T21:19:50
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-03-15T05:37:25
@@ -39,7 +39,7 @@ version = 2022-10-16T13:33:42
 redcanary = 2023-03-17T15:47:26
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2023-03-16T13:00:56
+unit42 = 2023-03-20T13:00:47
 google tag = 2023-03-14T19:00:00
 msrc security update = 2023-03-16T07:00:00
 
