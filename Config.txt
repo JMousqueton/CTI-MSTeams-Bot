@@ -17,7 +17,7 @@ fr-cert avis = 2023-03-21T13:14:18
 hacker news = 2023-03-22T04:37:00
 schneier on security = 2023-03-21T12:34:27
 ncsc = 2122-12-17T00:00:00
-center of internet security = 2023-03-15T05:37:25
+center of internet security = 2023-03-22T06:35:34
 binary defense = 2023-01-12T11:51:07
 securelist = 2023-03-21T08:00:37
 checkpoint research = 2023-03-20T16:19:35
@@ -130,7 +130,7 @@ medusalocker = 2022-11-15 07:39:16.766218
 v = 2022-11-15 07:39:16.214881
 memedusalockerdusa = 2022-11-15 07:39:16.366613
 darkpower = 2023-03-11 14:03:02.165601
-abyss = 2023-03-22 05:08:27.820198
+abyss = 2023-03-22 07:07:07.672656
 
 [Misc]
 redflagdomains = 2023-03-21
