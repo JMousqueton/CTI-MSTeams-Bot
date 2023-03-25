@@ -34,7 +34,7 @@ eu-enisa publications = 2023-03-20T23:00:00
 att = 2023-03-23T10:00:00
 microsoft sentinel = 2023-03-20T12:54:04
 ncc = 2023-02-17T15:30:38
-sans = 2023-03-24T02:00:01
+sans = 2023-03-25T19:56:15
 version = 2022-10-16T13:33:42
 redcanary = 2023-03-23T18:12:19
 malpedia = 2022-09-20T15:01:28
@@ -133,6 +133,6 @@ darkpower = 2023-03-11 14:03:02.165601
 abyss = 2023-03-22 07:07:07.672656
 
 [Misc]
-redflagdomains = 2023-03-24
+redflagdomains = 2023-03-25
 reminder = 2023-03-10
 
