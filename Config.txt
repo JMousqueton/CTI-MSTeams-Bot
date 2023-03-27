@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2023-03-23T17:52:43
+graham cluley = 2023-03-27T13:01:40
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-03-22T23:11:08
 dark reading = 2023-03-24T21:40:00
@@ -13,7 +13,7 @@ bleeping computer = 2023-03-26T16:03:06
 proof point = 2023-03-21T15:34:47
 us-cert cisa = 2023-03-15T19:20:17
 fr-cert alertes = 2023-03-15T14:59:48
-fr-cert avis = 2023-03-24T13:57:11
+fr-cert avis = 2023-03-27T12:10:59
 hacker news = 2023-03-27T10:56:00
 schneier on security = 2023-03-27T11:03:13
 ncsc = 2122-12-17T00:00:00
@@ -39,7 +39,7 @@ version = 2022-10-16T13:33:42
 redcanary = 2023-03-23T18:12:19
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2023-03-24T13:00:30
+unit42 = 2023-03-27T13:00:33
 google tag = 2023-03-14T19:00:00
 msrc security update = 2023-03-24T07:00:00
 
