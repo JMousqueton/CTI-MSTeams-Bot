@@ -6,7 +6,7 @@ dark reading = 2023-03-24T21:40:00
 we live security = 2023-03-24T15:50:33
 davinci forensics = 2023-03-12T10:35:01
 cisco = 2023-02-10T09:00:00
-information security magazine = 2023-03-27T09:00:00
+information security magazine = 2023-03-27T09:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-03-27T00:00:00
 bleeping computer = 2023-03-26T16:03:06
@@ -100,7 +100,7 @@ onyx = 2022-11-21 14:16:29.181128
 mindware = 2022-05-05 13:42:39.179439
 ransomhouse = 2023-03-24 21:53:30.193814
 cheers = 2022-09-14 11:00:11.961979
-lockbit3 = 2023-03-27 05:08:40.735817
+lockbit3 = 2023-03-27 09:10:35.687098
 yanluowang = 2022-08-10 16:55:19.472715
 0mega = 2023-02-12 02:46:50.545309
 bianlian = 2023-03-16 23:20:18.254282
@@ -130,7 +130,7 @@ medusalocker = 2022-11-15 07:39:16.766218
 v = 2022-11-15 07:39:16.214881
 memedusalockerdusa = 2022-11-15 07:39:16.366613
 darkpower = 2023-03-11 14:03:02.165601
-abyss = 2023-03-22 07:07:07.672656
+abyss = 2023-03-27 09:09:59.118655
 
 [Misc]
 redflagdomains = 2023-03-25
