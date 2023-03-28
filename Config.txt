@@ -1,7 +1,7 @@
 [Rss]
 graham cluley = 2023-03-27T17:04:07
 threatpost = 2022-08-31T12:57:48
-krebs on security = 2023-03-22T23:11:08
+krebs on security = 2023-03-28T17:26:07
 dark reading = 2023-03-28T17:05:00
 we live security = 2023-03-24T15:50:33
 davinci forensics = 2023-03-12T10:35:01
@@ -133,6 +133,6 @@ darkpower = 2023-03-11 14:03:02.165601
 abyss = 2023-03-27 09:09:59.118655
 
 [Misc]
-redflagdomains = 2023-03-27
+redflagdomains = 2023-03-28
 reminder = 2023-03-10
 
