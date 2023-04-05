@@ -2,7 +2,7 @@
 graham cluley = 2023-04-04T07:29:34
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-04-04T21:04:11
-dark reading = 2023-04-04T22:28:00
+dark reading = 2023-04-05T00:00:00
 we live security = 2023-04-04T09:30:18
 davinci forensics = 2023-03-12T10:35:01
 cisco = 2023-02-10T09:00:00
@@ -14,7 +14,7 @@ proof point = 2023-03-30T13:37:28
 us-cert cisa = 2023-03-15T19:20:17
 fr-cert alertes = 2023-03-31T08:35:01
 fr-cert avis = 2023-04-04T07:48:05
-hacker news = 2023-04-05T08:35:00
+hacker news = 2023-04-05T11:49:00
 schneier on security = 2023-04-04T14:10:27
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-04-04T07:57:18
@@ -40,7 +40,7 @@ redcanary = 2023-03-30T14:24:41
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2023-04-05T10:00:53
-google tag = 2023-03-30T21:00:00
+google tag = 2023-04-05T12:00:00
 msrc security update = 2023-03-30T07:00:00
 
 [Ransomware]
