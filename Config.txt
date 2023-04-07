@@ -9,13 +9,13 @@ cisco = 2023-02-10T09:00:00
 information security magazine = 2023-04-06T16:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-04-03T00:00:00
-bleeping computer = 2023-04-07T18:22:20
+bleeping computer = 2023-04-07T21:07:52
 proof point = 2023-03-30T13:37:28
 us-cert cisa = 2023-03-15T19:20:17
 fr-cert alertes = 2023-03-31T08:35:01
 fr-cert avis = 2023-04-07T12:06:53
 hacker news = 2023-04-07T12:32:00
-schneier on security = 2023-04-06T10:59:21
+schneier on security = 2023-04-07T21:04:56
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-04-05T13:38:02
 binary defense = 2023-01-12T11:51:07
@@ -134,6 +134,6 @@ abyss = 2023-03-30 07:12:54.041671
 moneymessage = 2023-04-07 02:24:57.712848
 
 [Misc]
-redflagdomains = 2023-04-06
+redflagdomains = 2023-04-07
 reminder = 2023-03-10
 
