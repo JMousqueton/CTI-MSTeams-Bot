@@ -6,7 +6,7 @@ dark reading = 2023-04-17T21:59:00
 we live security = 2023-04-14T11:00:23
 davinci forensics = 2023-03-12T10:35:01
 cisco = 2023-02-10T09:00:00
-information security magazine = 2023-04-18T08:30:00
+information security magazine = 2023-04-18T09:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-04-18T00:00:00
 bleeping computer = 2023-04-17T20:36:21
@@ -130,7 +130,7 @@ medusalocker = 2022-11-15 07:39:16.766218
 v = 2022-11-15 07:39:16.214881
 memedusalockerdusa = 2022-11-15 07:39:16.366613
 darkpower = 2023-03-11 14:03:02.165601
-abyss = 2023-03-30 07:12:54.041671
+abyss = 2023-04-18 09:09:16.429587
 moneymessage = 2023-04-08 09:11:30.477244
 
 [Misc]
