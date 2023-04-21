@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2023-04-20T15:07:07
+graham cluley = 2023-04-21T14:09:13
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-04-21T01:05:44
 dark reading = 2023-04-21T14:00:00
@@ -15,7 +15,7 @@ us-cert cisa = 2023-04-17T20:32:46
 fr-cert alertes = 2023-03-31T08:35:01
 fr-cert avis = 2023-04-21T10:17:48
 hacker news = 2023-04-21T12:13:00
-schneier on security = 2023-04-20T10:47:17
+schneier on security = 2023-04-21T14:19:45
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-04-19T23:45:08
 binary defense = 2023-01-12T16:51:07
@@ -134,6 +134,6 @@ abyss = 2023-04-18 09:09:16.429587
 moneymessage = 2023-04-08 09:11:30.477244
 
 [Misc]
-redflagdomains = 2023-04-20
+redflagdomains = 2023-04-21
 reminder = 2023-04-11
 
