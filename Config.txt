@@ -138,6 +138,6 @@ trigona = 2023-04-18 18:01:45.445683
 cryptnet = 2023-04-19 20:00:01.214643
 
 [Misc]
-redflagdomains = 2023-04-22
+redflagdomains = 2023-04-23
 reminder = 2023-04-11
 
