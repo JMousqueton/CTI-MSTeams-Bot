@@ -27,7 +27,7 @@ james forshaw = 2022-07-17T04:49:00
 adam chester = 2023-02-04T10:03:31
 microsoft security = 2023-04-18T07:00:00
 recorded future = 2023-04-24T00:00:00
-sentinelone = 2023-04-27T22:57:36
+sentinelone = 2023-04-28T13:00:50
 leak-lookup = 2023-04-21T10:00:11
 cyber-news = 2023-04-25T12:51:34
 eu-enisa publications = 2023-03-20T23:00:00
@@ -39,7 +39,7 @@ version = 2022-10-16T13:33:42
 redcanary = 2023-04-26T16:11:23
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2023-04-26T10:00:34
+unit42 = 2023-04-28T13:00:16
 google tag = 2023-04-19T13:00:00
 msrc security update = 2023-04-27T07:00:00
 
