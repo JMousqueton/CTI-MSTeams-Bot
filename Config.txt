@@ -2,7 +2,7 @@
 graham cluley = 2023-04-28T16:00:18
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-04-28T02:09:56
-dark reading = 2023-04-28T18:03:00
+dark reading = 2023-04-28T20:18:35
 we live security = 2023-04-26T14:30:05
 davinci forensics = 2023-03-12T10:35:01
 cisco = 2023-02-10T09:00:00
@@ -138,6 +138,6 @@ trigona = 2023-04-18 18:01:45.445683
 cryptnet = 2023-04-19 20:00:01.214643
 
 [Misc]
-redflagdomains = 2023-04-27
+redflagdomains = 2023-04-28
 reminder = 2023-04-11
 
