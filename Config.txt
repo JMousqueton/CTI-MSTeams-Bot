@@ -141,6 +141,6 @@ rancoz = 2023-05-05 11:23:39.989801
 ragroup = 2023-05-06 12:51:15.248793
 
 [Misc]
-redflagdomains = 2023-05-05
+redflagdomains = 2023-05-06
 reminder = 2023-04-11
 
