@@ -6,7 +6,7 @@ dark reading = 2023-05-09T14:30:00
 we live security = 2023-05-05T14:00:25
 davinci forensics = 2023-03-12T10:35:01
 cisco = 2023-02-10T09:00:00
-information security magazine = 2023-05-09T15:30:00
+information security magazine = 2023-05-09T16:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-05-09T00:00:00
 bleeping computer = 2023-05-09T14:01:02
@@ -17,7 +17,7 @@ fr-cert avis = 2023-05-09T09:53:58
 hacker news = 2023-05-09T13:29:00
 schneier on security = 2023-05-09T15:20:59
 ncsc = 2122-12-17T00:00:00
-center of internet security = 2023-05-03T01:52:16
+center of internet security = 2023-05-09T15:34:30
 binary defense = 2023-01-12T16:51:07
 securelist = 2023-05-04T10:00:32
 checkpoint research = 2023-05-08T08:50:17
@@ -41,7 +41,7 @@ malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2023-05-09T13:00:21
 google tag = 2023-05-01T19:00:00
-msrc security update = 2023-05-05T07:00:00
+msrc security update = 2023-05-09T07:00:00
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
