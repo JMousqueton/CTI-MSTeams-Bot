@@ -4,7 +4,7 @@ TITB is a fork from [Threat Intelligence Discord Bot from vx-underground](https:
 
 > The vx-underground Threat Intelligence Discord Bot gets updates from various clearnet domains, ransomware threat actor domains This bot will check for updates in intervals of 1800 seconds.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-2.5.0-blue.svg)  [![Twitter: JMousqueton](https://img.shields.io/twitter/follow/JMousqueton.svg?style=social)](https://twitter.com/JMousqueton) [![Last Run](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/fetchCTI.yml/badge.svg)](.github/workflows/fetchCTI.yml)  [![CodeQL](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/codeql-analysis.yml/badge.svg)](.github/workflows/codeql-analysis.yml)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)  [![Twitter: JMousqueton](https://img.shields.io/twitter/follow/JMousqueton.svg?style=social)](https://twitter.com/JMousqueton) [![Last Run](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/fetchCTI.yml/badge.svg)](.github/workflows/fetchCTI.yml)  [![CodeQL](https://github.com/JMousqueton/CTI-MSTeams-Bot/actions/workflows/codeql-analysis.yml/badge.svg)](.github/workflows/codeql-analysis.yml)
 
 ## Description
 
@@ -32,6 +32,7 @@ The change I've made :
 * Add Options for command line [usage](#usage)
 * Check if a new version is available
 * Add [new sources](#sources)
+* Roll-back to several Webhooks 
 
 I've decided to remove the TelegramBot because it was not relevant for my needs.
 
@@ -56,16 +57,18 @@ pip3 install -r requirements.txt
 ### Github Action
 
 * Create a MS-Teams WebHook  
-* in an environment you will called `CI`, paste the created webhook url in a `MSTEAMS_WEBHOOK` variable.
+* in an environment you will called `CI`, paste the created webhook url in `MSTEAMS_WEBHOOK_*` variables.
 
 ### On a server (Windows, MacOS, Linux)
 
-* Create a variable called ```MSTEAMS_WEBHOOK``` with the webhook URL
+* Create a variable called ```MSTEAMS_WEBHOOK_*``` with the webhook URL
 
 Example:
 
 ```bash
-MSTEAMS_WEBHOOK=https://mousqueton.webhook.office.com/webhookb2/08589F1C-EEA2-4C92-A08B-66E59692FDE3/IncomingWebhook/3DEFFDD9-F3A8-4351-BDA7-142FAFB7473A
+MSTEAMS_WEBHOOK_FEED=https://mousqueton.webhook.office.com/webhookb2/08589F1C-EEA2-4C92-A08B-66E59692FDE3/IncomingWebhook/3DEFFDD9-F3A8-4351-BDA7-142FAFB7473A
+MSTEAMS_WEBHOOK_RANSOMWARE=https://mousqueton.webhook.office.com/webhookb2/08589F1C-EEA2-4C92-A08B-66E59692FDE3/IncomingWebhook/3DEFFDD9-F3A8-4351-BDA7-142FAFB7473A
+MSTEAMS_WEBHOOK_IOC=https://mousqueton.webhook.office.com/webhookb2/08589F1C-EEA2-4C92-A08B-66E59692FDE3/IncomingWebhook/3DEFFDD9-F3A8-4351-BDA7-142FAFB7473A
 python3 TeamIntelBot.py -r -d 
 ```
 

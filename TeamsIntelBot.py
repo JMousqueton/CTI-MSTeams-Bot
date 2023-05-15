@@ -4,7 +4,7 @@
 # Created By  : Julien Mousqueton @JMousqueton
 # Original By : VX-Underground 
 # Created Date: 22/08/2022
-# Version     : 2.5.0 (2023-01-11)
+# Version     : 3.0.0 (2023-05-15)
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
@@ -51,11 +51,11 @@ def Send_Teams(webhook_url:str, content:str, title:str, color:str="000000") -> i
     return response.status_code # Should be 200
 
 # ---------------------------------------------------------------------------
-# Fetch Ransomware attacks from https://ransomwatch.mousqueton.io  
+# Fetch Ransomware attacks from https://www.ransomware.live 
 # ---------------------------------------------------------------------------
 def GetRansomwareUpdates():
     
-    Data = requests.get("https://raw.githubusercontent.com/jmousqueton/ransomwatch/main/posts.json")
+    Data = requests.get("https://data.ransomware.live/posts.json")
         
     for Entries in Data.json():
 
@@ -84,6 +84,8 @@ def GetRansomwareUpdates():
         OutputMessage += "</a>"
         OutputMessage += "</b><br>🗓 "
         OutputMessage += Entries["discovered"]
+        OutputMessage += "</b><br>🗒️ "
+        OutputMessage += Entries["description"]
         OutputMessage += "</b><br>🌍 <a href=\"https://www.google.com/search?q="
         OutputMessage += Entries["post_title"].replace("*.", "")
         OutputMessage += "\">"
@@ -102,7 +104,7 @@ def GetRansomwareUpdates():
         if options.Debug:
             print(Entries["group_name"] + " = " + Title + " ("  + Entries["discovered"]+")")
         else:
-            Send_Teams(Url,OutputMessage,Title)
+            Send_Teams(webhook_ransomware,OutputMessage,Title)
             time.sleep(3)
 
         FileConfig.set('Ransomware', Entries["group_name"], Entries["discovered"])
@@ -221,7 +223,7 @@ def GetRssFromUrl(RssItem):
         if options.Debug:
             print(Title + " : " + RssObject.title + " (" + DateActivity + ")")
         else:
-            Send_Teams(Url,OutputMessage,Title)
+            Send_Teams(webhook_feed,OutputMessage,Title)
             time.sleep(3)
         
         FileConfig.set('Rss', RssItem[1], DateActivity)
@@ -270,7 +272,7 @@ def GetRedFlagDomains():
                 print(Title)
                 print(OutputMessage)
             else:
-                Send_Teams(Url,OutputMessage.replace('\n','<br>'),Title)
+                Send_Teams(webhook_feed,OutputMessage.replace('\n','<br>'),Title)
                 time.sleep(3)
         except:
             pass 
@@ -381,7 +383,9 @@ if __name__ == '__main__':
     (options, args) = parser.parse_args()
 
     # Get Microsoft Teams Webhook from Github Action CI:Env.  
-    Url=os.getenv('MSTEAMS_WEBHOOK')
+    webhook_feed=os.getenv('MSTEAMS_WEBHOOK_FEED')
+    webhook_ransomware=os.getenv('MSTEAMS_WEBHOOK_RANSOMWARE')
+    webhook_ioc=os.getenv('MSTEAMS_WEBHOOK_IOC')
 
     # expects the configuration file in the same directory as this script by default, replace if desired otherwise
     ConfigurationFilePath = os.path.join(os.path.split(os.path.abspath(__file__))[0], 'Config.txt')
@@ -389,8 +393,13 @@ if __name__ == '__main__':
     # Make some simple checks before starting 
     if sys.version_info < (3, 10):
         sys.exit("Please use Python 3.10+")
-    if (str(Url) == "None" and not options.Debug):
-             sys.exit("Please use a MSTEAMS_WEBHOOK variable")
+    if (str(webhook_feed) == "None" and not options.Debug):
+             sys.exit("Please use a MSTEAMS_WEBHOOK_FEED variable")
+    if (str(webhook_ransomware) == "None" and not options.Debug):
+             sys.exit("Please use a MSTEAMS_WEBHOOK_RANSOMWARE variable")
+    if (str(webhook_ioc) == "None" and not options.Debug):
+             sys.exit("Please use a MSTEAMS_WEBHOOK_IOC variable")
+
     if not exists(ConfigurationFilePath):
         sys.exit("Please add a Config.txt file")
     if not exists("./Feed.csv"):
