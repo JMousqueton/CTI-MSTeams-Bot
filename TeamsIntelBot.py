@@ -14,13 +14,13 @@ import feedparser
 import time, requests
 import csv # Feed.csv
 import sys # Python version 
-import json # Ransomware feed via ransomwatch 
+import json, hashlib # Ransomware feed via ransomware.live 
 from configparser import ConfigParser
 import os # Webhook OS Variable and Github action 
 from os.path import exists
 from optparse import OptionParser
 import urllib.request
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup # parse redflag 
 from datetime import datetime, timedelta
 import re
 
@@ -76,21 +76,32 @@ def GetRansomwareUpdates():
         #else:
         #    FileConfig.set('Ransomware', Entries["group_name"], Entries["discovered"])
 
-        OutputMessage = "Group : <b>"
+        if Entries['post_url']:
+            url_md5 = hashlib.md5(Entries['post_url'].encode('utf-8')).hexdigest()
+            url = "<br><br><b>Screenshot :</b> <a href='https://images.ransomware.live/screenshots/posts/" +  url_md5 + ".png'> 📸 </a>"
+        else: 
+            url = ""
+        
+        if Entries['website']:
+            website = "<a href=\"" + Entries['website'] + "\">" + Entries['website'] + "</a>"
+        else: 
+            website =  "<a href=\"https://www.google.com/search?q=" +  Entries["post_title"].replace("*.", "") + "\">" + Entries["post_title"] + "</a>"
+            
+
+        OutputMessage = "<b>Group : </b>"
         OutputMessage += "<a href=\"https://www.ransomware.live/#/profiles?id="
         OutputMessage += Entries["group_name"]
         OutputMessage += "\">"
         OutputMessage += Entries["group_name"]
         OutputMessage += "</a>"
-        OutputMessage += "</b><br>🗓 "
+        OutputMessage += "<br></br><br>🗓 "
         OutputMessage += Entries["discovered"]
-        OutputMessage += "</b><br>🗒️ "
+        OutputMessage += ""<br><br>🗒️ "
         OutputMessage += Entries["description"]
-        OutputMessage += "</b><br>🌍 <a href=\"https://www.google.com/search?q="
-        OutputMessage += Entries["post_title"].replace("*.", "")
-        OutputMessage += "\">"
-        OutputMessage += Entries["post_title"]
-        OutputMessage += "</a>"
+        OutputMessage += "<br><br>🌍 " 
+        OutputMessage += website 
+        OutputMessage += url
+        
         
         Title = "🏴‍☠️ 🔒 "     
 
@@ -338,7 +349,7 @@ def SendReminder():
         if options.Debug:
             print(OutputMessage)
         else: 
-            Send_Teams(Url,OutputMessage,Title)    
+            Send_Teams(webhook_feed,OutputMessage,Title)    
 
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
