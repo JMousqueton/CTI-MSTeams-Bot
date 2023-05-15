@@ -96,7 +96,7 @@ def GetRansomwareUpdates():
         OutputMessage += "</a>"
         OutputMessage += "<br></br><br>🗓 "
         OutputMessage += Entries["discovered"]
-        OutputMessage += ""<br><br>🗒️ "
+        OutputMessage += "<br><br>🗒️ "
         OutputMessage += Entries["description"]
         OutputMessage += "<br><br>🌍 " 
         OutputMessage += website 
