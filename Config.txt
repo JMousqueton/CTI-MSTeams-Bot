@@ -2,7 +2,7 @@
 graham cluley = 2023-05-16T12:36:20
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-05-16T12:20:58
-dark reading = 2023-05-16T17:27:01
+dark reading = 2023-05-16T19:50:00
 we live security = 2023-05-16T09:30:00
 davinci forensics = 2023-05-16T08:18:34
 cisco = 2023-02-10T09:00:00
@@ -141,6 +141,6 @@ rancoz = 2023-05-05 11:23:39.989801
 ragroup = 2023-05-06 12:51:15.248793
 
 [Misc]
-redflagdomains = 2023-05-15
+redflagdomains = 2023-05-16
 reminder = 2023-05-13
 
