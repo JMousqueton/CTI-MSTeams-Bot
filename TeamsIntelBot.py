@@ -283,7 +283,7 @@ def GetRedFlagDomains():
                 print(Title)
                 print(OutputMessage)
             else:
-                Send_Teams(webhook_feed,OutputMessage.replace('\n','<br>'),Title)
+                Send_Teams(mswebhook_feed,OutputMessage.replace('\n','<br>'),Title)
                 time.sleep(3)
         except:
             pass 
@@ -349,7 +349,7 @@ def SendReminder():
         if options.Debug:
             print(OutputMessage)
         else: 
-            Send_Teams(webhook_feed,OutputMessage,Title)    
+            Send_Teams(webhook_ioc,OutputMessage,Title)    
 
     with open(ConfigurationFilePath, 'w') as FileHandle:
         FileConfig.write(FileHandle)
