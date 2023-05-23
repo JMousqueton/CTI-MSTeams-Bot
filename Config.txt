@@ -2,7 +2,7 @@
 graham cluley = 2023-05-23T09:48:34
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-05-23T00:15:30
-dark reading = 2023-05-23T17:00:00
+dark reading = 2023-05-23T19:56:00
 we live security = 2023-05-23T09:30:12
 davinci forensics = 2023-05-16T08:18:34
 cisco = 2023-02-10T09:00:00
@@ -143,6 +143,6 @@ malas = 2023-05-18 11:29:55.649054
 8base = 2023-05-23 11:34:50.457284
 
 [Misc]
-redflagdomains = 2023-05-22
+redflagdomains = 2023-05-23
 reminder = 2023-05-13
 
