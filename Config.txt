@@ -6,7 +6,7 @@ dark reading = 2023-05-23T14:52:00
 we live security = 2023-05-23T09:30:12
 davinci forensics = 2023-05-16T08:18:34
 cisco = 2023-02-10T09:00:00
-information security magazine = 2023-05-23T15:30:00
+information security magazine = 2023-05-23T16:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-05-23T00:00:00
 bleeping computer = 2023-05-23T15:22:45
@@ -41,7 +41,7 @@ malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2023-05-15T13:00:16
 google tag = 2023-05-01T19:00:00
-msrc security update = 2023-05-18T20:38:53
+msrc security update = 2023-05-23T07:00:00
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
@@ -120,7 +120,7 @@ medusa = 2023-05-23 13:53:32.307488
 play = 2023-05-23 00:00:44.949521
 dataleak = 2022-12-02 09:45:25.796276
 monti = 2023-05-15 11:56:58.094015
-nokoyawa = 2022-12-09 23:16:12.242301
+nokoyawa = 2023-05-23 16:09:34.507129
 hive = 2023-01-16 23:15:55.695146
 karakurt = 2023-05-23 11:35:24.546530
 unsafe = 2023-04-17 13:27:38.609869
