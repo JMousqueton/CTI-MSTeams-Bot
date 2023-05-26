@@ -15,7 +15,7 @@ us-cert cisa = 2023-05-23T18:06:33
 fr-cert alertes = 2023-03-31T08:35:01
 fr-cert avis = 2023-05-26T07:45:29
 hacker news = 2023-05-26T16:25:00
-schneier on security = 2023-05-26T11:12:59
+schneier on security = 2023-05-26T21:05:34
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-05-19T06:57:27
 binary defense = 2023-05-25T14:47:53
@@ -39,7 +39,7 @@ version = 2023-05-15T09:31:25
 redcanary = 2023-05-25T14:29:29
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2023-05-26T13:00:03
+unit42 = 2023-05-26T21:30:15
 google tag = 2023-05-01T19:00:00
 msrc security update = 2023-05-23T07:00:00
 
