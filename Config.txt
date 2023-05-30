@@ -143,6 +143,6 @@ malas = 2023-05-18 11:29:55.649054
 8base = 2023-05-26 14:53:00.887250
 
 [Misc]
-redflagdomains = 2023-05-29
+redflagdomains = 2023-05-30
 reminder = 2023-05-13
 
