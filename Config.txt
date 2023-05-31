@@ -144,6 +144,6 @@ malas = 2023-05-18 11:29:55.649054
 darkrace = 2023-05-31 13:11:56.67544
 
 [Misc]
-redflagdomains = 2023-05-30
+redflagdomains = 2023-05-31
 reminder = 2023-05-13
 
