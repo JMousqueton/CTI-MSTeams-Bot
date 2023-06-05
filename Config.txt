@@ -15,7 +15,7 @@ us-cert cisa = 2023-05-23T18:06:33
 fr-cert alertes = 2023-03-31T08:35:01
 fr-cert avis = 2023-06-02T08:19:04
 hacker news = 2023-06-05T06:29:00
-schneier on security = 2023-06-02T21:13:19
+schneier on security = 2023-06-05T11:14:49
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-06-02T11:57:09
 binary defense = 2023-05-25T14:47:53
@@ -143,6 +143,7 @@ malas = 2023-05-18 11:29:55.649054
 8base = 2023-05-26 14:53:00.887250
 darkrace = 2023-06-05 05:50:30.937145
 medusaiocker = 2023-06-03 08:56:09.829572
+rhysida = 2023-06-05 11:27:26.515738
 
 [Misc]
 redflagdomains = 2023-06-04
