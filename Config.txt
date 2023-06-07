@@ -9,7 +9,7 @@ cisco = 2023-02-10T09:00:00
 information security magazine = 2023-06-07T16:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-06-06T00:00:00
-bleeping computer = 2023-06-07T16:34:06
+bleeping computer = 2023-06-07T18:29:50
 proof point = 2023-05-29T16:34:23
 us-cert cisa = 2023-06-06T20:58:32
 fr-cert alertes = 2023-03-31T08:35:01
@@ -146,6 +146,6 @@ medusaiocker = 2023-06-03 08:56:09.829572
 rhysida = 2023-06-05 11:27:26.515738
 
 [Misc]
-redflagdomains = 2023-06-06
+redflagdomains = 2023-06-07
 reminder = 2023-05-13
 
