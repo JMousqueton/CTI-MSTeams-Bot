@@ -147,6 +147,6 @@ rhysida = 2023-06-10 00:04:56.724367
 la_piovra = 2023-06-10 16:58:28.721400
 
 [Misc]
-redflagdomains = 2023-06-10
+redflagdomains = 2023-06-11
 reminder = 2023-05-13
 
