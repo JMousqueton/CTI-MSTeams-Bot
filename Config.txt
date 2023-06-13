@@ -1,7 +1,7 @@
 [Rss]
 graham cluley = 2023-06-13T10:19:12
 threatpost = 2022-08-31T12:57:48
-krebs on security = 2023-06-08T20:17:06
+krebs on security = 2023-06-13T20:44:28
 dark reading = 2023-06-13T17:00:00
 we live security = 2023-06-13T09:30:03
 davinci forensics = 2023-06-08T06:36:35
@@ -90,7 +90,7 @@ blackshadow = 2021-12-18 16:06:44.948812
 mosesstaff = 2021-12-18 16:06:45.338411
 atomsilo = 2021-12-21 20:28:18.355635
 nightsky = 2022-01-04 19:14:52.100985
-vicesociety = 2023-06-04 21:59:07.004656
+vicesociety = 2023-06-13 21:00:29.257829
 pandora = 2022-03-30 19:26:24.820390
 stormous = 2023-04-03 22:12:45.196844
 leaktheanalyst = 2022-03-29 16:52:32.802514
