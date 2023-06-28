@@ -149,6 +149,6 @@ blacksuit = 2023-06-14 20:46:16.237662
 noescape = 2023-06-23 18:00:17.409962
 
 [Misc]
-redflagdomains = 2023-06-27
+redflagdomains = 2023-06-28
 reminder = 2023-06-14
 
