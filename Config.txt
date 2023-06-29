@@ -2,7 +2,7 @@
 graham cluley = 2023-06-29T13:54:16
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-06-29T18:30:08
-dark reading = 2023-06-29T21:20:00
+dark reading = 2023-06-29T22:06:00
 we live security = 2023-06-28T09:30:07
 davinci forensics = 2023-06-08T06:36:35
 cisco = 2023-02-10T09:00:00
@@ -40,7 +40,7 @@ redcanary = 2023-06-22T17:08:04
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2023-06-28T13:00:31
-google tag = 2023-05-30T20:00:00
+google tag = 2023-06-29T21:00:00
 msrc security update = 2023-06-19T07:00:00
 
 [Ransomware]
@@ -100,7 +100,7 @@ onyx = 2022-11-21 14:16:29.181128
 mindware = 2022-05-05 13:42:39.179439
 ransomhouse = 2023-06-15 21:05:49.399040
 cheers = 2022-09-14 11:00:11.961979
-lockbit3 = 2023-06-28 18:53:13.777369
+lockbit3 = 2023-06-29 21:53:45.475592
 yanluowang = 2022-08-10 16:55:19.472715
 0mega = 2023-02-12 02:46:50.545309
 bianlian = 2023-06-28 08:50:54.783909
