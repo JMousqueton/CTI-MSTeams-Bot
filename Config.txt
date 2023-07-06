@@ -1,8 +1,8 @@
 [Rss]
-graham cluley = 2023-07-05T23:59:46
+graham cluley = 2023-07-06T12:48:08
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-07-03T14:56:35
-dark reading = 2023-07-06T03:46:00
+dark reading = 2023-07-06T13:00:00
 we live security = 2023-07-04T09:30:14
 davinci forensics = 2023-06-08T06:36:35
 cisco = 2023-02-10T09:00:00
@@ -32,7 +32,7 @@ leak-lookup = 2023-07-04T19:00:03
 cyber-news = 2023-07-06T07:49:50
 eu-enisa publications = 2023-06-07T13:00:00
 att = 2023-07-06T10:00:00
-microsoft sentinel = 2023-07-06T11:24:52
+microsoft sentinel = 2023-07-06T13:05:10
 ncc = 2023-04-05T15:40:31
 sans = 2023-07-06T11:55:49
 version = 2023-05-15T09:31:25
