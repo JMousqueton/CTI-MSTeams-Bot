@@ -6,10 +6,10 @@ dark reading = 2023-07-11T14:05:00
 we live security = 2023-07-07T11:00:40
 davinci forensics = 2023-06-08T06:36:35
 cisco = 2023-02-10T09:00:00
-information security magazine = 2023-07-11T15:35:00
+information security magazine = 2023-07-11T16:15:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-07-11T00:00:00
-bleeping computer = 2023-07-11T15:51:04
+bleeping computer = 2023-07-11T16:28:39
 proof point = 2023-06-29T14:44:24
 us-cert cisa = 2023-07-05T21:30:07
 fr-cert alertes = 2023-07-05T07:30:14
@@ -41,7 +41,7 @@ malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2023-07-11T13:00:57
 google tag = 2023-06-29T21:00:00
-msrc security update = 2023-06-30T07:00:00
+msrc security update = 2023-07-11T07:00:00
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
