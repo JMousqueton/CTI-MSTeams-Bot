@@ -150,6 +150,6 @@ noescape = 2023-07-12 17:06:55.621099
 cyclops = 2023-07-01 15:26:29.969589
 
 [Misc]
-redflagdomains = 2023-07-11
+redflagdomains = 2023-07-12
 reminder = 2023-06-14
 
