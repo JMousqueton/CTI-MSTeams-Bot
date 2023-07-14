@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2023-07-14T05:20:36
+graham cluley = 2023-07-14T18:38:26
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-07-13T21:45:02
 dark reading = 2023-07-31T07:00:00
@@ -150,6 +150,6 @@ noescape = 2023-07-14 15:05:52.774771
 cyclops = 2023-07-01 15:26:29.969589
 
 [Misc]
-redflagdomains = 2023-07-13
+redflagdomains = 2023-07-14
 reminder = 2023-06-14
 
