@@ -14,7 +14,7 @@ proof point = 2023-06-29T14:44:24
 us-cert cisa = 2023-07-11T21:55:00
 fr-cert alertes = 2023-07-12T09:01:55
 fr-cert avis = 2023-07-13T14:50:16
-hacker news = 2023-07-14T11:08:00
+hacker news = 2023-07-14T14:41:00
 schneier on security = 2023-07-14T11:09:55
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-07-12T22:37:17
@@ -146,7 +146,7 @@ medusaiocker = 2023-06-03 08:56:09.829572
 rhysida = 2023-07-14 02:05:11.738056
 la_piovra = 2023-06-10 16:58:28.721400
 blacksuit = 2023-07-05 20:00:16.743666
-noescape = 2023-07-12 17:06:55.621099
+noescape = 2023-07-14 15:05:52.774771
 cyclops = 2023-07-01 15:26:29.969589
 
 [Misc]
