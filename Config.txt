@@ -2,7 +2,7 @@
 graham cluley = 2023-07-14T05:20:36
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-07-13T21:45:02
-dark reading = 2023-07-14T17:02:26
+dark reading = 2023-07-14T17:44:00
 we live security = 2023-07-13T09:30:45
 davinci forensics = 2023-06-08T06:36:35
 cisco = 2023-02-10T09:00:00
@@ -41,7 +41,7 @@ malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2023-07-12T18:45:56
 google tag = 2023-06-29T21:00:00
-msrc security update = 2023-07-13T07:00:00
+msrc security update = 2023-07-14T07:00:00
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
