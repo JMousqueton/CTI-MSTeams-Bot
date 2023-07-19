@@ -3,13 +3,13 @@ graham cluley = 2023-07-14T18:38:26
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-07-18T14:57:04
 dark reading = 2023-07-31T07:00:00
-we live security = 2023-07-18T09:30:15
+we live security = 2023-07-19T09:30:16
 davinci forensics = 2023-06-08T06:36:35
 cisco = 2023-02-10T09:00:00
 information security magazine = 2023-07-19T16:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-07-17T00:00:00
-bleeping computer = 2023-07-19T15:39:43
+bleeping computer = 2023-07-19T19:06:38
 proof point = 2023-07-11T11:24:30
 us-cert cisa = 2023-07-11T21:55:00
 fr-cert alertes = 2023-07-19T09:48:02
@@ -140,7 +140,7 @@ akira = 2023-07-13 18:02:03.806023
 rancoz = 2023-07-07 20:05:19.512894
 ragroup = 2023-06-21 12:17:29.397135
 malas = 2023-05-18 11:29:55.649054
-8base = 2023-07-18 05:55:00.715837
+8base = 2023-07-19 18:58:01.524003
 darkrace = 2023-06-09 10:53:33.531706
 medusaiocker = 2023-06-03 08:56:09.829572
 rhysida = 2023-07-19 11:06:30.151111
@@ -150,6 +150,6 @@ noescape = 2023-07-18 16:06:15.439029
 cyclops = 2023-07-14 19:55:05.654281
 
 [Misc]
-redflagdomains = 2023-07-18
+redflagdomains = 2023-07-19
 reminder = 2023-07-16
 
