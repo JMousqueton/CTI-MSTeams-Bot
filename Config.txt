@@ -151,6 +151,6 @@ cyclops = 2023-07-14 19:55:05.654281
 cactus = 2023-07-20 12:50:08.480422
 
 [Misc]
-redflagdomains = 2023-07-19
+redflagdomains = 2023-07-20
 reminder = 2023-07-16
 
