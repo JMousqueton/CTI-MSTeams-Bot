@@ -196,7 +196,7 @@ def GetRssFromUrl(RssItem):
     NewsFeed = feedparser.parse(RssItem[0])
     DateActivity = ""
     IsInitialRun = False
-    print('DEBUG --> ' +  RssItem[1])
+    #print('DEBUG --> ' +  RssItem[1])
 
     for RssObject in reversed(NewsFeed.entries):
 
