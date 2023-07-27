@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2023-07-27T13:37:32
+graham cluley = 2023-07-27T18:41:23
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-07-26T17:29:40
 dark reading = 2023-07-31T07:00:00
@@ -29,7 +29,7 @@ microsoft security = 2023-07-20T07:00:00
 recorded future = 2023-07-27T00:00:00
 sentinelone = 2023-07-27T12:25:48
 leak-lookup = 2023-07-24T11:00:07
-cyber-news = 2023-07-27T06:08:40
+cyber-news = 2023-07-27T19:18:38
 eu-enisa publications = 2023-06-07T13:00:00
 att = 2023-07-27T10:00:00
 microsoft sentinel = 2023-07-25T14:09:26
