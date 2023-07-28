@@ -9,7 +9,7 @@ cisco = 2023-02-10T09:00:00
 information security magazine = 2023-07-28T16:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-07-28T00:00:00
-bleeping computer = 2023-07-28T16:30:25
+bleeping computer = 2023-07-28T20:01:16
 proof point = 2023-07-26T09:22:06
 us-cert cisa = 2023-07-26T21:10:39
 fr-cert alertes = 2023-07-26T09:01:39
@@ -136,7 +136,7 @@ dunghill_leak = 2023-05-27 17:52:46.588741
 crosslock = 2023-04-17 17:00:38.913300
 trigona = 2023-06-06 21:00:48.240462
 cryptnet = 2023-04-19 20:00:01.214643
-akira = 2023-07-27 16:54:26.078480
+akira = 2023-07-28 19:56:26.765415
 rancoz = 2023-07-07 20:05:19.512894
 ragroup = 2023-07-25 21:03:19.507449
 malas = 2023-05-18 11:29:55.649054
@@ -151,6 +151,6 @@ cyclops = 2023-07-26 21:01:35.861410
 cactus = 2023-07-20 12:50:08.480422
 
 [Misc]
-redflagdomains = 2023-07-27
+redflagdomains = 2023-07-28
 reminder = 2023-07-16
 
