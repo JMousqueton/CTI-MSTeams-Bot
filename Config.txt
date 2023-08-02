@@ -6,7 +6,7 @@ dark reading = 2023-08-02T14:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2023-06-08T06:36:35
 cisco = 2023-02-10T09:00:00
-information security magazine = 2023-08-02T15:30:00
+information security magazine = 2023-08-02T16:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-08-01T00:00:00
 bleeping computer = 2023-08-02T15:18:35
@@ -146,7 +146,7 @@ medusaiocker = 2023-06-03 08:56:09.829572
 rhysida = 2023-07-28 22:06:27.744717
 la_piovra = 2023-06-10 16:58:28.721400
 blacksuit = 2023-07-24 20:56:01.027571
-noescape = 2023-08-01 08:50:26.499681
+noescape = 2023-08-02 16:07:46.871865
 cyclops = 2023-07-26 21:01:35.861410
 cactus = 2023-07-20 12:50:08.480422
 
