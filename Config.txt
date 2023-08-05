@@ -152,6 +152,6 @@ cactus = 2023-07-20 12:50:08.480422
 knight = 2023-07-26 18:03:15.000000
 
 [Misc]
-redflagdomains = 2023-08-04
+redflagdomains = 2023-08-05
 reminder = 2023-07-16
 
