@@ -155,6 +155,6 @@ metaencryptor = 2023-08-16 20:54:32.211428
 ransomed = 2023-08-21 18:30:47.413892
 
 [Misc]
-redflagdomains = 2023-08-20
+redflagdomains = 2023-08-21
 reminder = 2023-08-17
 
