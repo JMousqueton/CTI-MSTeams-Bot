@@ -9,7 +9,7 @@ cisco = 2023-02-10T09:00:00
 information security magazine = 2023-08-24T16:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-08-24T00:00:00
-bleeping computer = 2023-08-24T17:26:49
+bleeping computer = 2023-08-24T18:18:04
 proof point = 2023-08-24T05:00:00
 us-cert cisa = 2023-08-02T18:57:42
 fr-cert alertes = 2023-07-26T09:01:39
@@ -156,6 +156,6 @@ ransomed = 2023-08-24 07:08:52.273403
 cloak = 2023-08-24 07:42:45.735883
 
 [Misc]
-redflagdomains = 2023-08-23
+redflagdomains = 2023-08-24
 reminder = 2023-08-17
 
