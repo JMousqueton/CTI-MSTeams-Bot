@@ -156,6 +156,6 @@ ransomed = 2023-09-01 16:01:06.598852
 cloak = 2023-08-24 07:42:45.735883
 
 [Misc]
-redflagdomains = 2023-09-02
+redflagdomains = 2023-09-03
 reminder = 2023-08-17
 
