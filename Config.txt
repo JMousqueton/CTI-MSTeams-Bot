@@ -8,7 +8,7 @@ davinci forensics = 2023-08-23T09:33:51
 cisco = 2023-09-01T12:00:57
 information security magazine = 2023-09-08T16:30:00
 google = 2022-10-12T12:00:00
-trend micro = 2023-09-05T00:00:00
+trend micro = 2023-09-08T00:00:00
 bleeping computer = 2023-09-08T19:46:15
 proof point = 2023-09-06T14:12:59
 us-cert cisa = 2023-09-06T17:03:37
@@ -100,7 +100,7 @@ onyx = 2022-11-21 14:16:29.181128
 mindware = 2022-05-05 13:42:39.179439
 ransomhouse = 2023-07-11 07:40:29.471708
 cheers = 2022-09-14 11:00:11.961979
-lockbit3 = 2023-09-08 17:38:04.995740
+lockbit3 = 2023-09-08 20:31:34.955028
 yanluowang = 2022-08-10 16:55:19.472715
 0mega = 2023-02-12 02:46:50.545309
 bianlian = 2023-09-07 13:01:34.118616
@@ -156,6 +156,6 @@ ransomed = 2023-09-08 07:02:13.569487
 cloak = 2023-08-24 07:42:45.735883
 
 [Misc]
-redflagdomains = 2023-09-07
+redflagdomains = 2023-09-08
 reminder = 2023-08-17
 
