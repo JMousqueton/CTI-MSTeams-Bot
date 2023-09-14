@@ -2,7 +2,7 @@
 graham cluley = 2023-09-14T15:09:25
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-09-14T00:22:05
-dark reading = 2023-09-14T19:01:25
+dark reading = 2023-09-14T21:33:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2023-08-23T09:33:51
 cisco = 2023-09-01T12:00:57
@@ -155,6 +155,7 @@ metaencryptor = 2023-08-16 20:54:32.211428
 ransomed = 2023-09-09 15:07:24.335880
 cloak = 2023-08-24 07:42:45.735883
 cyphbit = 2023-09-14 17:33:42.981183
+threeam = 2023-09-14 21:33:44.866396
 
 [Misc]
 redflagdomains = 2023-09-14
