@@ -158,6 +158,6 @@ cyphbit = 2023-09-14 17:33:42.981183
 threeam = 2023-09-14 21:33:44.866396
 
 [Misc]
-redflagdomains = 2023-09-14
+redflagdomains = 2023-09-15
 reminder = 2023-08-17
 
