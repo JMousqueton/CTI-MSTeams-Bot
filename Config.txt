@@ -159,6 +159,6 @@ threeam = 2023-09-14 21:33:44.866396
 cryptbb = 2023-09-15 22:33:41.705485
 
 [Misc]
-redflagdomains = 2023-09-20
+redflagdomains = 2023-09-21
 reminder = 2023-09-18
 
