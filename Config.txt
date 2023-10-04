@@ -2,7 +2,7 @@
 graham cluley = 2023-09-29T15:06:56
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-10-02T15:43:34
-dark reading = 2023-10-04T19:43:00
+dark reading = 2023-10-04T20:24:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2023-09-30T17:59:48
 cisco = 2023-09-01T12:00:57
@@ -34,7 +34,7 @@ eu-enisa publications = 2023-06-07T13:00:00
 att = 2023-10-04T10:00:00
 microsoft sentinel = 2023-10-03T05:51:55
 ncc = 2023-04-05T15:40:31
-sans = 2023-10-04T18:57:51
+sans = 2023-10-04T19:53:02
 version = 2023-05-15T09:31:25
 redcanary = 2023-10-03T14:32:45
 malpedia = 2022-09-20T15:01:28
