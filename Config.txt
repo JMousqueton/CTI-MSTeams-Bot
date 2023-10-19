@@ -161,6 +161,6 @@ ciphbit = 2023-09-16 17:33:53.301161
 losttrust = 2023-09-26 11:10:43.854110
 
 [Misc]
-redflagdomains = 2023-10-18
+redflagdomains = 2023-10-19
 reminder = 2023-09-18
 
