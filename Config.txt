@@ -9,7 +9,7 @@ cisco = 2023-09-01T12:00:57
 information security magazine = 2023-10-20T11:45:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-10-20T00:00:00
-bleeping computer = 2023-10-21T15:05:10
+bleeping computer = 2023-10-21T20:10:14
 proof point = 2023-10-19T16:20:33
 us-cert cisa = 2023-10-13T20:48:38
 fr-cert alertes = 2023-10-17T08:49:02
@@ -163,6 +163,6 @@ hunter = 2023-10-21 11:31:14.742711
 hunters = 2023-10-20 17:07:42.212720
 
 [Misc]
-redflagdomains = 2023-10-20
+redflagdomains = 2023-10-21
 reminder = 2023-10-20
 
