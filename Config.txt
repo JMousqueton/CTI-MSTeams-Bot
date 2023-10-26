@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2023-10-26T09:44:25
+graham cluley = 2023-10-26T10:13:11
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-10-23T13:08:27
 dark reading = 2023-10-25T23:59:00
@@ -15,7 +15,7 @@ us-cert cisa = 2023-10-13T20:48:38
 fr-cert alertes = 2023-10-23T10:02:26
 fr-cert avis = 2023-10-25T12:21:28
 hacker news = 2023-10-26T07:24:00
-schneier on security = 2023-10-25T11:07:23
+schneier on security = 2023-10-26T11:00:59
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-10-25T23:46:23
 binary defense = 2023-10-12T12:09:50
@@ -130,7 +130,7 @@ medusalocker = 2023-10-23 13:14:46.838904
 v = 2022-11-15 07:39:16.214881
 memedusalockerdusa = 2022-11-15 07:39:16.366613
 darkpower = 2023-03-11 14:03:02.165601
-abyss = 2023-09-10 09:59:22.241943
+abyss = 2023-10-26 10:38:20.946598
 moneymessage = 2023-10-12 14:35:18.668614
 dunghill_leak = 2023-09-26 23:36:18.432786
 crosslock = 2023-04-17 17:00:38.913300
