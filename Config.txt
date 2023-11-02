@@ -1,7 +1,7 @@
 [Rss]
 graham cluley = 2023-11-02T00:01:15
 threatpost = 2022-08-31T12:57:48
-krebs on security = 2023-10-31T13:26:55
+krebs on security = 2023-11-02T19:55:34
 dark reading = 2023-11-02T19:12:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2023-09-30T17:59:48
@@ -163,6 +163,6 @@ hunter = 2023-10-21 11:31:14.742711
 hunters = 2023-10-22 13:04:02.157564
 
 [Misc]
-redflagdomains = 2023-11-01
+redflagdomains = 2023-11-02
 reminder = 2023-10-20
 
