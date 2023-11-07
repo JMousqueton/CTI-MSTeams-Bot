@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2023-11-03T11:13:11
+graham cluley = 2023-11-07T11:02:10
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-11-06T13:51:31
 dark reading = 2023-11-06T23:00:00
@@ -26,7 +26,7 @@ modexp = 2023-04-19T18:07:51
 james forshaw = 2022-07-17T04:49:00
 adam chester = 2023-10-04T23:01:46
 microsoft security = 2023-10-16T07:00:00
-recorded future = 2023-10-19T00:00:00
+recorded future = 2023-11-07T00:00:00
 sentinelone = 2023-11-03T13:09:24
 leak-lookup = 2023-11-03T14:00:04
 cyber-news = 2023-10-22T17:07:23
@@ -95,7 +95,7 @@ pandora = 2022-03-30 19:26:24.820390
 stormous = 2023-09-24 13:08:08.723062
 leaktheanalyst = 2022-03-29 16:52:32.802514
 kelvinsecurity = 2022-05-24 20:35:19.562212
-blackbasta = 2023-11-06 20:27:40.111964
+blackbasta = 2023-11-07 11:27:13.294504
 onyx = 2022-11-21 14:16:29.181128
 mindware = 2022-05-05 13:42:39.179439
 ransomhouse = 2023-10-21 22:15:15.940443
