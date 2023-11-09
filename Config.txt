@@ -2,7 +2,7 @@
 graham cluley = 2023-11-09T00:01:57
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-11-06T13:51:31
-dark reading = 2023-11-09T18:00:00
+dark reading = 2023-11-09T19:07:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2023-09-30T17:59:48
 cisco = 2023-09-01T12:00:57
@@ -146,7 +146,7 @@ medusaiocker = 2023-06-03 08:56:09.829572
 rhysida = 2023-11-07 22:15:05.032192
 la_piovra = 2023-06-10 16:58:28.721400
 blacksuit = 2023-11-01 20:40:44.195308
-noescape = 2023-11-09 11:39:19.576737
+noescape = 2023-11-09 19:05:22.860041
 cyclops = 2023-07-26 21:01:35.861410
 cactus = 2023-11-06 11:28:57.385330
 knight = 2023-11-01 19:09:18.832900
@@ -163,6 +163,6 @@ hunter = 2023-10-21 11:31:14.742711
 hunters = 2023-10-22 13:04:02.157564
 
 [Misc]
-redflagdomains = 2023-11-08
+redflagdomains = 2023-11-09
 reminder = 2023-10-20
 
