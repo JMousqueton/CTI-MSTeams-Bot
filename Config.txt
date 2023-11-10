@@ -2,7 +2,7 @@
 graham cluley = 2023-11-10T13:06:45
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-11-06T13:51:31
-dark reading = 2023-11-10T19:12:00
+dark reading = 2023-11-10T22:12:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2023-11-10T10:05:18
 cisco = 2023-09-01T12:00:57
@@ -15,7 +15,7 @@ us-cert cisa = 2023-10-13T20:48:38
 fr-cert alertes = 2023-10-23T10:02:26
 fr-cert avis = 2023-11-10T09:14:00
 hacker news = 2023-11-10T12:22:00
-schneier on security = 2023-11-10T12:07:55
+schneier on security = 2023-11-10T22:04:29
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-11-07T09:12:31
 binary defense = 2023-11-09T15:00:00
