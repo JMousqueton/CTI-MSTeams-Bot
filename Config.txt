@@ -2,7 +2,7 @@
 graham cluley = 2023-11-10T13:06:45
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-11-11T17:59:07
-dark reading = 2023-11-13T08:00:00
+dark reading = 2023-11-13T15:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2023-11-10T10:05:18
 cisco = 2023-09-01T12:00:57
@@ -160,7 +160,7 @@ cryptbb = 2023-09-15 22:33:41.705485
 ciphbit = 2023-11-08 00:57:14.898689
 losttrust = 2023-09-26 11:10:43.854110
 hunter = 2023-10-21 11:31:14.742711
-hunters = 2023-10-22 13:04:02.157564
+hunters = 2023-11-13 14:47:19.799447
 
 [Misc]
 redflagdomains = 2023-11-12
