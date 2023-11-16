@@ -40,7 +40,7 @@ redcanary = 2023-11-15T13:46:31
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2023-11-13T11:00:23
-google tag = 2023-10-18T15:00:00
+google tag = 2023-11-16T16:00:00
 msrc security update = 2023-11-14T08:00:00
 
 [Ransomware]
