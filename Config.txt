@@ -163,6 +163,6 @@ hunter = 2023-10-21 11:31:14.742711
 hunters = 2023-11-15 12:55:15.413005
 
 [Misc]
-redflagdomains = 2023-11-18
+redflagdomains = 2023-11-19
 reminder = 2023-10-20
 
