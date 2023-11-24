@@ -17,7 +17,7 @@ fr-cert avis = 2023-11-24T12:21:16
 hacker news = 2023-11-24T10:53:00
 schneier on security = 2023-11-24T12:04:36
 ncsc = 2122-12-17T00:00:00
-center of internet security = 2023-11-17T12:06:12
+center of internet security = 2023-11-24T09:38:00
 binary defense = 2023-11-14T14:00:00
 securelist = 2023-11-23T10:00:45
 checkpoint research = 2023-11-23T16:09:12
@@ -160,7 +160,7 @@ cryptbb = 2023-09-15 22:33:41.705485
 ciphbit = 2023-11-08 00:57:14.898689
 losttrust = 2023-09-26 11:10:43.854110
 hunter = 2023-10-21 11:31:14.742711
-hunters = 2023-11-21 16:07:53.689033
+hunters = 2023-11-24 14:35:30.294181
 meow = 2023-11-24 05:05:42.850554
 
 [Misc]
