@@ -41,7 +41,7 @@ malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2023-11-21T14:00:48
 google tag = 2023-11-16T16:00:00
-msrc security update = 2023-11-28T08:00:00
+msrc security update = 2023-11-29T18:18:18
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
