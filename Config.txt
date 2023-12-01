@@ -14,7 +14,7 @@ proof point = 2023-11-28T05:18:24
 us-cert cisa = 2023-11-21T13:50:48
 fr-cert alertes = 2023-10-23T10:02:26
 fr-cert avis = 2023-11-30T15:13:10
-hacker news = 2023-12-01T10:26:00
+hacker news = 2023-12-01T10:50:00
 schneier on security = 2023-11-30T16:48:01
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-11-24T09:38:00
@@ -161,7 +161,7 @@ ciphbit = 2023-11-08 00:57:14.898689
 losttrust = 2023-09-26 11:10:43.854110
 hunter = 2023-10-21 11:31:14.742711
 hunters = 2023-11-30 14:30:41.301963
-meow = 2023-11-26 14:41:32.181732
+meow = 2023-12-01 11:32:03.658412
 
 [Misc]
 redflagdomains = 2023-11-30
