@@ -164,6 +164,6 @@ hunters = 2023-12-01 17:30:12.710928
 meow = 2023-12-01 11:32:03.658412
 
 [Misc]
-redflagdomains = 2023-11-30
+redflagdomains = 2023-12-01
 reminder = 2023-11-21
 
