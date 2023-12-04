@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2023-11-30T20:53:07
+graham cluley = 2023-12-04T18:39:08
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-11-29T19:41:14
 dark reading = 2027-03-26T22:00:00
@@ -28,7 +28,7 @@ adam chester = 2023-10-04T23:01:46
 microsoft security = 2023-11-21T08:00:00
 recorded future = 2023-11-30T00:00:00
 sentinelone = 2023-12-04T14:59:51
-leak-lookup = 2023-11-30T00:00:03
+leak-lookup = 2023-12-04T19:00:04
 cyber-news = 2023-10-22T17:07:23
 eu-enisa publications = 2023-06-07T13:00:00
 att = 2023-12-04T11:00:00
@@ -48,7 +48,7 @@ suncrypt = 2022-06-18 02:21:01.442528
 lockbit2 = 2022-08-06 20:48:04.576723
 arvinclub = 2023-10-15 22:03:19.232635
 quantum = 2023-06-24 19:29:37.563286
-alphv = 2023-12-04 10:10:26.667981
+alphv = 2023-12-04 19:08:39.872720
 lorenz = 2023-11-15 14:35:47.899377
 avoslocker = 2023-02-11 15:54:59.279192
 avaddon = 2021-09-09 23:46:54.365433
@@ -164,6 +164,6 @@ hunters = 2023-12-02 13:03:57.197963
 meow = 2023-12-01 11:32:03.658412
 
 [Misc]
-redflagdomains = 2023-12-03
+redflagdomains = 2023-12-04
 reminder = 2023-11-21
 
