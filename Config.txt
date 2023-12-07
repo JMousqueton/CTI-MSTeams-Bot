@@ -165,6 +165,6 @@ meow = 2023-12-01 11:32:03.658412
 dunghill = 2023-12-05 14:51:21.655671
 
 [Misc]
-redflagdomains = 2023-12-06
+redflagdomains = 2023-12-07
 reminder = 2023-11-21
 
