@@ -166,6 +166,6 @@ dunghill = 2023-12-05 14:51:21.655671
 siegedsec = 2023-12-08 08:47:47.525802
 
 [Misc]
-redflagdomains = 2023-12-07
+redflagdomains = 2023-12-08
 reminder = 2023-11-21
 
