@@ -15,7 +15,7 @@ us-cert cisa = 2023-12-06T20:18:57
 fr-cert alertes = 2023-10-23T10:02:26
 fr-cert avis = 2023-12-11T12:48:46
 hacker news = 2023-12-12T11:25:00
-schneier on security = 2023-12-11T12:10:32
+schneier on security = 2023-12-12T12:01:18
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-12-11T16:16:51
 binary defense = 2023-12-06T14:00:00
@@ -161,7 +161,7 @@ ciphbit = 2023-11-08 00:57:14.898689
 losttrust = 2023-09-26 11:10:43.854110
 hunter = 2023-10-21 11:31:14.742711
 hunters = 2023-12-11 20:29:19.616475
-meow = 2023-12-01 11:32:03.658412
+meow = 2023-12-12 11:40:36.011399
 dunghill = 2023-12-05 14:51:21.655671
 siegedsec = 2023-12-09 01:15:09.503027
 
