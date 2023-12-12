@@ -9,7 +9,7 @@ cisco = 2023-09-01T12:00:57
 information security magazine = 2023-12-12T15:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-12-11T00:00:00
-bleeping computer = 2023-12-12T15:46:39
+bleeping computer = 2023-12-12T17:29:58
 proof point = 2023-12-06T10:40:53
 us-cert cisa = 2023-12-06T20:18:57
 fr-cert alertes = 2023-10-23T10:02:26
@@ -41,7 +41,7 @@ malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2023-12-07T14:00:35
 google tag = 2023-11-16T16:00:00
-msrc security update = 2023-12-07T18:59:06
+msrc security update = 2023-12-12T08:00:00
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
@@ -136,7 +136,7 @@ dunghill_leak = 2023-09-26 23:36:18.432786
 crosslock = 2023-04-17 17:00:38.913300
 trigona = 2023-10-13 13:21:48.324352
 cryptnet = 2023-04-19 20:00:01.214643
-akira = 2023-12-12 15:10:30.479736
+akira = 2023-12-12 17:28:14.381461
 rancoz = 2023-09-03 19:11:12.464264
 ragroup = 2023-11-26 05:36:24.320554
 malas = 2023-05-18 11:29:55.649054
