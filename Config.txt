@@ -169,6 +169,6 @@ raznatovic = 2023-12-17 15:55:58.498638
 toufan = 2023-12-17 19:22:40.566906
 
 [Misc]
-redflagdomains = 2023-12-16
+redflagdomains = 2023-12-17
 reminder = 2023-11-21
 
