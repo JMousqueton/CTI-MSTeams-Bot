@@ -6,7 +6,7 @@ dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2023-11-19T18:25:54
 cisco = 2023-09-01T12:00:57
-information security magazine = 2023-12-20T10:00:00
+information security magazine = 2023-12-20T10:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-12-15T00:00:00
 bleeping computer = 2023-12-19T20:36:07
@@ -167,6 +167,7 @@ siegedsec = 2023-12-09 01:15:09.503027
 dragonforce = 2023-12-13 23:13:30.917419
 raznatovic = 2023-12-17 15:55:58.498638
 toufan = 2023-12-19 22:14:52.461442
+werewolves = 2023-12-20 10:33:27.339533
 
 [Misc]
 redflagdomains = 2023-12-19
