@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2023-12-19T14:00:38
+graham cluley = 2023-12-20T10:41:00
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2023-12-19T22:49:43
 dark reading = 2027-03-26T22:00:00
@@ -14,7 +14,7 @@ proof point = 2023-12-19T08:13:49
 us-cert cisa = 2023-12-19T14:31:04
 fr-cert alertes = 2023-12-13T17:08:21
 fr-cert avis = 2023-12-19T08:41:05
-hacker news = 2023-12-20T08:39:00
+hacker news = 2023-12-20T10:20:00
 schneier on security = 2023-12-19T12:09:13
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-12-12T21:54:56
@@ -39,7 +39,7 @@ version = 2023-05-15T09:31:25
 redcanary = 2023-12-19T16:02:58
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2023-12-15T23:00:28
+unit42 = 2023-12-20T11:00:07
 google tag = 2023-12-15T17:00:00
 msrc security update = 2023-12-13T08:00:00
 
@@ -167,7 +167,7 @@ siegedsec = 2023-12-09 01:15:09.503027
 dragonforce = 2023-12-13 23:13:30.917419
 raznatovic = 2023-12-17 15:55:58.498638
 toufan = 2023-12-19 22:14:52.461442
-werewolves = 2023-12-20 10:33:27.339533
+werewolves = 2023-12-20 10:43:28.682998
 
 [Misc]
 redflagdomains = 2023-12-19
