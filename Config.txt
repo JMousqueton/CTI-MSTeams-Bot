@@ -171,6 +171,6 @@ werewolves = 2023-12-23 16:07:20.143975
 ranstreet = 2023-12-21 00:08:22.617850
 
 [Misc]
-redflagdomains = 2023-12-22
+redflagdomains = 2023-12-23
 reminder = 2023-12-23
 
