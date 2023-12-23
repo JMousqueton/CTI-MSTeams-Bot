@@ -9,7 +9,7 @@ cisco = 2023-09-01T12:00:57
 information security magazine = 2023-12-22T10:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2023-12-15T00:00:00
-bleeping computer = 2023-12-23T01:35:18
+bleeping computer = 2023-12-23T15:09:18
 proof point = 2023-12-21T10:36:06
 us-cert cisa = 2023-12-19T14:31:04
 fr-cert alertes = 2023-12-13T17:08:21
@@ -166,7 +166,7 @@ dunghill = 2023-12-05 14:51:21.655671
 siegedsec = 2023-12-09 01:15:09.503027
 dragonforce = 2023-12-21 02:38:48.639889
 raznatovic = 2023-12-17 15:55:58.498638
-toufan = 2023-12-23 07:28:20.320295
+toufan = 2023-12-23 19:16:06.564348
 werewolves = 2023-12-23 16:07:20.143975
 ranstreet = 2023-12-21 00:08:22.617850
 
