@@ -19,7 +19,7 @@ schneier on security = 2023-12-27T12:01:25
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-12-21T12:36:41
 binary defense = 2023-12-20T14:28:54
-securelist = 2023-12-21T10:00:59
+securelist = 2023-12-27T14:00:43
 checkpoint research = 2023-12-25T11:17:27
 virusbulletin = 2023-10-12T08:45:00
 modexp = 2023-04-19T18:07:51
@@ -39,7 +39,7 @@ version = 2023-05-15T09:31:25
 redcanary = 2023-12-21T19:52:09
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2023-12-20T11:00:07
+unit42 = 2023-12-27T14:00:57
 google tag = 2023-12-15T17:00:00
 msrc security update = 2023-12-21T18:16:53
 
