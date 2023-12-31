@@ -172,6 +172,6 @@ ranstreet = 2023-12-21 00:08:22.617850
 malekteam = 2023-12-24 17:38:31.349662
 
 [Misc]
-redflagdomains = 2023-12-30
+redflagdomains = 2023-12-31
 reminder = 2023-12-23
 
