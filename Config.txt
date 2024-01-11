@@ -6,7 +6,7 @@ dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2024-01-11T10:50:35
 cisco = 2023-09-01T12:00:57
-information security magazine = 2024-01-11T12:15:00
+information security magazine = 2024-01-11T14:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-01-10T00:00:00
 bleeping computer = 2024-01-10T22:21:44
@@ -39,7 +39,7 @@ version = 2023-05-15T09:31:25
 redcanary = 2024-01-09T19:43:17
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2024-01-05T11:00:53
+unit42 = 2024-01-11T14:00:00
 google tag = 2023-12-15T17:00:00
 msrc security update = 2024-01-09T08:00:00
 
