@@ -177,6 +177,6 @@ slug = 2024-01-18 11:01:53.512839
 mydata = 2024-01-24 14:45:44.391077
 
 [Misc]
-redflagdomains = 2024-01-24
+redflagdomains = 2024-01-25
 reminder = 2024-01-24
 
