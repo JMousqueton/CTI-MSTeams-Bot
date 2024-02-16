@@ -178,6 +178,6 @@ mydata = 2024-02-14 14:53:11.629905
 ransomhub = 2024-02-10 20:10:13.609178
 
 [Misc]
-redflagdomains = 2024-02-15
+redflagdomains = 2024-02-16
 reminder = 2024-01-24
 
