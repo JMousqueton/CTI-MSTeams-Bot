@@ -179,6 +179,6 @@ ransomhub = 2024-02-10 20:10:13.609178
 trisec = 2024-02-16 22:28:09.383490
 
 [Misc]
-redflagdomains = 2024-02-17
+redflagdomains = 2024-02-18
 reminder = 2024-01-24
 
