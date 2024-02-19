@@ -14,7 +14,7 @@ proof point = 2024-02-14T17:29:05
 us-cert cisa = 2024-02-14T20:19:25
 fr-cert alertes = 2024-02-15T16:32:41
 fr-cert avis = 2024-02-16T12:45:08
-hacker news = 2024-02-19T04:39:00
+hacker news = 2024-02-19T05:05:00
 schneier on security = 2024-02-16T22:04:11
 ncsc = 7630-11-11T08:01:15
 center of internet security = 2024-02-13T18:26:09
@@ -176,7 +176,7 @@ insane = 2024-01-17 05:45:04.181045
 slug = 2024-01-18 11:01:53.512839
 mydata = 2024-02-14 14:53:11.629905
 ransomhub = 2024-02-10 20:10:13.609178
-trisec = 2024-02-16 22:28:09.383490
+trisec = 2024-02-19 06:11:47.754030
 
 [Misc]
 redflagdomains = 2024-02-18
