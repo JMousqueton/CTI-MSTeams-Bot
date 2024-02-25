@@ -182,5 +182,5 @@ alphalocker = 2024-02-14 14:53:11.629905
 
 [Misc]
 redflagdomains = 2024-02-24
-reminder = 2024-01-24
+reminder = 2024-02-25
 
