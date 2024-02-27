@@ -9,7 +9,7 @@ cisco = 2024-02-27T13:00:37
 information security magazine = 2024-02-27T18:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-02-27T00:00:00
-bleeping computer = 2024-02-27T17:25:08
+bleeping computer = 2024-02-27T18:53:42
 proof point = 2024-02-27T00:47:28
 us-cert cisa = 2024-02-23T17:37:53
 fr-cert alertes = 2024-02-15T16:32:41
@@ -182,6 +182,6 @@ alphalocker = 2024-02-14 14:53:11.629905
 blackout = 2024-02-26 22:35:02.607800
 
 [Misc]
-redflagdomains = 2024-02-26
+redflagdomains = 2024-02-27
 reminder = 2024-02-25
 
