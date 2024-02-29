@@ -9,7 +9,7 @@ cisco = 2024-02-28T13:00:07
 information security magazine = 2024-02-29T17:15:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-02-27T00:00:00
-bleeping computer = 2024-02-29T19:00:45
+bleeping computer = 2024-02-29T20:12:18
 proof point = 2024-02-27T14:42:33
 us-cert cisa = 2024-02-26T14:51:34
 fr-cert alertes = 2024-02-15T16:32:41
@@ -41,7 +41,7 @@ malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2024-02-29T11:00:36
 google tag = 2024-02-06T10:00:00
-msrc security update = 2024-02-28T08:00:00
+msrc security update = 2024-02-29T20:04:54
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
