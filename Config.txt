@@ -182,6 +182,6 @@ alphalocker = 2024-02-14 14:53:11.629905
 blackout = 2024-02-26 22:35:02.607800
 
 [Misc]
-redflagdomains = 2024-02-29
+redflagdomains = 2024-03-01
 reminder = 2024-02-25
 
