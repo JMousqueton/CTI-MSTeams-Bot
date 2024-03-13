@@ -183,6 +183,6 @@ blackout = 2024-02-26 22:35:02.607800
 donex = 2024-03-08 06:49:44.007152
 
 [Misc]
-redflagdomains = 2024-03-12
+redflagdomains = 2024-03-13
 reminder = 2024-02-25
 
