@@ -36,7 +36,7 @@ microsoft sentinel = 2024-03-15T00:21:17
 ncc = 2024-02-22T16:35:43
 sans = 2024-03-21T16:05:17
 version = 2023-05-15T09:31:25
-redcanary = 2024-03-18T17:08:56
+redcanary = 2024-03-21T17:43:12
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2024-03-21T10:00:15
@@ -184,6 +184,6 @@ donex = 2024-03-08 06:49:44.007152
 raworld = 2024-03-21 00:36:42.338685
 
 [Misc]
-redflagdomains = 2024-03-20
+redflagdomains = 2024-03-21
 reminder = 2024-02-25
 
