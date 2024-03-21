@@ -9,7 +9,7 @@ cisco = 2024-03-20T12:00:45
 information security magazine = 2024-03-21T17:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-03-20T00:00:00
-bleeping computer = 2024-03-21T18:14:11
+bleeping computer = 2024-03-21T19:05:18
 proof point = 2024-03-19T18:41:32
 us-cert cisa = 2024-02-26T14:51:34
 fr-cert alertes = 2024-02-15T16:32:41
@@ -183,6 +183,7 @@ blackout = 2024-02-26 22:35:02.607800
 donex = 2024-03-08 06:49:44.007152
 raworld = 2024-03-21 00:36:42.338685
 kill = 2024-03-21 18:31:57.467178
+killsec = 2024-03-21 18:31:57.467178
 
 [Misc]
 redflagdomains = 2024-03-21
