@@ -186,6 +186,6 @@ kill = 2024-03-21 18:31:57.467178
 killsec = 2024-03-21 18:31:57.467178
 
 [Misc]
-redflagdomains = 2024-03-23
+redflagdomains = 2024-03-24
 reminder = 2024-02-25
 
