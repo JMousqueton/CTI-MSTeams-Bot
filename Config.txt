@@ -10,7 +10,7 @@ information security magazine = 2024-03-27T16:35:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-03-26T00:00:00
 bleeping computer = 2024-03-27T18:44:47
-proof point = 2024-03-19T18:41:32
+proof point = 2024-03-27T12:52:47
 us-cert cisa = 2024-02-26T14:51:34
 fr-cert alertes = 2024-02-15T16:32:41
 fr-cert avis = 2024-03-27T13:42:07
@@ -186,6 +186,6 @@ kill = 2024-03-21 18:31:57.467178
 killsec = 2024-03-21 18:31:57.467178
 
 [Misc]
-redflagdomains = 2024-03-26
+redflagdomains = 2024-03-27
 reminder = 2024-02-25
 
