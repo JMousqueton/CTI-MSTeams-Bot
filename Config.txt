@@ -1,15 +1,15 @@
 [Rss]
-graham cluley = 2024-03-27T07:10:46
+graham cluley = 2024-03-27T16:26:07
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2024-03-26T15:37:54
 dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2024-03-20T14:26:05
 cisco = 2024-03-27T12:00:04
-information security magazine = 2024-03-27T13:01:00
+information security magazine = 2024-03-27T16:35:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-03-26T00:00:00
-bleeping computer = 2024-03-27T14:08:44
+bleeping computer = 2024-03-27T16:24:25
 proof point = 2024-03-19T18:41:32
 us-cert cisa = 2024-02-26T14:51:34
 fr-cert alertes = 2024-02-15T16:32:41
