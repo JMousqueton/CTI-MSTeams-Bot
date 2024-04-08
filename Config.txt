@@ -9,7 +9,7 @@ cisco = 2024-04-01T16:30:07
 information security magazine = 2024-04-08T16:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-04-03T00:00:00
-bleeping computer = 2024-04-08T18:22:30
+bleeping computer = 2024-04-08T18:50:43
 proof point = 2024-04-04T12:08:48
 us-cert cisa = 2024-02-26T14:51:34
 fr-cert alertes = 2024-02-15T16:32:41
@@ -160,7 +160,7 @@ cryptbb = 2023-09-15 22:33:41.705485
 ciphbit = 2024-04-06 05:51:11.404558
 losttrust = 2023-09-26 11:10:43.854110
 hunter = 2023-10-21 11:31:14.742711
-hunters = 2024-04-03 19:29:42.350000
+hunters = 2024-04-08 19:00:58.934695
 meow = 2024-03-06 10:20:38.559210
 dunghill = 2024-02-29 15:07:15.101691
 siegedsec = 2023-12-09 01:15:09.503027
@@ -187,6 +187,6 @@ killsec = 2024-04-03 00:01:48.054352
 redransomware = 2024-03-28 21:23:50.232720
 
 [Misc]
-redflagdomains = 2024-04-07
+redflagdomains = 2024-04-08
 reminder = 2024-03-28
 
