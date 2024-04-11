@@ -187,6 +187,6 @@ killsec = 2024-04-03 00:01:48.054352
 redransomware = 2024-03-28 21:23:50.232720
 
 [Misc]
-redflagdomains = 2024-04-10
+redflagdomains = 2024-04-11
 reminder = 2024-03-28
 
