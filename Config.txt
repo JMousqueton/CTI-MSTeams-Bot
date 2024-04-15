@@ -9,7 +9,7 @@ cisco = 2024-04-15T12:00:14
 information security magazine = 2024-04-15T16:15:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-04-12T00:00:00
-bleeping computer = 2024-04-15T18:10:41
+bleeping computer = 2024-04-15T19:11:16
 proof point = 2024-04-11T14:13:35
 us-cert cisa = 2024-02-26T14:51:34
 fr-cert alertes = 2024-04-12T12:28:06
@@ -148,7 +148,7 @@ la_piovra = 2023-06-10 16:58:28.721400
 blacksuit = 2024-04-15 13:27:51.509143
 noescape = 2023-12-04 08:56:33.596157
 cyclops = 2023-07-26 21:01:35.861410
-cactus = 2024-04-04 13:28:31.118505
+cactus = 2024-04-15 19:18:57.032640
 knight = 2024-02-12 19:38:42.717010
 incransom = 2024-04-11 19:37:52.689295
 metaencryptor = 2023-12-07 14:38:00.644464
@@ -185,9 +185,9 @@ raworld = 2024-04-12 00:14:10.991755
 kill = 2024-03-21 18:31:57.467178
 killsec = 2024-04-03 00:01:48.054352
 redransomware = 2024-03-28 21:23:50.232720
-darkvault = 2024-04-15 01:36:40.718247
+darkvault = 2024-04-15 19:20:07.354469
 
 [Misc]
-redflagdomains = 2024-04-14
+redflagdomains = 2024-04-15
 reminder = 2024-03-28
 
