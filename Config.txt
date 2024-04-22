@@ -193,6 +193,6 @@ embargo = 2024-04-21 16:41:17.208402
 qiulong = 2024-04-22 04:37:14.113846
 
 [Misc]
-redflagdomains = 2024-04-21
+redflagdomains = 2024-04-22
 reminder = 2024-03-28
 
