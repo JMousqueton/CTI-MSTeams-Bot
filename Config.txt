@@ -9,7 +9,7 @@ cisco = 2024-04-18T06:55:02
 information security magazine = 2024-04-29T16:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-04-24T00:00:00
-bleeping computer = 2024-04-29T17:13:50
+bleeping computer = 2024-04-29T19:41:37
 proof point = 2024-04-11T14:13:35
 us-cert cisa = 2024-04-17T16:23:11
 fr-cert alertes = 2024-04-25T16:18:19
@@ -198,6 +198,6 @@ spacebears = 2024-04-29 10:12:15.972944
 apt73 = 2024-04-29 06:08:57.341674
 
 [Misc]
-redflagdomains = 2024-04-28
+redflagdomains = 2024-04-29
 reminder = 2024-04-29
 
