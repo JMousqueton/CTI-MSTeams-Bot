@@ -6,7 +6,7 @@ dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2024-04-16T15:32:38
 cisco = 2024-04-18T06:55:02
-information security magazine = 2024-05-01T11:00:00
+information security magazine = 2024-05-01T12:00:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-05-01T00:00:00
 bleeping computer = 2024-04-30T22:08:49
@@ -196,6 +196,7 @@ eraleig = 2024-04-29 06:08:57.341674
 dan0n = 2024-04-26 10:10:05.752054
 spacebears = 2024-04-29 10:12:15.972944
 apt73 = 2024-04-29 06:08:57.341674
+apos = 2024-04-29 15:38:12.897021
 
 [Misc]
 redflagdomains = 2024-04-30
