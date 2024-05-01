@@ -200,6 +200,6 @@ apos = 2024-04-29 15:38:12.897021
 underground = 2024-05-01 14:14:37.825389
 
 [Misc]
-redflagdomains = 2024-04-30
+redflagdomains = 2024-05-01
 reminder = 2024-04-29
 
