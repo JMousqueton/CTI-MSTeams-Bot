@@ -9,7 +9,7 @@ cisco = 2024-05-08T15:00:16
 information security magazine = 2024-05-09T17:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-05-02T00:00:00
-bleeping computer = 2024-05-09T17:58:30
+bleeping computer = 2024-05-09T19:27:17
 proof point = 2024-05-07T07:49:36
 us-cert cisa = 2024-04-30T11:34:56
 fr-cert alertes = 2024-04-25T16:18:19
@@ -199,6 +199,7 @@ apt73 = 2024-05-08 09:24:15.155902
 apos = 2024-04-29 15:38:12.897021
 underground = 2024-05-03 08:23:30.888871
 flocker = 2024-05-07 03:49:06.876709
+zerotolerance = 2024-05-09 19:12:58.125215
 
 [Misc]
 redflagdomains = 2024-05-08
