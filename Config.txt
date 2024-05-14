@@ -9,7 +9,7 @@ cisco = 2024-05-08T15:00:16
 information security magazine = 2024-05-14T16:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-05-02T00:00:00
-bleeping computer = 2024-05-14T19:34:45
+bleeping computer = 2024-05-14T20:08:33
 proof point = 2024-05-13T11:55:51
 us-cert cisa = 2024-05-10T13:02:21
 fr-cert alertes = 2024-04-25T16:18:19
@@ -202,6 +202,6 @@ flocker = 2024-05-07 03:49:06.876709
 zerotolerance = 2024-05-09 19:12:58.125215
 
 [Misc]
-redflagdomains = 2024-05-13
+redflagdomains = 2024-05-14
 reminder = 2024-04-29
 
