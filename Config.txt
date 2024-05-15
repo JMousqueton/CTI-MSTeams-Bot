@@ -203,6 +203,6 @@ zerotolerance = 2024-05-09 19:12:58.125215
 arcusmedia = 2024-05-15 05:40:59.069123
 
 [Misc]
-redflagdomains = 2024-05-14
+redflagdomains = 2024-05-15
 reminder = 2024-04-29
 
