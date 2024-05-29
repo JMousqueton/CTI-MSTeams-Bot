@@ -204,6 +204,6 @@ arcusmedia = 2024-05-18 14:45:24.011436
 handala = 2024-05-27 11:36:49.973650
 
 [Misc]
-redflagdomains = 2024-05-28
+redflagdomains = 2024-05-29
 reminder = 2024-04-29
 
