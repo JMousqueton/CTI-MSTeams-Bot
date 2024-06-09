@@ -206,6 +206,6 @@ sensayq = 2024-06-04 22:31:01.592232
 eldorado = 2024-06-06 14:09:17.762691
 
 [Misc]
-redflagdomains = 2024-06-08
+redflagdomains = 2024-06-09
 reminder = 2024-05-31
 
