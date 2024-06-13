@@ -1,12 +1,12 @@
 [Rss]
-graham cluley = 2024-06-12T11:05:49
+graham cluley = 2024-06-13T09:28:36
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2024-06-11T22:57:35
 dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2024-05-23T16:22:19
 cisco = 2024-06-12T12:00:43
-information security magazine = 2024-06-13T08:30:00
+information security magazine = 2024-06-13T09:15:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-06-11T00:00:00
 bleeping computer = 2024-06-12T22:30:29
@@ -111,7 +111,7 @@ babuk = 2023-07-31 14:37:35.575413
 icefire = 2022-08-20 09:50:02.102837
 donutleaks = 2024-05-19 06:31:06.265899
 sparta = 2022-09-22 17:47:19.862890
-qilin = 2024-06-12 18:34:45.990679
+qilin = 2024-06-13 09:17:37.754140
 shaoleaks = 2022-11-01 17:07:34.876018
 mallox = 2024-06-05 19:34:39.533046
 royal = 2023-07-19 14:46:59.790838
