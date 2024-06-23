@@ -208,6 +208,6 @@ trinity = 2024-06-12 13:46:45.073456
 cicada3301 = 2024-06-20 06:29:59.328925
 
 [Misc]
-redflagdomains = 2024-06-22
+redflagdomains = 2024-06-23
 reminder = 2024-05-31
 
