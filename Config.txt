@@ -41,7 +41,7 @@ malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2024-06-26T10:00:12
 google tag = 2024-06-26T10:00:00
-msrc security update = 2024-06-26T07:00:00
+msrc security update = 2024-06-27T07:00:00
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
@@ -208,6 +208,6 @@ trinity = 2024-06-12 13:46:45.073456
 cicada3301 = 2024-06-20 06:29:59.328925
 
 [Misc]
-redflagdomains = 2024-06-26
+redflagdomains = 2024-06-27
 reminder = 2024-05-31
 
