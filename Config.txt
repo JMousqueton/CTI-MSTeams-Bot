@@ -15,7 +15,7 @@ us-cert cisa = 2024-05-10T13:02:21
 fr-cert alertes = 2024-07-01T12:56:56
 fr-cert avis = 2024-07-01T11:19:21
 hacker news = 2024-07-01T16:12:00
-schneier on security = 2024-07-01T11:05:25
+schneier on security = 2024-07-01T19:01:18
 ncsc = 7630-11-11T08:01:15
 center of internet security = 2024-06-25T15:58:34
 binary defense = 2024-06-11T13:00:00
@@ -206,6 +206,7 @@ sensayq = 2024-06-04 22:31:01.592232
 eldorado = 2024-06-06 14:09:17.762691
 trinity = 2024-06-12 13:46:45.073456
 cicada3301 = 2024-06-20 06:29:59.328925
+braincipher = 2024-07-01 19:10:39.000000
 
 [Misc]
 redflagdomains = 2024-07-01
