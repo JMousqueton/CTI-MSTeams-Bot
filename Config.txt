@@ -9,13 +9,13 @@ cisco = 2024-06-28T12:00:40
 information security magazine = 2024-07-02T16:15:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-06-28T00:00:00
-bleeping computer = 2024-07-02T15:57:39
+bleeping computer = 2024-07-02T18:06:17
 proof point = 2024-06-26T11:21:41
 us-cert cisa = 2024-05-10T13:02:21
 fr-cert alertes = 2024-07-01T12:56:56
 fr-cert avis = 2024-07-02T09:10:31
 hacker news = 2024-07-02T11:00:00
-schneier on security = 2024-07-02T11:06:37
+schneier on security = 2024-07-02T18:11:18
 ncsc = 7630-11-11T08:01:15
 center of internet security = 2024-07-01T16:30:27
 binary defense = 2024-06-11T13:00:00
@@ -209,6 +209,6 @@ cicada3301 = 2024-06-20 06:29:59.328925
 braincipher = 2024-07-01 19:10:39.000000
 
 [Misc]
-redflagdomains = 2024-07-01
+redflagdomains = 2024-07-02
 reminder = 2024-07-02
 
