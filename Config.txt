@@ -210,5 +210,5 @@ braincipher = 2024-07-01 19:10:39.000000
 
 [Misc]
 redflagdomains = 2024-07-01
-reminder = 2024-05-31
+reminder = 2024-07-02
 
