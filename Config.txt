@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2024-06-28T18:51:26
+graham cluley = 2024-07-02T13:02:35
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2024-07-03T16:41:34
 dark reading = 2027-03-26T22:00:00
@@ -25,7 +25,7 @@ virusbulletin = 2024-06-24T08:57:00
 modexp = 2024-04-29T08:08:21
 james forshaw = 2024-06-04T04:20:00
 adam chester = 2024-03-18T23:01:46
-microsoft security = 2024-06-27T07:00:00
+microsoft security = 2024-07-03T07:00:00
 recorded future = 2024-07-02T00:00:00
 sentinelone = 2024-07-01T15:00:52
 leak-lookup = 2024-07-02T12:00:02
