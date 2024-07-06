@@ -209,6 +209,6 @@ cicada3301 = 2024-06-20 06:29:59.328925
 braincipher = 2024-07-01 19:10:39.000000
 
 [Misc]
-redflagdomains = 2024-07-05
+redflagdomains = 2024-07-06
 reminder = 2024-07-02
 
