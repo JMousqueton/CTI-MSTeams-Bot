@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2024-07-08T14:47:27
+graham cluley = 2024-07-09T14:49:41
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2024-07-03T16:41:34
 dark reading = 2027-03-26T22:00:00
@@ -13,7 +13,7 @@ bleeping computer = 2024-07-09T14:01:49
 proof point = 2024-07-02T10:04:27
 us-cert cisa = 2024-07-08T13:52:05
 fr-cert alertes = 2024-07-01T12:56:56
-fr-cert avis = 2024-07-08T06:58:01
+fr-cert avis = 2024-07-09T13:38:56
 hacker news = 2024-07-09T12:39:00
 schneier on security = 2024-07-08T17:59:33
 ncsc = 7630-11-11T08:01:15
@@ -119,7 +119,7 @@ projectrelic = 2022-12-18 16:54:36.306758
 medusa = 2024-07-07 11:43:46.673295
 play = 2024-07-04 22:34:57.758344
 dataleak = 2022-12-02 09:45:25.796276
-monti = 2024-06-30 19:41:41.267740
+monti = 2024-07-09 15:02:28.962339
 nokoyawa = 2023-08-04 11:02:13.553376
 hive = 2023-01-16 23:15:55.695146
 karakurt = 2023-09-22 14:30:43.020500
