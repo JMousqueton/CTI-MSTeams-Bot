@@ -39,7 +39,7 @@ version = 2023-05-15T09:31:25
 redcanary = 2024-07-08T13:34:57
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2024-07-03T22:00:26
+unit42 = 2024-07-10T19:00:54
 google tag = 2024-06-26T10:00:00
 msrc security update = 2024-07-09T07:00:00
 
@@ -210,6 +210,6 @@ braincipher = 2024-07-01 19:10:39.000000
 vanirgroup = 2024-07-10 13:54:52.476485
 
 [Misc]
-redflagdomains = 2024-07-09
+redflagdomains = 2024-07-10
 reminder = 2024-07-02
 
