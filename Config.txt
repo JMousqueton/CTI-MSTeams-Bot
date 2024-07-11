@@ -210,6 +210,6 @@ braincipher = 2024-07-01 19:10:39.000000
 vanirgroup = 2024-07-10 13:54:52.476485
 
 [Misc]
-redflagdomains = 2024-07-10
+redflagdomains = 2024-07-11
 reminder = 2024-07-02
 
