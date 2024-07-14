@@ -211,6 +211,6 @@ vanirgroup = 2024-07-10 13:54:52.476485
 ransomcortex = 2024-07-12 17:37:07.641220
 
 [Misc]
-redflagdomains = 2024-07-13
+redflagdomains = 2024-07-14
 reminder = 2024-07-02
 
