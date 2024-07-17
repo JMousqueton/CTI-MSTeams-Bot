@@ -9,7 +9,7 @@ cisco = 2024-07-17T12:00:02
 information security magazine = 2024-07-17T15:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-07-17T00:00:00
-bleeping computer = 2024-07-17T19:02:24
+bleeping computer = 2024-07-17T21:11:09
 proof point = 2024-07-11T12:12:09
 us-cert cisa = 2024-07-09T14:09:48
 fr-cert alertes = 2024-07-01T12:56:56
@@ -213,6 +213,6 @@ fog = 2024-07-16 22:05:12.167155
 madliberator = 2024-07-17 05:15:54.129505
 
 [Misc]
-redflagdomains = 2024-07-16
+redflagdomains = 2024-07-17
 reminder = 2024-07-02
 
