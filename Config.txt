@@ -1,7 +1,7 @@
 [Rss]
 graham cluley = 2024-07-25T17:28:30
 threatpost = 2022-08-31T12:57:48
-krebs on security = 2024-07-23T19:41:51
+krebs on security = 2024-07-26T21:31:54
 dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2024-07-12T12:58:02
@@ -213,6 +213,6 @@ fog = 2024-07-26 16:07:07.174685
 madliberator = 2024-07-25 16:29:35.157655
 
 [Misc]
-redflagdomains = 2024-07-25
+redflagdomains = 2024-07-26
 reminder = 2024-07-02
 
