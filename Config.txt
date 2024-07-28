@@ -213,6 +213,6 @@ fog = 2024-07-26 16:07:07.174685
 madliberator = 2024-07-25 16:29:35.157655
 
 [Misc]
-redflagdomains = 2024-07-27
+redflagdomains = 2024-07-28
 reminder = 2024-07-02
 
