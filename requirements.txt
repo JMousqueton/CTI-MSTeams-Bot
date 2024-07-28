@@ -1,3 +1,4 @@
 feedparser==6.0.10
 beautifulsoup4==4.12.2
 requests==2.31.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
