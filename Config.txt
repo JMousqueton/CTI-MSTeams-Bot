@@ -9,12 +9,12 @@ cisco = 2024-07-23T12:00:07
 information security magazine = 2024-07-26T14:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-07-23T00:00:00
-bleeping computer = 2024-07-27T20:32:53
+bleeping computer = 2024-07-28T14:09:36
 proof point = 2024-07-22T16:51:01
 us-cert cisa = 2024-07-24T16:37:18
 fr-cert alertes = 2024-07-01T12:56:56
 fr-cert avis = 2024-07-26T12:21:54
-hacker news = 2024-07-27T06:09:00
+hacker news = 2024-07-29T04:56:00
 schneier on security = 2024-07-26T21:02:21
 ncsc = 7630-11-11T08:01:15
 center of internet security = 2024-07-23T23:03:48
@@ -211,6 +211,7 @@ vanirgroup = 2024-07-10 13:54:52.476485
 ransomcortex = 2024-07-12 17:37:07.641220
 fog = 2024-07-26 16:07:07.174685
 madliberator = 2024-07-25 16:29:35.157655
+lynx = 2024-07-29 05:54:37.706833
 
 [Misc]
 redflagdomains = 2024-07-28
