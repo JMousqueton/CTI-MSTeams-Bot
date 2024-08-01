@@ -9,7 +9,7 @@ cisco = 2024-08-01T12:00:19
 information security magazine = 2024-08-01T15:45:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-08-01T00:00:00
-bleeping computer = 2024-08-01T17:10:28
+bleeping computer = 2024-08-01T17:53:04
 proof point = 2024-07-22T16:51:01
 us-cert cisa = 2024-07-24T16:37:18
 fr-cert alertes = 2024-07-01T12:56:56
@@ -188,7 +188,7 @@ redransomware = 2024-06-12 07:10:17.299520
 darkvault = 2024-07-26 14:40:05.850601
 gookie = 2024-04-19 08:15:03.442959
 disposseor = 2024-04-19 09:35:31.467821
-dispossessor = 2024-07-29 19:43:02.035591
+dispossessor = 2024-08-01 18:08:52.085065
 embargo = 2024-07-26 15:17:06.368054
 qiulong = 2024-06-24 22:23:31.002955
 hellogookie = 2024-04-19 08:15:03.442959
@@ -214,6 +214,6 @@ madliberator = 2024-07-25 16:29:35.157655
 lynx = 2024-07-29 05:54:37.706833
 
 [Misc]
-redflagdomains = 2024-07-31
+redflagdomains = 2024-08-01
 reminder = 2024-07-02
 
