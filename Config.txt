@@ -14,7 +14,7 @@ proof point = 2024-08-01T15:53:25
 us-cert cisa = 2024-07-24T16:37:18
 fr-cert alertes = 2024-07-01T12:56:56
 fr-cert avis = 2024-08-01T07:24:52
-hacker news = 2024-08-01T14:10:00
+hacker news = 2024-08-02T07:02:00
 schneier on security = 2024-08-01T11:03:53
 ncsc = 7630-11-11T08:01:15
 center of internet security = 2024-07-30T20:28:55
@@ -210,7 +210,7 @@ braincipher = 2024-07-21 19:23:38.174032
 vanirgroup = 2024-07-10 13:54:52.476485
 ransomcortex = 2024-07-12 17:37:07.641220
 fog = 2024-07-31 20:07:57.604003
-madliberator = 2024-07-25 16:29:35.157655
+madliberator = 2024-08-02 07:18:37.181962
 lynx = 2024-07-29 05:54:37.706833
 
 [Misc]
