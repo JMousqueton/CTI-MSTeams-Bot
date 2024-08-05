@@ -1,7 +1,7 @@
 [Rss]
 graham cluley = 2024-08-01T15:31:42
 threatpost = 2022-08-31T12:57:48
-krebs on security = 2024-08-02T00:15:44
+krebs on security = 2024-08-05T19:52:35
 dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2024-08-02T08:27:02
@@ -9,7 +9,7 @@ cisco = 2024-08-05T12:00:38
 information security magazine = 2024-08-05T16:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-08-04T00:00:00
-bleeping computer = 2024-08-05T17:21:04
+bleeping computer = 2024-08-05T20:09:42
 proof point = 2024-08-01T15:53:25
 us-cert cisa = 2024-07-24T16:37:18
 fr-cert alertes = 2024-07-01T12:56:56
@@ -205,7 +205,7 @@ handala = 2024-07-26 05:39:58.400624
 sensayq = 2024-07-01 19:44:03.668024
 eldorado = 2024-06-06 14:09:17.762691
 trinity = 2024-06-12 13:46:45.073456
-cicada3301 = 2024-08-05 17:37:23.289976
+cicada3301 = 2024-08-05 19:43:05.063232
 braincipher = 2024-07-21 19:23:38.174032
 vanirgroup = 2024-07-10 13:54:52.476485
 ransomcortex = 2024-07-12 17:37:07.641220
