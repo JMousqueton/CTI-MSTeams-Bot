@@ -39,7 +39,7 @@ version = 2023-05-15T09:31:25
 redcanary = 2024-08-05T22:07:16
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2024-08-09T10:00:03
+unit42 = 2024-08-12T20:00:54
 google tag = 2024-06-26T10:00:00
 msrc security update = 2024-08-10T07:00:00
 
@@ -214,6 +214,6 @@ madliberator = 2024-08-07 14:35:57.525800
 lynx = 2024-08-12 19:01:28.769855
 
 [Misc]
-redflagdomains = 2024-08-11
+redflagdomains = 2024-08-12
 reminder = 2024-08-03
 
