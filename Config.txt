@@ -215,6 +215,6 @@ lynx = 2024-08-12 19:01:28.769855
 helldown = 2024-08-13 18:26:36.975174
 
 [Misc]
-redflagdomains = 2024-08-12
+redflagdomains = 2024-08-13
 reminder = 2024-08-03
 
