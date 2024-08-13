@@ -4,7 +4,7 @@ threatpost = 2022-08-31T12:57:48
 krebs on security = 2024-08-07T19:01:49
 dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
-davinci forensics = 2024-08-08T10:53:49
+davinci forensics = 2024-08-13T07:15:00
 cisco = 2024-08-07T12:00:32
 information security magazine = 2024-08-12T15:30:00
 google = 2022-10-12T12:00:00
@@ -212,6 +212,7 @@ ransomcortex = 2024-07-12 17:37:07.641220
 fog = 2024-08-06 16:23:17.505753
 madliberator = 2024-08-07 14:35:57.525800
 lynx = 2024-08-12 19:01:28.769855
+helldown = 2024-08-13 07:36:35.837121
 
 [Misc]
 redflagdomains = 2024-08-12
