@@ -40,7 +40,7 @@ redcanary = 2024-08-05T22:07:16
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2024-08-14T13:00:37
-google tag = 2024-06-26T10:00:00
+google tag = 2024-08-14T19:00:00
 msrc security update = 2024-08-14T07:00:00
 
 [Ransomware]
@@ -215,6 +215,6 @@ lynx = 2024-08-12 19:01:28.769855
 helldown = 2024-08-14 02:07:19.358646
 
 [Misc]
-redflagdomains = 2024-08-13
+redflagdomains = 2024-08-14
 reminder = 2024-08-03
 
