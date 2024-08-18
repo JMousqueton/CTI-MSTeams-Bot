@@ -81,13 +81,13 @@ def GetRansomwareUpdates():
             url = "<br><br><b>Screenshot :</b> <a href='https://images.ransomware.live/screenshots/posts/" +  url_md5 + ".png'> 📸 </a>"
         else: 
             url = ""
-        try:
-            if Entries['website']:
-                website = "<a href=\"" + Entries['website'] + "\">" + Entries['website'] + "</a>"
-            else: 
-                website =  "<a href=\"https://www.google.com/search?q=" +  Entries["post_title"].replace("*.", "") + "\">" + Entries["post_title"] + "</a>"
-        except:
-            website =  "<a href=\"https://www.google.com/search?q=" +  Entries["post_title"].replace("*.", "") + "\">" + Entries["post_title"] + "</a>"            
+        #try:
+        #    if Entries['website']:
+        #        website = "<a href=\"" + Entries['website'] + "\">" + Entries['website'] + "</a>"
+        #    else: 
+        #        website =  "<a href=\"https://www.google.com/search?q=" +  Entries["post_title"].replace("*.", "") + "\">" + Entries["post_title"] + "</a>"
+        #except:
+        #    website =  "<a href=\"https://www.google.com/search?q=" +  Entries["post_title"].replace("*.", "") + "\">" + Entries["post_title"] + "</a>"            
 
         OutputMessage = "<b>Group : </b>"
         OutputMessage += "<a href=\"https://www.ransomware.live/#/profiles?id="
