@@ -81,14 +81,12 @@ def GetRansomwareUpdates():
             url = "<br><br><b>Screenshot :</b> <a href='https://images.ransomware.live/screenshots/posts/" +  url_md5 + ".png'> 📸 </a>"
         else: 
             url = ""
-        #try:
-        #    if Entries['website']:
-        #        website = "<a href=\"" + Entries['website'] + "\">" + Entries['website'] + "</a>"
-        #    else: 
-        #        website =  "<a href=\"https://www.google.com/search?q=" +  Entries["post_title"].replace("*.", "") + "\">" + Entries["post_title"] + "</a>"
-        #except:
-        #    website =  "<a href=\"https://www.google.com/search?q=" +  Entries["post_title"].replace("*.", "") + "\">" + Entries["post_title"] + "</a>"            
-
+        
+        if Entries['website']:
+                website = "<a href=\"" + Entries['website'] + "\">" + Entries['website'] + "</a>"
+        else: 
+                website =  "<a href=\"https://www.google.com/search?q=" +  Entries["post_title"].replace("*.", "") + "\">" + Entries["post_title"] + "</a>"
+        
         OutputMessage = "<b>Group : </b>"
         OutputMessage += "<a href=\"https://www.ransomware.live/#/profiles?id="
         OutputMessage += Entries["group_name"]
@@ -278,7 +276,8 @@ def GetRedFlagDomains():
             #    OutputMessage = soup.find("meta", property="og:description")["content"][4:].replace('.wf ','').replace('.yt ','').replace('.re ','').replace('[','').replace(']','')
             div = soup.find("div", {"class": "content", "itemprop": "articleBody"})
             for p in div.find_all("p"):
-                OutputMessage = re.sub("[\[\]]", "", (p.get_text()))
+                #OutputMessage = re.sub("[\[\]]", "", (p.get_text()))
+                OutputMessage = re.sub(r"[\[\]]", "", (p.get_text()))
             Title = "🚩 Red Flag Domains créés ce jour (" +  str(today) + ")"
             FileConfig.set('Misc', "redflagdomains", str(today))
             if options.Debug:
@@ -427,11 +426,11 @@ if __name__ == '__main__':
         reader = csv.reader(f)
         RssFeedList = list(reader)
             
-    for RssItem in RssFeedList:
-        if '#' in str(RssItem[0]):
-            continue
-        GetRssFromUrl(RssItem)
-        CreateLogString(RssItem[1])
+    #for RssItem in RssFeedList:
+    #    if '#' in str(RssItem[0]):
+    #        continue
+    #    GetRssFromUrl(RssItem)
+    #    CreateLogString(RssItem[1])
 
     GetRansomwareUpdates()
     CreateLogString("Ransomware List")
