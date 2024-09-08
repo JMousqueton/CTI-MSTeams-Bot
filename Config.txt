@@ -287,6 +287,6 @@ phoenixcryptolocker = 2021-03-21 00:00:00.000000
 astroteam = 2021-04-05 00:00:00.000000
 
 [Misc]
-redflagdomains = 2024-09-07
+redflagdomains = 2024-09-08
 reminder = 2024-09-04
 
