@@ -288,6 +288,6 @@ astroteam = 2021-04-05 00:00:00.000000
 valencialeaks = 2024-09-10 03:45:00.123456
 
 [Misc]
-redflagdomains = 2024-09-14
+redflagdomains = 2024-09-15
 reminder = 2024-09-04
 
