@@ -285,6 +285,7 @@ prolock = 2020-04-25 00:00:00.000000
 ronggolawe = 2021-02-01 00:00:00.000000
 phoenixcryptolocker = 2021-03-21 00:00:00.000000
 astroteam = 2021-04-05 00:00:00.000000
+valencialeaks = 2024-09-10 03:45:00.000000
 
 [Misc]
 redflagdomains = 2024-09-14
