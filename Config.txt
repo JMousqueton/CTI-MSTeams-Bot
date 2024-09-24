@@ -289,6 +289,6 @@ valencialeaks = 2024-09-18 09:47:16.136675
 orca = 2024-09-18 13:00:34.104943
 
 [Misc]
-redflagdomains = 2024-09-23
+redflagdomains = 2024-09-24
 reminder = 2024-09-04
 
