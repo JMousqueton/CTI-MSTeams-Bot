@@ -292,6 +292,6 @@ sarcoma = 2024-10-19 08:43:37.381601
 interlock = 2024-10-13 19:52:31.016932
 
 [Misc]
-redflagdomains = 2024-10-19
+redflagdomains = 2024-10-20
 reminder = 2024-10-06
 
