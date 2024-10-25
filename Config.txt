@@ -293,6 +293,6 @@ interlock = 2024-10-24 18:39:46.418933
 hellcat = 2024-10-25 08:53:04.137330
 
 [Misc]
-redflagdomains = 2024-10-24
+redflagdomains = 2024-10-25
 reminder = 2024-10-06
 
