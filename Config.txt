@@ -294,6 +294,6 @@ hellcat = 2024-10-25 08:53:04.137330
 playboy = 2024-10-30 19:16:00.461633
 
 [Misc]
-redflagdomains = 2024-11-02
+redflagdomains = 2024-11-03
 reminder = 2024-10-06
 
