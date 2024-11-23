@@ -298,6 +298,6 @@ termite = 2024-11-20 02:35:50.142955
 safepay = 2024-11-20 23:31:46.570945
 
 [Misc]
-redflagdomains = 2024-11-22
+redflagdomains = 2024-11-23
 reminder = 2024-11-07
 
