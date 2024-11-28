@@ -299,6 +299,6 @@ safepay = 2024-11-28 08:13:24.088553
 argonauts = 2024-11-27 16:51:59.400695
 
 [Misc]
-redflagdomains = 2024-11-27
+redflagdomains = 2024-11-28
 reminder = 2024-11-07
 
