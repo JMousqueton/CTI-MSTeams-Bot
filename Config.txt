@@ -300,6 +300,6 @@ argonauts = 2024-12-03 13:46:48.635720
 funksec = 2024-12-04 13:15:03.265816
 
 [Misc]
-redflagdomains = 2024-12-03
+redflagdomains = 2024-12-04
 reminder = 2024-11-07
 
