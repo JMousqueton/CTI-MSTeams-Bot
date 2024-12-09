@@ -301,5 +301,5 @@ funksec = 2024-12-08 15:36:09.427822
 
 [Misc]
 redflagdomains = 2024-12-08
-reminder = 2024-11-07
+reminder = 2024-12-09
 
