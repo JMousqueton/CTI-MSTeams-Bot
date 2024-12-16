@@ -302,6 +302,6 @@ bluebox = 2024-12-11 12:46:01.557279
 dragonransomware = 2024-12-15 10:20:05.620379
 
 [Misc]
-redflagdomains = 2024-12-15
+redflagdomains = 2024-12-16
 reminder = 2024-12-09
 
