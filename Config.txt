@@ -303,6 +303,6 @@ dragonransomware = 2024-12-17 00:50:44.248624
 morpheus = 2025-01-07 18:29:38.159516
 
 [Misc]
-redflagdomains = 2025-01-09
+redflagdomains = 2025-01-10
 reminder = 2025-01-10
 
