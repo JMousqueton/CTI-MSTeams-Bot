@@ -305,6 +305,6 @@ gdlockersec = 2025-01-26 19:29:25.544312
 babuk2 = 2025-01-28 18:12:41.313628
 
 [Misc]
-redflagdomains = 2025-02-01
+redflagdomains = 2025-02-02
 reminder = 2025-01-10
 
