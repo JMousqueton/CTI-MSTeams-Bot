@@ -306,6 +306,6 @@ babuk2 = 2025-01-28 18:12:41.313628
 kraken = 2025-02-09 19:07:49.285098
 
 [Misc]
-redflagdomains = 2025-02-09
+redflagdomains = 2025-02-10
 reminder = 2025-01-10
 
