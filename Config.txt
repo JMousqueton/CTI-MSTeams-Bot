@@ -307,6 +307,6 @@ kraken = 2025-02-20 14:59:00.636415
 linkc = 2025-02-19 07:29:31.399015
 
 [Misc]
-redflagdomains = 2025-02-22
+redflagdomains = 2025-02-23
 reminder = 2025-02-11
 
