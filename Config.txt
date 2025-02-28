@@ -309,6 +309,6 @@ anubis = 2025-02-25 07:49:06.511060
 runsomewares = 2025-02-27 14:37:04.752890
 
 [Misc]
-redflagdomains = 2025-02-27
+redflagdomains = 2025-02-28
 reminder = 2025-02-11
 
