@@ -310,6 +310,6 @@ runsomewares = 2025-02-27 14:37:04.752890
 skira = 2025-03-06 01:24:29.215457
 
 [Misc]
-redflagdomains = 2025-03-05
+redflagdomains = 2025-03-06
 reminder = 2025-02-11
 
