@@ -312,6 +312,6 @@ weyhro = 2025-03-06 22:25:19.826815
 crazyhunter = 2025-03-09 07:14:50.423741
 
 [Misc]
-redflagdomains = 2025-03-10
+redflagdomains = 2025-03-11
 reminder = 2025-02-11
 
