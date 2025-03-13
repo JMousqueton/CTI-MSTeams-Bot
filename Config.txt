@@ -313,6 +313,6 @@ crazyhunter = 2025-03-09 07:14:50.423741
 nightspire = 2025-03-12 23:50:48.802120
 
 [Misc]
-redflagdomains = 2025-03-12
+redflagdomains = 2025-03-13
 reminder = 2025-02-11
 
