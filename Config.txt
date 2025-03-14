@@ -314,6 +314,6 @@ nightspire = 2025-03-12 23:50:48.802120
 secp0 = 2025-03-14 07:35:02.420437
 
 [Misc]
-redflagdomains = 2025-03-13
+redflagdomains = 2025-03-14
 reminder = 2025-02-11
 
