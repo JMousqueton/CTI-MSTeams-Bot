@@ -34,7 +34,15 @@ jobs:
         run: |
           git config --global user.email "bot-parser@users.noreply.github.com"
           git config --global user.name "Bot-Parser"
-          git pull --rebase origin main
+          
+          # Fetch and rebase to ensure local branch is up to date
+          git fetch origin
+          git rebase origin/main
+
           DATE=$(date -Iseconds)
+          
+          # Commit any changes if they exist
           git commit --all --message "Updated by Bot-Parser on $DATE" || echo "No changes to commit"
-          git push
+          
+          # Push changes after ensuring we're up to date
+          git push origin main
