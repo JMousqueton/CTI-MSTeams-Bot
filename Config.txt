@@ -315,6 +315,6 @@ secp0 = 2025-03-14 07:35:02.420437
 vanhelsing = 2025-03-19 16:45:53.578753
 
 [Misc]
-redflagdomains = 2025-03-22
+redflagdomains = 2025-03-23
 reminder = 2025-03-15
 
