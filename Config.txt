@@ -317,6 +317,6 @@ frag = 2025-03-24 19:24:57.875061
 arkana = 2025-03-25 13:33:32.023596
 
 [Misc]
-redflagdomains = 2025-03-24
+redflagdomains = 2025-03-25
 reminder = 2025-03-15
 
