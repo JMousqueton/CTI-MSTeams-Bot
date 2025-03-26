@@ -318,6 +318,6 @@ arkana = 2025-03-26 13:12:36.387537
 ralord = 2025-03-26 07:10:55.692343
 
 [Misc]
-redflagdomains = 2025-03-25
+redflagdomains = 2025-03-26
 reminder = 2025-03-15
 
