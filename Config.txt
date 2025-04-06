@@ -319,6 +319,6 @@ ralord = 2025-03-31 02:11:58.781693
 chaos = 2025-03-31 18:31:23.783552
 
 [Misc]
-redflagdomains = 2025-04-05
+redflagdomains = 2025-04-06
 reminder = 2025-03-15
 
