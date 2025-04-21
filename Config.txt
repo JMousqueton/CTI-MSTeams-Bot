@@ -322,6 +322,6 @@ devman = 2025-04-20 16:51:00.472664
 crypto24 = 2025-04-12 08:52:39.751917
 
 [Misc]
-redflagdomains = 2025-04-20
+redflagdomains = 2025-04-21
 reminder = 2025-04-16
 
