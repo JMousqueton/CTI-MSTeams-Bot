@@ -324,6 +324,6 @@ silent = 2025-04-25 06:38:56.704641
 gunra = 2025-04-27 12:02:55.563001
 
 [Misc]
-redflagdomains = 2025-04-26
+redflagdomains = 2025-04-27
 reminder = 2025-04-16
 
