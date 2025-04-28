@@ -325,6 +325,6 @@ gunra = 2025-04-28 10:31:00.964845
 nova = 2025-04-28 14:16:50.526206
 
 [Misc]
-redflagdomains = 2025-04-27
+redflagdomains = 2025-04-28
 reminder = 2025-04-16
 
