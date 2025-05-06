@@ -328,6 +328,6 @@ imncrew = 2025-05-05 20:10:15.594157
 leakeddata = 2025-05-06 18:25:18.544492
 
 [Misc]
-redflagdomains = 2025-05-05
+redflagdomains = 2025-05-06
 reminder = 2025-04-16
 
