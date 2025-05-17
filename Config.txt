@@ -330,6 +330,6 @@ silentransomgroup = 2025-05-06 18:25:18.544492
 blacklock = 2025-05-16 13:50:19.435827
 
 [Misc]
-redflagdomains = 2025-05-16
+redflagdomains = 2025-05-17
 reminder = 2025-04-16
 
