@@ -331,6 +331,6 @@ blacklock = 2025-05-16 13:50:19.435827
 worldleaks = 2025-05-18 16:47:55.956030
 
 [Misc]
-redflagdomains = 2025-05-18
+redflagdomains = 2025-05-19
 reminder = 2025-05-18
 
