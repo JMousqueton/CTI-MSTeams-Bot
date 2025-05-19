@@ -328,7 +328,7 @@ imncrew = 2025-05-05 20:10:15.594157
 leakeddata = 2025-05-06 18:25:18.544492
 silentransomgroup = 2025-05-06 18:25:18.544492
 blacklock = 2025-05-16 13:50:19.435827
-worldleaks = 2025-05-18 16:47:55.956030
+worldleaks = 2025-05-19 23:17:23.849853
 
 [Misc]
 redflagdomains = 2025-05-19
