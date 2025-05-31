@@ -333,6 +333,6 @@ datacarry = 2025-05-29 12:20:14.233621
 direwolf = 2025-05-31 00:53:28.501693
 
 [Misc]
-redflagdomains = 2025-05-30
+redflagdomains = 2025-05-31
 reminder = 2025-05-18
 
