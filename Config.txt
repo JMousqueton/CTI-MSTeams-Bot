@@ -334,6 +334,6 @@ direwolf = 2025-05-31 00:53:28.501693
 global = 2025-06-04 07:41:18.345748
 
 [Misc]
-redflagdomains = 2025-06-03
+redflagdomains = 2025-06-04
 reminder = 2025-05-18
 
