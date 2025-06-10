@@ -335,6 +335,6 @@ global = 2025-06-07 14:48:22.941228
 walocker = 2025-06-10 03:53:39.455240
 
 [Misc]
-redflagdomains = 2025-06-09
+redflagdomains = 2025-06-10
 reminder = 2025-05-18
 
