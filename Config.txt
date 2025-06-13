@@ -337,6 +337,6 @@ teamxxx = 2025-06-10 23:25:27.048278
 warlock = 2025-06-11 11:55:33.394719
 
 [Misc]
-redflagdomains = 2025-06-12
+redflagdomains = 2025-06-13
 reminder = 2025-05-18
 
