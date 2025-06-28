@@ -338,6 +338,6 @@ warlock = 2025-06-11 11:55:33.394719
 kawa4096 = 2025-06-27 14:17:27.664113
 
 [Misc]
-redflagdomains = 2025-06-27
+redflagdomains = 2025-06-28
 reminder = 2025-06-19
 
