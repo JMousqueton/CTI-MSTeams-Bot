@@ -340,6 +340,6 @@ satanlockv2 = 2025-07-06 02:11:10.161059
 sinobi = 2025-07-05 19:23:41.921881
 
 [Misc]
-redflagdomains = 2025-07-05
+redflagdomains = 2025-07-06
 reminder = 2025-06-19
 
