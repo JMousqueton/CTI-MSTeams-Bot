@@ -343,6 +343,6 @@ d4rk4rmy = 2025-07-08 06:17:31.514715
 rebornvc = 2025-07-08 19:25:19.693166
 
 [Misc]
-redflagdomains = 2025-07-08
+redflagdomains = 2025-07-09
 reminder = 2025-06-19
 
