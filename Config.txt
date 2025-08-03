@@ -346,6 +346,6 @@ beast = 2025-07-29 22:02:52.378022
 bqtlock = 2025-07-31 19:16:20.624614
 
 [Misc]
-redflagdomains = 2025-08-02
+redflagdomains = 2025-08-03
 reminder = 2025-07-21
 
