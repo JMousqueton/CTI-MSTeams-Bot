@@ -347,6 +347,6 @@ bqtlock = 2025-07-31 19:16:20.624614
 pear = 2025-08-05 21:44:21.772879
 
 [Misc]
-redflagdomains = 2025-08-05
+redflagdomains = 2025-08-06
 reminder = 2025-07-21
 
