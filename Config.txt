@@ -348,6 +348,6 @@ pear = 2025-08-05 21:44:21.772879
 blacknevas = 2025-08-06 18:20:52.880637
 
 [Misc]
-redflagdomains = 2025-08-17
+redflagdomains = 2025-08-18
 reminder = 2025-07-21
 
