@@ -349,5 +349,5 @@ blacknevas = 2025-08-06 18:20:52.880637
 
 [Misc]
 redflagdomains = 2025-08-21
-reminder = 2025-07-21
+reminder = 2025-08-22
 
