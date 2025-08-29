@@ -350,6 +350,6 @@ cephalus = 2025-08-29 03:21:19.126983
 cephalus-api = 2025-08-29 03:21:19.126983
 
 [Misc]
-redflagdomains = 2025-08-28
+redflagdomains = 2025-08-29
 reminder = 2025-08-22
 
