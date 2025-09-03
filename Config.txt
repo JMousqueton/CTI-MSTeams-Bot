@@ -352,6 +352,6 @@ desolator = 2025-09-01 11:16:12.499212
 lunalock = 2025-09-02 15:12:27.201634
 
 [Misc]
-redflagdomains = 2025-09-02
+redflagdomains = 2025-09-03
 reminder = 2025-08-22
 
