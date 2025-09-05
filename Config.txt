@@ -351,8 +351,9 @@ cephalus-api = 2025-08-29 03:21:19.126983
 desolator = 2025-09-01 11:16:12.499212
 lunalock = 2025-09-02 15:12:27.201634
 obscura = 2025-09-05 17:34:43.740942
+yurei = 2025-09-05 19:35:05.078000
 
 [Misc]
-redflagdomains = 2025-09-04
+redflagdomains = 2025-09-05
 reminder = 2025-08-22
 
