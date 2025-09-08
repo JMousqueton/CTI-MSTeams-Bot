@@ -354,6 +354,6 @@ obscura = 2025-09-05 17:34:43.740942
 yurei = 2025-09-08 15:45:38.313765
 
 [Misc]
-redflagdomains = 2025-09-07
+redflagdomains = 2025-09-08
 reminder = 2025-08-22
 
