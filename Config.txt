@@ -356,6 +356,6 @@ thegentlemen = 2025-09-09 16:06:26.434247
 radar = 2025-09-11 16:07:59.665192
 
 [Misc]
-redflagdomains = 2025-09-13
+redflagdomains = 2025-09-14
 reminder = 2025-08-22
 
