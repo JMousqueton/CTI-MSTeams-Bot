@@ -358,6 +358,6 @@ coinbasecartel = 2025-09-15 20:49:41.580884
 blackshrantac = 2025-09-18 01:41:00.251594
 
 [Misc]
-redflagdomains = 2025-09-17
+redflagdomains = 2025-09-18
 reminder = 2025-08-22
 
