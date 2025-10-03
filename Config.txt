@@ -356,6 +356,7 @@ thegentlemen = 2025-09-29 17:27:03.859294
 radar = 2025-10-03 14:50:12.053763
 coinbasecartel = 2025-09-30 20:41:53.265922
 blackshrantac = 2025-10-02 21:18:59.168849
+shinyhunters = 2025-10-03 15:54:30.065707
 
 [Misc]
 redflagdomains = 2025-10-02
