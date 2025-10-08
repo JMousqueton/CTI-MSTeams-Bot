@@ -360,6 +360,6 @@ shinyhunters = 2025-10-08 16:12:23.675543
 kryptos = 2025-10-08 08:15:36.012217
 
 [Misc]
-redflagdomains = 2025-10-07
+redflagdomains = 2025-10-08
 reminder = 2025-09-23
 
