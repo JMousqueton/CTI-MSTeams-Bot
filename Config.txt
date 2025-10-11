@@ -361,6 +361,6 @@ kryptos = 2025-10-08 08:15:36.012217
 brotherhood = 2025-10-10 12:39:22.803016
 
 [Misc]
-redflagdomains = 2025-10-10
+redflagdomains = 2025-10-11
 reminder = 2025-09-23
 
