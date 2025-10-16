@@ -363,6 +363,6 @@ nasirsecurity = 2025-10-12 00:03:14.401834
 radiant = 2025-10-16 01:47:52.304611
 
 [Misc]
-redflagdomains = 2025-10-15
+redflagdomains = 2025-10-16
 reminder = 2025-09-23
 
