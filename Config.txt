@@ -364,6 +364,6 @@ radiant = 2025-10-16 01:47:52.304611
 genesis = 2025-10-21 15:17:35.867362
 
 [Misc]
-redflagdomains = 2025-10-21
+redflagdomains = 2025-10-22
 reminder = 2025-09-23
 
