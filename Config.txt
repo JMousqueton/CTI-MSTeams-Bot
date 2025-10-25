@@ -366,5 +366,5 @@ tengu = 2025-10-24 19:13:27.374560
 
 [Misc]
 redflagdomains = 2025-10-24
-reminder = 2025-09-23
+reminder = 2025-10-25
 
