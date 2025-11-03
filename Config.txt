@@ -365,6 +365,6 @@ genesis = 2025-10-28 21:18:26.823553
 tengu = 2025-10-24 19:13:27.374560
 
 [Misc]
-redflagdomains = 2025-11-02
+redflagdomains = 2025-11-03
 reminder = 2025-10-25
 
