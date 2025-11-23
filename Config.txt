@@ -366,6 +366,6 @@ tengu = 2025-11-23 17:18:23.468797
 kazu = 2025-11-11 13:20:23.521175
 
 [Misc]
-redflagdomains = 2025-11-22
+redflagdomains = 2025-11-23
 reminder = 2025-10-25
 
