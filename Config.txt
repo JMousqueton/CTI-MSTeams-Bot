@@ -367,5 +367,5 @@ kazu = 2025-11-11 13:20:23.521175
 
 [Misc]
 redflagdomains = 2025-11-25
-reminder = 2025-10-25
+reminder = 2025-11-26
 
