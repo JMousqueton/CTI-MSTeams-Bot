@@ -367,6 +367,6 @@ kazu = 2025-11-11 13:20:23.521175
 benzona = 2025-11-26 17:47:28.218991
 
 [Misc]
-redflagdomains = 2025-11-27
+redflagdomains = 2025-11-28
 reminder = 2025-11-26
 
