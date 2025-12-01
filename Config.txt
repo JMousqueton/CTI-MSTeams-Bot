@@ -368,6 +368,6 @@ benzona = 2025-11-26 17:47:28.218991
 tridentlocker = 2025-12-01 10:27:43.284876
 
 [Misc]
-redflagdomains = 2025-11-30
+redflagdomains = 2025-12-01
 reminder = 2025-11-26
 
