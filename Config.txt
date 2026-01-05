@@ -373,6 +373,6 @@ ms13089 = 2025-12-18 09:55:42.738988
 sicarii = 2026-01-05 09:38:40.545422
 
 [Misc]
-redflagdomains = 2026-01-04
+redflagdomains = 2026-01-05
 reminder = 2025-12-28
 
