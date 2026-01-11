@@ -374,6 +374,6 @@ sicarii = 2026-01-05 09:38:40.545422
 vect = 2026-01-08 19:12:15.072831
 
 [Misc]
-redflagdomains = 2026-01-10
+redflagdomains = 2026-01-11
 reminder = 2025-12-28
 
