@@ -375,6 +375,6 @@ vect = 2026-01-08 19:12:15.072831
 0apt = 2026-01-31 18:19:11.270811
 
 [Misc]
-redflagdomains = 2026-01-31
+redflagdomains = 2026-02-01
 reminder = 2026-01-29
 
