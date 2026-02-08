@@ -376,6 +376,6 @@ vect = 2026-01-08 19:12:15.072831
 insomnia = 2026-02-07 21:34:01.449960
 
 [Misc]
-redflagdomains = 2026-02-07
+redflagdomains = 2026-02-08
 reminder = 2026-01-29
 
