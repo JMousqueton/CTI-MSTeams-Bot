@@ -384,6 +384,6 @@ ailock = 2026-03-17 13:44:53.176392
 exitium = 2026-03-17 23:01:02.404038
 
 [Misc]
-redflagdomains = 2026-03-17
+redflagdomains = 2026-03-18
 reminder = 2026-03-02
 
