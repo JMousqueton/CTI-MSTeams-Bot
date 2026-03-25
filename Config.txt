@@ -385,6 +385,6 @@ exitium = 2026-03-23 19:56:04.061023
 alp-001 = 2026-03-22 18:47:09.584195
 
 [Misc]
-redflagdomains = 2026-03-24
+redflagdomains = 2026-03-25
 reminder = 2026-03-02
 
