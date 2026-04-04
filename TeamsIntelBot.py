@@ -47,6 +47,7 @@ def Send_Teams(webhook_url:str, content:str, title:str, color:str="000000") -> i
                 "activitySubtitle": content
             }],
         },
+                timeout=10.0,
     )
     return response.status_code # Should be 200
 
@@ -55,7 +56,7 @@ def Send_Teams(webhook_url:str, content:str, title:str, color:str="000000") -> i
 # ---------------------------------------------------------------------------
 def GetRansomwareUpdates():
     
-    Data = requests.get("https://data.ransomware.live/victims.json")
+    Data = requests.get("https://data.ransomware.live/victims.json", timeout=10.0)
         
     for Entries in Data.json():
 
