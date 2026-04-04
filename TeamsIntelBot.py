@@ -47,6 +47,7 @@ def Send_Teams(webhook_url:str, content:str, title:str, color:str="000000") -> i
                 "activitySubtitle": content
             }],
         },
+                timeout=10.0,
     )
     return response.status_code # Should be 200
 
@@ -55,7 +56,7 @@ def Send_Teams(webhook_url:str, content:str, title:str, color:str="000000") -> i
 # ---------------------------------------------------------------------------
 def GetRansomwareUpdates():
     
-    Data = requests.get("https://data.ransomware.live/victims.json")
+    Data = requests.get("https://data.ransomware.live/victims.json", timeout=10.0)
         
     for Entries in Data.json():
 
@@ -120,7 +121,7 @@ def GetRansomwareUpdates():
 
         FileConfig.set('Ransomware', Entries["group_name"], Entries["discovered"])
 
-    with open(ConfigurationFilePath, 'w') as FileHandle:
+    with open(ConfigurationFilePath, 'w', encoding="utf-8") as FileHandle:
         FileConfig.write(FileHandle)
 
 
@@ -240,7 +241,7 @@ def GetRssFromUrl(RssItem):
         
         FileConfig.set('Rss', RssItem[1], DateActivity)
 
-    with open(ConfigurationFilePath, 'w') as FileHandle:
+    with open(ConfigurationFilePath, 'w', encoding="utf-8") as FileHandle:
         FileConfig.write(FileHandle)
 
 # ---------------------------------------------------------------------------
@@ -289,7 +290,7 @@ def GetRedFlagDomains():
                 time.sleep(3)
         except:
             pass 
-    with open(ConfigurationFilePath, 'w') as FileHandle:
+    with open(ConfigurationFilePath, 'w', encoding="utf-8") as FileHandle:
         FileConfig.write(FileHandle)
 
 # ---------------------------------------------------------------------------
@@ -317,7 +318,7 @@ def SendReminder():
             print(Title)
         OutputMessage="Feeds : "
         OutputMessage += "<br>"
-        with open('Feed.csv', newline='') as f:
+        with open('Feed.csv', newline='', encoding="utf-8") as f:
             reader = csv.reader(f)
             RssFeedList = list(reader)
 
@@ -353,7 +354,7 @@ def SendReminder():
         else: 
             Send_Teams(webhook_ioc,OutputMessage,Title)    
 
-    with open(ConfigurationFilePath, 'w') as FileHandle:
+    with open(ConfigurationFilePath, 'w', encoding="utf-8") as FileHandle:
         FileConfig.write(FileHandle)
 
 
@@ -423,7 +424,7 @@ if __name__ == '__main__':
     FileConfig = ConfigParser()
     FileConfig.read(ConfigurationFilePath)
 
-    with open('Feed.csv', newline='') as f:
+    with open('Feed.csv', newline='', encoding="utf-8") as f:
         reader = csv.reader(f)
         RssFeedList = list(reader)
             
