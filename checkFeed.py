@@ -13,7 +13,7 @@ class color:
    UNDERLINE = '\033[4m'
    END = '\033[0m'
 
-with open('Feed.csv', newline='') as f:
+with open('Feed.csv', newline='', encoding="utf-8") as f:
     reader = csv.reader(f)
     RssFeedList = list(reader)
 
