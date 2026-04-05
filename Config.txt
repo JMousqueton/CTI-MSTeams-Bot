@@ -387,6 +387,6 @@ netrunner = 2026-04-03 20:22:16.538961
 krybit = 2026-04-04 11:57:18.805704
 
 [Misc]
-redflagdomains = 2026-04-04
+redflagdomains = 2026-04-05
 reminder = 2026-04-03
 
