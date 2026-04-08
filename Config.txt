@@ -388,6 +388,6 @@ krybit = 2026-04-08 13:08:39.027782
 auditteam = 2026-04-08 15:57:43.209462
 
 [Misc]
-redflagdomains = 2026-04-07
+redflagdomains = 2026-04-08
 reminder = 2026-04-03
 
