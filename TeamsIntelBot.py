@@ -285,7 +285,7 @@ def GetRedFlagDomains():
                 print(Title)
                 print(OutputMessage)
             else:
-                Send_Teams(mswebhook_feed,OutputMessage.replace('\n','<br>'),Title)
+                Send_Teams(webhook_feed,OutputMessage.replace('\n','<br>'),Title)
                 time.sleep(3)
         except:
             pass 
