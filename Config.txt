@@ -390,6 +390,6 @@ timc = 2026-04-09 15:17:28.249952
 blackwater = 2026-04-12 07:27:21.127700
 
 [Misc]
-redflagdomains = 2026-04-11
+redflagdomains = 2026-04-12
 reminder = 2026-04-03
 
