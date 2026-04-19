@@ -392,6 +392,6 @@ lamashtu = 2026-04-16 09:33:56.647678
 secpo = 2026-04-14 05:58:21.558627
 
 [Misc]
-redflagdomains = 2026-04-18
+redflagdomains = 2026-04-19
 reminder = 2026-04-03
 
