@@ -397,6 +397,6 @@ fulcrumsec = 2026-05-01T17:13:00.275609+00:00
 cmdorganization = 2026-05-02T10:21:06.624073+00:00
 
 [Misc]
-redflagdomains = 2026-05-01
+redflagdomains = 2026-05-02
 reminder = 2026-04-03
 
