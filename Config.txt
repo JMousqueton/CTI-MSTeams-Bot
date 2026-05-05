@@ -398,6 +398,6 @@ cmdorganization = 2026-05-02T10:21:06.624073+00:00
 prinzeugen = 2026-05-04T14:08:25.834683+00:00
 
 [Misc]
-redflagdomains = 2026-05-04
+redflagdomains = 2026-05-05
 reminder = 2026-05-05
 
