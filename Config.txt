@@ -400,6 +400,6 @@ icarus = 2026-05-05T20:10:06.946129+00:00
 bavacai = 2026-05-05T20:35:38.161917+00:00
 
 [Misc]
-redflagdomains = 2026-05-05
+redflagdomains = 2026-05-06
 reminder = 2026-05-05
 
