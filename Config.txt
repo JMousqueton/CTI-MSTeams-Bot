@@ -402,6 +402,6 @@ leakbazaar = 2026-05-10T08:58:30.487406+00:00
 titan = 2026-05-18T18:00:00.208477+00:00
 
 [Misc]
-redflagdomains = 2026-05-19
+redflagdomains = 2026-05-20
 reminder = 2026-05-05
 
