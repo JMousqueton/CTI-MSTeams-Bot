@@ -403,6 +403,6 @@ titan = 2026-05-30T03:56:18.236445+00:00
 0day syndicate = 2026-05-29T13:50:35.539879+00:00
 
 [Misc]
-redflagdomains = 2026-05-30
+redflagdomains = 2026-05-31
 reminder = 2026-05-05
 
