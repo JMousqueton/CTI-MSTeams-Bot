@@ -404,6 +404,6 @@ titan = 2026-05-30T03:56:18.236445+00:00
 black x = 2026-06-02T09:32:24.582001+00:00
 
 [Misc]
-redflagdomains = 2026-06-05
+redflagdomains = 2026-06-06
 reminder = 2026-06-06
 
