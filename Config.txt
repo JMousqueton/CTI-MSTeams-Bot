@@ -406,6 +406,6 @@ triple x = 2026-06-13T10:07:57.123771+00:00
 deadlock = 2026-06-15T18:24:58.933556+00:00
 
 [Misc]
-redflagdomains = 2026-06-23
+redflagdomains = 2026-06-24
 reminder = 2026-06-06
 
