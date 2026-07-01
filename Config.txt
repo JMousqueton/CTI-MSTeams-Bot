@@ -410,6 +410,6 @@ settra = 2026-06-30T14:00:51.815509+00:00
 blackfield = 2026-06-29T08:27:21.983614+00:00
 
 [Misc]
-redflagdomains = 2026-06-30
+redflagdomains = 2026-07-01
 reminder = 2026-06-06
 
