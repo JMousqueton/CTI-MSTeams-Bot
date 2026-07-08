@@ -414,5 +414,5 @@ booba project = 2026-07-07T14:50:17.946318+00:00
 
 [Misc]
 redflagdomains = 2026-07-07
-reminder = 2026-06-06
+reminder = 2026-07-08
 
