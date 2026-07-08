@@ -413,6 +413,6 @@ doommageddon = 2026-07-06T06:45:33.368087+00:00
 booba project = 2026-07-07T14:50:17.946318+00:00
 
 [Misc]
-redflagdomains = 2026-07-07
+redflagdomains = 2026-07-08
 reminder = 2026-07-08
 
