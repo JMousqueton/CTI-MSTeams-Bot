@@ -414,6 +414,6 @@ booba project = 2026-07-07T14:50:17.946318+00:00
 crpxo = 2026-07-09T06:44:00.490679+00:00
 
 [Misc]
-redflagdomains = 2026-07-09
+redflagdomains = 2026-07-10
 reminder = 2026-07-08
 
