@@ -417,6 +417,6 @@ ulose = 2026-06-09T00:00:00+00:00
 the green blood group = 2026-02-04T00:00:00+00:00
 
 [Misc]
-redflagdomains = 2026-07-19
+redflagdomains = 2026-07-20
 reminder = 2026-07-08
 
