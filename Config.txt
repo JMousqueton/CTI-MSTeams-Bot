@@ -417,7 +417,7 @@ ulose = 2026-06-09T00:00:00+00:00
 the green blood group = 2026-02-04T00:00:00+00:00
 exfilsquad = 2026-07-26T10:26:24.968894+00:00
 section9 = 2026-07-26T18:58:14.116989+00:00
-global secret group = 2026-07-26T19:51:22.588009+00:00
+global secret group = 2026-07-26T22:51:57.881062+00:00
 
 [Misc]
 redflagdomains = 2026-07-26
