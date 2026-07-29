@@ -418,6 +418,7 @@ the green blood group = 2026-02-04T00:00:00+00:00
 exfilsquad = 2026-07-26T23:50:39.165392+00:00
 section9 = 2026-07-29T13:20:57.472696+00:00
 global secret group = 2026-07-27T03:20:56.244316+00:00
+notpetya = 2017-01-01T00:00:00+00:00
 
 [Misc]
 redflagdomains = 2026-07-29
