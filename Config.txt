@@ -425,6 +425,6 @@ loki = 2026-03-12T00:00:00+00:00
 zerolockersec = 2025-03-25T00:00:00+00:00
 
 [Misc]
-redflagdomains = 2026-08-02
+redflagdomains = 2026-08-03
 reminder = 2026-07-08
 
