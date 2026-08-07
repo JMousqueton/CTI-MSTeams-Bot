@@ -433,6 +433,6 @@ helix = 2026-08-07T07:21:59.621550+00:00
 l group = 2026-08-07T08:44:35.850350+00:00
 
 [Misc]
-redflagdomains = 2026-08-05
+redflagdomains = 2026-08-07
 reminder = 2026-07-08
 
