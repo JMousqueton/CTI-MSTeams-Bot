@@ -437,6 +437,6 @@ majinahanashi = 2026-08-12T14:51:53.140254+00:00
 emperador = 2026-08-12T14:36:03.039376+00:00
 
 [Misc]
-redflagdomains = 2026-08-12
+redflagdomains = 2026-08-13
 reminder = 2026-08-09
 
