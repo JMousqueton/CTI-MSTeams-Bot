@@ -442,6 +442,6 @@ dysphor1a = 2026-08-21T06:20:20.286423+00:00
 iah6477 = 2026-08-20T18:29:54.881503+00:00
 
 [Misc]
-redflagdomains = 2026-08-24
+redflagdomains = 2026-08-25
 reminder = 2026-08-09
 
