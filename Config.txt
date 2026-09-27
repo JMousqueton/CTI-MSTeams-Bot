@@ -450,6 +450,6 @@ n0n = 2026-09-25T03:21:46.506246+00:00
 imnotavillain = 2026-09-24T13:22:27.135504+00:00
 
 [Misc]
-redflagdomains = 2026-09-26
+redflagdomains = 2026-09-27
 reminder = 2026-09-10
 
